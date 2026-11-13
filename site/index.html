@@ -21,6 +21,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://radiobim.com/og.jpg">
 <meta name="description" content="كل جديد في AI و MCP و Add-ins و Open Source لمهندسين الـ AEC، متجمع من LinkedIn كل يوم.">
+<meta name="keywords" content="RadioBIM, BIM, AEC, AI, Revit, Revit add-ins, Dynamo, Navisworks, AutoCAD, Civil 3D, MCP, AI agents, Claude, ChatGPT, open source BIM, IFC, BIM tools, BIM courses, construction technology, LinkedIn, ريفيت, بيم, الذكاء الاصطناعي, أدوات المهندسين, كورسات BIM">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://radiobim.com/">
+<link rel="alternate" type="application/xml" title="Sitemap" href="https://radiobim.com/sitemap.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://radiobim.com/#site","name":"RadioBIM","alternateName":"راديو الـ BIM","url":"https://radiobim.com/","description":"Daily radar of LinkedIn posts on AI in AEC, MCP and AI agents, Revit and Navisworks add-ins, open source, courses, ideas and engineers' tools.","inLanguage":["ar","en"],"publisher":{"@id":"https://radiobim.com/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://radiobim.com/posts?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://radiobim.com/#org","name":"RadioBIM","url":"https://radiobim.com/","logo":"https://radiobim.com/icon-512.png"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -119,6 +124,7 @@ html[dir="rtl"] .tags{justify-content:flex-end}
 .empty{margin:0;padding:36px 4px;font-size:15.5px;text-align:center;color:var(--muted)}
 .loadmore{display:block;margin:16px auto 0;height:48px;padding:0 24px;border-radius:16px;border:0;background:var(--fg);color:var(--bg);font-size:15px;font-weight:700}
 footer{margin-top:32px;color:var(--muted);font-size:12.5px;text-align:center}
+footer a{color:var(--brand);font-weight:700}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (min-width:560px){.tiles{grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}.tile{height:72px;border-radius:16px;border-width:2px}.tile svg{width:20px;height:20px}.tile span{font-size:11.5px}.tile em{min-width:20px;height:20px;font-size:11.5px;top:-5px;inset-inline-start:-5px}.ab{width:40px;height:40px;border-radius:13px}.ab svg{width:18px;height:18px}.card .ic{width:32px;height:32px}.card .ic svg{width:20px;height:20px}.card h3{font-size:16px}}
 @media (min-width:960px){.brand b{font-size:26px}.tiles{max-width:880px}}
@@ -146,6 +152,7 @@ footer{margin-top:32px;color:var(--muted);font-size:12.5px;text-align:center}
 <nav class="tiles" id="tiles"></nav>
 <main id="out" aria-live="polite"></main>
 <footer id="foot"></footer>
+<noscript><p style="text-align:center"><a href="/posts">كل البوستات · All posts</a></p></noscript>
 </div>
 <script>
 const P=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
@@ -208,7 +215,7 @@ function chrome(){
   const row=$('searchRow'); row.hidden=!searching;
   if(searching&&!row.firstChild){row.innerHTML=P(IC.search)+'<input type="search" id="q">'; $('q').addEventListener('input',e=>{q=e.target.value; limit=30; tiles(); render();});}
   if(searching){$('q').placeholder=s.hint; $('q').setAttribute('aria-label',s.search); if($('q').value!==q) $('q').value=q;}
-  if(DATA){$('foot').textContent=s.note;}
+  if(DATA){$('foot').innerHTML=esc(s.note)+' · <a href="/posts">'+(lang==='ar'?'أرشيف كل البوستات':'All posts archive')+'</a> · <a href="guide.html">'+(lang==='ar'?'الدليل':'Guide')+'</a>';}
 }
 function match(i){
   if(onlySaved&&!saved.has(i.id)) return false;

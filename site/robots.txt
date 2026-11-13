@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data-cache.json
+Disallow: /index.prev.html
+
+Sitemap: https://radiobim.com/sitemap.xml
