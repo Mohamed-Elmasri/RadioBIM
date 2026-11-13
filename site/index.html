@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RadioBIM — أدوات وأفكار AEC من LinkedIn</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1E2A4A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RadioBIM">
+<meta property="og:url" content="https://radiobim.com/">
+<meta property="og:title" content="RadioBIM — راديو الـ BIM">
+<meta property="og:description" content="بيلف على LinkedIn وبيلقط لك أهم أخبار AI و BIM والأدوات والـ add-ins .. كل يوم.">
+<meta property="og:image" content="https://radiobim.com/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RadioBIM — راديو الـ BIM">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://radiobim.com/og.jpg">
+<meta name="description" content="كل جديد في AI و MCP و Add-ins و Open Source لمهندسين الـ AEC، متجمع من LinkedIn كل يوم.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+const DATA_URL='https://raw.githubusercontent.com/Mohamed-Elmasri/RadioBIM/main/data.json';
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+(function(){var l=store.get('rbLang');if(l!=='ar'&&l!=='en'){var d='';try{d=String((navigator.languages&&navigator.languages[0])||navigator.language||'')}catch(e){}l=/^ar/i.test(d)?'ar':'en'}
+var h=document.documentElement;h.lang=l;h.dir=l==='ar'?'rtl':'ltr';var t=store.get('rbTheme');if(t!=='dark'&&t!=='light'){try{t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch(e){t='light'}}h.dataset.theme=t;})();
+</script>
+<style>
+:root{--bg:#FFFFFF;--fg:#1E2A4A;--chip:#EEF1F8;--brand:#3B4E86;--muted:#4A5677;--ink:#1E2A4A;--ink2:#36415F;color-scheme:light}
+:root[data-theme="dark"]{--bg:#161A22;--fg:#DDE2EA;--chip:#262C38;--brand:#8FB4E8;--muted:#9AA3B2;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--fg);font-family:'Baloo Bhaijaan 2','Segoe UI',Tahoma,sans-serif;font-size:15px;line-height:1.45}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 48px}
+.stick{position:sticky;top:0;z-index:5;background:var(--bg);padding-bottom:2px}
+header{direction:ltr;background:var(--bg);padding:14px 0 10px;display:flex;align-items:center;gap:6px}
+.brand{margin-inline-end:auto;display:flex;align-items:center;gap:7px;min-width:0}
+.brand .logo{height:.8em;width:.914em;vertical-align:-.04em;margin-inline-end:.28em;color:var(--brand)}
+.brand sup{font-size:.42em;font-weight:700;vertical-align:super;margin-inline-start:1px;color:var(--muted)}
+.sep{width:1px;height:24px;background:var(--muted);opacity:.35;margin:0 3px;flex:none}
+a.ib{text-decoration:none}
+.brand b{font-size:22px;font-weight:800;direction:ltr;line-height:1.2}
+.brand b i{font-style:normal;color:var(--brand)}
+.meta{margin:0 0 8px;font-size:13px;color:var(--muted)}
+.ib{position:relative;flex:none;width:42px;height:42px;padding:0;border-radius:14px;border:0;background:var(--chip);color:var(--fg);display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:16px;font-weight:700}
+.ib[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+[data-theme="dark"] .ib[aria-pressed="true"]{background:var(--brand);color:var(--bg)}
+#bTheme[aria-pressed]{background:var(--chip);color:var(--fg)}
+.ib svg{width:21px;height:21px;flex:none}
+.ib .cnt{position:absolute;top:-5px;inset-inline-end:-5px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;box-sizing:border-box;border:2px solid var(--bg);background:var(--fg);color:var(--bg);font-size:12px;font-weight:700;font-style:normal;display:flex;align-items:center;justify-content:center}
+.searchrow{height:50px;padding:0 16px;border-radius:16px;background:var(--chip);display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.searchrow[hidden]{display:none}
+.searchrow svg{width:20px;height:20px;flex:none}
+.searchrow input{flex:1;min-width:0;border:0;background:transparent;font-size:16px;outline-offset:6px}
+.tiles{direction:ltr;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:6px 0 14px}
+.tile{background:var(--pl);position:relative;height:76px;border-radius:20px;border:3px solid transparent;color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:0 2px}
+.tile[aria-pressed="true"]{border-color:var(--fg)}
+.tile svg{width:22px;height:22px}
+.tile .nm{display:flex;flex-direction:column;align-items:center;line-height:1.15;text-align:center}
+.tile .nm b{font-weight:600}
+.tile .nm small{font-size:11px;font-weight:700;opacity:.65;font-variant-numeric:tabular-nums}
+.tile span{font-size:12px;font-weight:600;line-height:1.2;text-align:center}
+.tile em{font-style:normal;position:absolute;top:-6px;inset-inline-start:-6px;min-width:24px;height:24px;padding:0 6px;border-radius:12px;background:var(--fg);color:var(--bg);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:10px;align-items:stretch}
+.card>.acts{margin-top:auto}
+.lbar{display:flex;justify-content:flex-end;direction:ltr;margin:-4px 0 8px}
+.xall{height:32px;padding:0 10px;border-radius:10px;border:0;background:var(--chip);color:var(--fg);display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
+.xall svg{width:16px;height:16px}
+.card{cursor:pointer;-webkit-tap-highlight-color:transparent;background:var(--pl);border-radius:20px;color:var(--ink);padding:14px 14px 8px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.card .top{display:flex;gap:10px;align-items:flex-start}
+.card .ic{flex:none;width:40px;height:40px;border-radius:14px;background:transparent;display:flex;align-items:center;justify-content:center}
+.card .ic svg{width:22px;height:22px}
+html[dir="rtl"] .card h3,html[dir="rtl"] .more p{text-align:right}html[dir="ltr"] .card h3,html[dir="ltr"] .more p{text-align:left}
+.card h3{margin:0;font-size:17px;font-weight:700;line-height:1.35;overflow-wrap:anywhere}
+.card .by{font-size:13px;color:var(--ink2)}
+.card .by b{font-weight:700;background:var(--ink);color:#FFFFFF;border-radius:8px;padding:0 7px;font-size:11.5px;margin-inline-end:6px}
+.acts{direction:ltr;display:flex;align-items:center;gap:6px}
+.grp{display:flex;align-items:center;gap:6px;direction:ltr}
+.ab{flex:none;width:46px;height:46px;border-radius:16px;border:0;background:#FFFFFF;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.ab svg{width:20px;height:20px}
+.ab.tool,.ab.done,.ab[aria-expanded="true"]{background:var(--ink);color:#FFFFFF}
+.ab.save{margin-inline-start:auto;background:none}
+.ab.save svg{width:22px;height:22px}
+.more{padding:2px 0 8px;display:flex;flex-direction:column;gap:8px}
+.more p{margin:0;font-size:14.5px;color:#26304E;text-wrap:pretty}
+.tags{display:flex;flex-wrap:wrap;gap:4px;direction:ltr}
+html[dir="rtl"] .tags{justify-content:flex-end}
+.tags button{border:0;background:#FFFFFF;color:var(--ink);border-radius:8px;min-height:24px;padding:0 8px;font-size:12px;font-weight:600}
+[data-theme="dark"] .tile{background:var(--dk);color:var(--ac)}
+[data-theme="dark"] .tile span{color:#DDE2EA}
+[data-theme="dark"] .tile[aria-pressed="true"]{border-color:var(--ac)}
+[data-theme="dark"] .tile em{background:var(--ac);color:#161A22}
+[data-theme="dark"] .card{background:var(--dk);color:#DDE2EA}
+[data-theme="dark"] .card .ic,[data-theme="dark"] .ab.save{color:var(--ac)}
+[data-theme="dark"] .card .by{color:#9AA3B2}
+[data-theme="dark"] .card .by b{background:var(--ac);color:#161A22}
+[data-theme="dark"] .ab,[data-theme="dark"] .tags button{background:#2B313D;color:#DDE2EA}
+[data-theme="dark"] .ab.tool,[data-theme="dark"] .ab.done,[data-theme="dark"] .ab[aria-expanded="true"]{background:var(--ac);color:#161A22}
+[data-theme="dark"] .ab.save{background:none}
+[data-theme="dark"] .more p{color:#C3CAD6}
+.tagsel{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin-bottom:8px;padding:4px 6px;border-radius:12px;background:var(--chip)}
+.tagsel[hidden]{display:none}
+.tagsel>svg{width:15px;height:15px;margin-inline:4px 2px;flex:none}
+.tagsel .t{direction:ltr;min-height:24px;padding:0 5px 0 9px;border-radius:8px;border:0;background:var(--fg);color:var(--bg);font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:3px}
+.tagsel .t svg{width:12px;height:12px}
+.tagsel .clr{margin-inline-start:auto;min-height:24px;padding:0 6px;border-radius:8px;border:0;background:transparent;color:var(--fg);font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:4px}
+.tagsel .clr svg{width:13px;height:13px}
+[data-theme="dark"] .tagsel .t{background:var(--brand);color:var(--bg)}
+.tags button[aria-pressed="true"]{background:var(--ink);color:#FFFFFF}
+[data-theme="dark"] .tags button[aria-pressed="true"]{background:var(--ac);color:#161A22}
+.empty{margin:0;padding:36px 4px;font-size:15.5px;text-align:center;color:var(--muted)}
+.loadmore{display:block;margin:16px auto 0;height:48px;padding:0 24px;border-radius:16px;border:0;background:var(--fg);color:var(--bg);font-size:15px;font-weight:700}
+footer{margin-top:32px;color:var(--muted);font-size:12.5px;text-align:center}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (min-width:560px){.tiles{grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}.tile{height:72px;border-radius:16px;border-width:2px}.tile svg{width:20px;height:20px}.tile span{font-size:11.5px}.tile em{min-width:20px;height:20px;font-size:11.5px;top:-5px;inset-inline-start:-5px}.ab{width:40px;height:40px;border-radius:13px}.ab svg{width:18px;height:18px}.card .ic{width:32px;height:32px}.card .ic svg{width:20px;height:20px}.card h3{font-size:16px}}
+@media (min-width:960px){.brand b{font-size:26px}.tiles{max-width:880px}}
+@media (max-width:440px){header{gap:4px}.ib{width:36px;height:36px;border-radius:12px}.ib svg{width:19px;height:19px}.brand b{font-size:18px}.brand{gap:5px}.sep{margin:0 1px}}
+@media (max-width:389px){header{gap:3px}.ib{width:33px;height:33px;border-radius:11px}.ib svg{width:18px;height:18px}.brand b{font-size:17px}.sep{margin:0}}
+@media (max-width:339px){.ib{width:30px;height:30px}.brand b{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="stick">
+<header>
+  <div class="brand"><b><svg class="logo" viewBox="4 8 56 49" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21 44 11"/><rect x="7" y="21" width="50" height="33" rx="7"/></g><path fill="currentColor" d="M23.5527950310559 37.130434782608695Q24.73540372670807 37.531677018633545 25.36894409937888 38.27080745341615Q25.98136645962733 39.03105590062112 25.98136645962733 40.150310559006215Q25.98136645962733 42.219875776397515 24.41863354037267 43.23354037267081Q22.85590062111801 44.247204968944104 19.962732919254655 44.247204968944104Q19.47701863354037 44.247204968944104 18.80124223602484 44.20496894409938Q18.125465838509314 44.16273291925466 17.428571428571427 44.04658385093168Q16.73167701863354 43.9304347826087 16.161490683229815 43.7192546583851Q14.999999999999998 43.27577639751553 14.999999999999998 42.177639751552796V32.31552795031056Q14.999999999999998 31.872049689440992 15.253416149068322 31.62919254658385Q15.506832298136645 31.386335403726708 15.90807453416149 31.238509316770187Q16.62608695652174 30.985093167701862 17.71366459627329 30.868944099378883Q18.801242236024844 30.752795031055904 19.920496894409936 30.752795031055904Q22.60248447204969 30.752795031055904 24.070186335403726 31.671428571428574Q25.537888198757763 32.590062111801245 25.537888198757763 34.469565217391306Q25.537888198757763 35.52546583850932 24.904347826086955 36.2223602484472Q24.39751552795031 36.792546583850935 23.5527950310559 37.130434782608695ZM20.321739130434782 38.69316770186335H18.59006211180124V41.2695652173913Q18.885714285714286 41.35403726708075 19.360869565217392 41.385714285714286Q19.836024844720498 41.41739130434783 20.23726708074534 41.41739130434783Q21.08198757763975 41.41739130434783 21.6416149068323 41.06894409937888Q22.201242236024846 40.72049689440994 22.201242236024846 39.98136645962733Q22.201242236024846 39.28447204968944 21.72608695652174 38.9888198757764Q21.250931677018635 38.69316770186335 20.321739130434782 38.69316770186335ZM20.13167701863354 36.1167701863354Q21.039751552795032 36.1167701863354 21.451552795031056 35.778881987577634Q21.86335403726708 35.440993788819874 21.86335403726708 34.78633540372671Q21.86335403726708 34.216149068322984 21.388198757763973 33.878260869565224Q20.913043478260867 33.54037267080746 19.962732919254655 33.54037267080746Q19.645962732919255 33.54037267080746 19.234161490683228 33.56149068322982Q18.822360248447204 33.582608695652176 18.59006211180124 33.624844720496895V36.1167701863354ZM28.072049689440995 34.57515527950311V31.069565217391304Q28.325465838509317 31.027329192546585 28.821739130434782 30.953416149068325Q29.318012422360248 30.87950310559006 29.782608695652172 30.87950310559006Q30.838509316770185 30.87950310559006 31.30310559006211 31.238509316770184Q31.767701863354038 31.59751552795031 31.767701863354038 32.632298136645964V43.88819875776397Q31.535403726708076 43.951552795031056 31.049689440993788 44.01490683229814Q30.563975155279504 44.07826086956522 30.057142857142857 44.07826086956522Q28.959006211180125 44.07826086956522 28.51552795031056 43.68757763975155Q28.072049689440995 43.29689440993789 28.072049689440995 42.32546583850932ZM43.36149068322981 40.76273291925466Q43.086956521739125 40.97391304347826 42.65403726708074 41.12173913043478Q42.22111801242236 41.2695652173913 41.65093167701863 41.2695652173913Q40.89068322981366 41.2695652173913 40.3944099378882 41.079503105590064Q39.89813664596273 40.889440993788824 39.75031055900621 40.42484472049689Q39.15900621118012 38.54534161490683 38.778881987577634 37.40496894409938Q38.398757763975155 36.26459627329193 38.18757763975155 35.398757763975155H38.08198757763975Q38.01863354037267 36.64472049689441 37.98695652173913 37.668944099378876Q37.95527950310559 38.69316770186335 37.944720496894405 39.654037267080746Q37.93416149068323 40.61490683229814 37.90248447204969 41.61801242236025Q37.87080745341615 42.621118012422365 37.807453416149066 43.8248447204969Q37.53291925465838 43.90931677018634 37.08944099378881 43.993788819875775Q36.64596273291925 44.07826086956522 36.20248447204969 44.07826086956522Q35.2944099378882 44.07826086956522 34.76645962732919 43.78260869565217Q34.238509316770184 43.48695652173913 34.238509316770184 42.7055900621118Q34.238509316770184 42.177639751552796 34.2807453416149 41.25900621118012Q34.32298136645962 40.340372670807454 34.396894409937886 39.18944099378882Q34.47080745341615 38.03850931677019 34.54472049689441 36.77142857142857Q34.61863354037267 35.504347826086956 34.70310559006211 34.2583850931677Q34.787577639751554 33.01242236024845 34.85093167701863 31.935403726708074Q35.01987577639751 31.66086956521739 35.59006211180124 31.344099378881985Q36.160248447204964 31.027329192546585 37.19503105590062 31.027329192546585Q38.31428571428571 31.027329192546585 38.9583850931677 31.37577639751553Q39.60248447204969 31.72422360248447 39.877018633540374 32.5055900621118Q40.130434782608695 33.18136645962733 40.42608695652174 34.1Q40.721739130434784 35.018633540372676 41.017391304347825 35.958385093167706Q41.313043478260866 36.89813664596274 41.54534161490683 37.637267080745346H41.65093167701863Q42.15776397515528 35.88447204968944 42.6751552795031 34.2055900621118Q43.19254658385093 32.52670807453416 43.593788819875776 31.42857142857143Q43.91055900621118 31.259627329192547 44.41739130434783 31.143478260869564Q44.924223602484474 31.027329192546585 45.515527950310556 31.027329192546585Q46.550310559006206 31.027329192546585 47.20496894409938 31.33354037267081Q47.85962732919255 31.639751552795033 47.96521739130435 32.20993788819876Q48.04968944099379 32.632298136645964 48.14472049689441 33.49813664596273Q48.23975155279503 34.363975155279505 48.34534161490683 35.48322981366459Q48.45093167701863 36.60248447204969 48.55652173913043 37.816770186335404Q48.66211180124223 39.03105590062112 48.75714285714285 40.17142857142858Q48.85217391304348 41.31180124223603 48.91552795031056 42.2304347826087Q48.97888198757764 43.149068322981364 49.0 43.67701863354037Q48.64099378881988 43.88819875776397 48.25031055900621 43.98322981366459Q47.85962732919255 44.07826086956522 47.2472049689441 44.07826086956522Q46.46583850931677 44.07826086956522 45.906211180124224 43.803726708074535Q45.34658385093168 43.52919254658385 45.30434782608695 42.726708074534166Q45.219875776397515 41.185093167701865 45.177639751552796 39.854658385093174Q45.13540372670808 38.524223602484476 45.114285714285714 37.42608695652174Q45.09316770186335 36.327950310559004 45.05093167701863 35.504347826086956H44.94534161490683Q44.73416149068323 36.327950310559004 44.33291925465838 37.57391304347826Q43.931677018633536 38.81987577639752 43.36149068322981 40.76273291925466Z"/></svg>Radio<i>BIM</i><sup>®</sup></b></div>
+  <button class="ib" id="bSearch" type="button" aria-pressed="false"></button>
+  <span class="sep" aria-hidden="true"></span>
+  <a class="ib" id="bGuide" href="guide.html"></a>
+  <button class="ib" id="bSaved" type="button" aria-pressed="false"></button>
+  <button class="ib" id="bLink" type="button" aria-pressed="false"></button>
+  <button class="ib" id="bLang" type="button"></button>
+  <button class="ib" id="bTheme" type="button" aria-pressed="false"></button>
+</header>
+<label class="searchrow" id="searchRow" hidden></label>
+<div class="tagsel" id="tagSel" hidden></div>
+</div>
+<nav class="tiles" id="tiles"></nav>
+<main id="out" aria-live="polite"></main>
+<footer id="foot"></footer>
+</div>
+<script>
+const P=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
+const IC={
+ expand:'M7 9l5-5 5 5M7 15l5 5 5-5',
+ collapse:'M7 4l5 5 5-5M7 20l5-5 5 5',
+ guide:'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9.2a2.6 2.6 0 0 1 5 .9c0 1.8-2.5 2.3-2.5 3.9M12 17h.01',
+ all:'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z',
+ ai:'M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z',
+ mcp:'M8.5 12a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM20.5 6a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM20.5 18a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM8.2 11l7.6-4M8.2 13l7.6 4',
+ addins:'M4 4h16v16H4zM12 8v8M8 12h8',
+ opensource:'M9 7l-5 5 5 5M15 7l5 5-5 5',
+ courses:'M3 9l9-4 9 4-9 4zM7 11v5c3 2 7 2 10 0v-5',
+ ideas:'M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5V15h8v-1.5A6 6 0 0 0 12 3z',
+ tools:'M4 5h16v14H4zM4 10h16M10 5v14',
+ search:'M18 11a7 7 0 1 1-14 0 7 7 0 0 1 14 0zM20 20l-3.5-3.5',
+ mark:'M6 4h12v16l-6-4-6 4z',
+ globe:'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18',
+ moon:'M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z',
+ sun:'M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M5 19l1.4-1.4M17.6 6.4L19 5',
+ share:'M4 12l16-8-6 16-3-7z',
+ link:'M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1',
+ check:'M5 12.5l4.5 4.5L19 7',
+ tag:'M3 12V4h8l9 9-8 8zM7.5 7.5v.01',
+ x:'M6 6l12 12M18 6L6 18',
+ info:'M12 11v6M12 7.5v.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z'
+};
+const GO='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>';
+const LI='<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.6 5.9h1.9V13H3.6zM4.55 2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM6.9 5.9h1.8v1h.03c.25-.48.87-.98 1.8-.98 1.92 0 2.27 1.26 2.27 2.9V13h-1.9V9.2c0-.7-.01-1.6-.98-1.6-.98 0-1.13.77-1.13 1.55V13H6.9z"/></svg>';
+const BG={all:'#EEF1F8',ai:'#DDE9FB',mcp:'#E6E0FA',addins:'#FBE5D6',opensource:'#D9F0E4',courses:'#FBEFC9',ideas:'#F8DDEA',tools:'#E4EDCB'};
+const DK={all:'#20252F',ai:'#20252F',mcp:'#20252F',addins:'#20252F',opensource:'#20252F',courses:'#20252F',ideas:'#20252F',tools:'#20252F'};
+const AC={all:'#B9C2D3',ai:'#8FB4E8',mcp:'#B3A6E6',addins:'#E3A982',opensource:'#86CDB0',courses:'#DCC577',ideas:'#E39BB6',tools:'#B5CB85'};
+const VARS=id=>`--pl:${BG[id]||BG.all};--dk:${DK[id]||DK.all};--ac:${AC[id]||AC.all}`;
+const SEC={
+ ar:{all:'الكل',ai:'AI',mcp:'MCP',addins:'Add-ins',opensource:'Open Source',courses:'كورسات',ideas:'أفكار',tools:'أدوات'},
+ en:{all:'All',ai:'AI',mcp:'MCP',addins:'Add-ins',opensource:'Open Source',courses:'Courses',ideas:'Ideas',tools:'Tools'}
+};
+const STR={
+ ar:{search:'بحث',expandAll:'افتح الكل',collapseAll:'اقفل الكل',guide:'إزاي تستخدم الموقع',hint:'أداة، شخص، أو كلمة',saved:'المحفوظ',tagsT:'التاجز المختارة',clearTags:'امسح التاجز',removeTag:'شيل التاج',matchN:'مطابق',links:'البوستات اللي فيها لينك أداة',withLink:'فيها لينك أداة',switchTo:'Switch to English',other:'EN',dark:'الوضع الغامق',light:'الوضع الفاتح',openTool:'افتح الأداة',openPost:'افتح البوست على LinkedIn',share:'ابعته لزميل',copied:'اللينك اتنسخ',info:'اعرض الوصف',save:'احفظ البوست',unsave:'شيله من المحفوظ',isNew:'جديد',newN:'جديد',savedN:'محفوظ',updated:'آخر تحديث',posts:'بوست',noSaved:'لسه ماحفظتش حاجة. دوس على علامة الحفظ في أي بوست.',noMatch:'مفيش بوستات مطابقة.',more:'اعرض أكتر',left:'باقي',err:'ملف البيانات مش موجود أو فيه خطأ.',note:'المصدر: بوستات LinkedIn. التاريخ تقريبي حسب عمر البوست وقت المسح.'},
+ en:{search:'Search',expandAll:'Expand all',collapseAll:'Collapse all',guide:'How to use RadioBIM',hint:'Tool, person or keyword',saved:'Saved',tagsT:'Selected tags',clearTags:'Clear tags',removeTag:'Remove tag',matchN:'matching',links:'Posts with a tool link',withLink:'with a tool link',switchTo:'التحويل للعربي',other:'ع',dark:'Dark mode',light:'Light mode',openTool:'Open the tool',openPost:'Open the post on LinkedIn',share:'Send to a colleague',copied:'Link copied',info:'Show description',save:'Save post',unsave:'Remove from saved',isNew:'New',newN:'new',savedN:'saved',updated:'Updated',posts:'posts',noSaved:'Nothing saved yet. Tap the bookmark on any post.',noMatch:'No posts match.',more:'Show more',left:'left',err:'The data file is missing or broken.',note:'Source: LinkedIn posts. Dates are approximate, based on post age at scan time.'}
+};
+const H=document.documentElement, $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let DATA=null, lang=H.lang==='ar'?'ar':'en', sec='all', onlySaved=false, onlyLink=false, searching=false, q='', limit=30;
+let saved=new Set(); try{saved=new Set(JSON.parse(store.get('rbSaved')||'[]'))}catch(e){}
+const open=new Set(), tagsOn=new Set();
+const tagOk=i=>{if(!tagsOn.size) return true; const tg=i.tags||[]; for(const x of tagsOn) if(!tg.includes(x)) return false; return true;}; let copiedId=null, copiedT=0;
+const L=()=>STR[lang];
+const fmt=d=>{try{return new Date(d+'T00:00:00').toLocaleDateString(lang==='ar'?'ar-EG-u-nu-latn':'en-GB',{day:'numeric',month:'long'})}catch(e){return d}};
+const isNew=i=>i.added&&i.added!=='baseline'&&i.added>=DATA.updated;
+const T=i=>lang==='en'&&i.title_en?i.title_en:i.title, D=i=>lang==='en'&&i.desc_en?i.desc_en:i.desc;
+
+function chrome(){
+  const s=L(), dark=H.dataset.theme==='dark';
+  $('bSearch').innerHTML=P(IC.search); $('bGuide').innerHTML=P(IC.guide); $('bGuide').setAttribute('aria-label',s.guide); $('bGuide').title=s.guide; $('bGuide').href=(/radiobim\.com$/.test(location.hostname)||location.hostname==='localhost'?'guide.html':'https://radiobim.com/guide.html')+'?lang='+lang; $('bGuide').target=/radiobim\.com$/.test(location.hostname)||location.hostname==='localhost'?'_self':'_blank'; $('bSearch').setAttribute('aria-label',s.search); $('bSearch').title=s.search; $('bSearch').setAttribute('aria-pressed',searching);
+  $('bSaved').innerHTML=P(IC.mark).replace('fill="none"',`fill="${onlySaved?'currentColor':'none'}"`)+(saved.size?`<em class="cnt">${saved.size}</em>`:'');
+  $('bLink').innerHTML=P(IC.link); $('bLink').setAttribute('aria-label',s.links); $('bLink').title=s.links; $('bLink').setAttribute('aria-pressed',onlyLink); $('bSaved').setAttribute('aria-label',s.saved+': '+saved.size); $('bSaved').title=s.saved; $('bSaved').setAttribute('aria-pressed',onlySaved);
+  $('bLang').innerHTML=P(IC.globe); $('bLang').setAttribute('aria-label',s.switchTo); $('bLang').title=s.switchTo;
+  $('bTheme').innerHTML=P(dark?IC.sun:IC.moon); $('bTheme').setAttribute('aria-label',dark?s.light:s.dark); $('bTheme').title=dark?s.light:s.dark; $('bTheme').setAttribute('aria-pressed',dark);
+  const row=$('searchRow'); row.hidden=!searching;
+  if(searching&&!row.firstChild){row.innerHTML=P(IC.search)+'<input type="search" id="q">'; $('q').addEventListener('input',e=>{q=e.target.value; limit=30; tiles(); render();});}
+  if(searching){$('q').placeholder=s.hint; $('q').setAttribute('aria-label',s.search); if($('q').value!==q) $('q').value=q;}
+  if(DATA){$('foot').textContent=s.note;}
+}
+function match(i){
+  if(onlySaved&&!saved.has(i.id)) return false;
+  if(onlyLink&&!i.link) return false;
+  if(!tagOk(i)) return false;
+  const k=q.trim().toLowerCase(); if(!k) return true;
+  return [i.title,i.desc,i.title_en,i.desc_en,i.a,(i.tags||[]).join(' ')].join(' ').toLowerCase().includes(k);
+}
+function tiles(){
+  const s=L(), ids=['all'].concat(DATA.sections.map(x=>x.id));
+  $('tiles').innerHTML=ids.map(id=>{
+    const inSec=DATA.items.filter(i=>id==='all'||i.c===id);
+    const tot=inSec.filter(i=>(!onlySaved||saved.has(i.id))&&(!onlyLink||i.link)&&tagOk(i)).length, n=inSec.filter(isNew).length;
+    const name=SEC[lang][id]||id;
+    return `<button type="button" class="tile" data-s="${esc(id)}" aria-pressed="${sec===id}" aria-label="${esc(name)}, ${tot} ${s.posts}${n?`, ${n} ${s.newN}`:''}" style="${VARS(id)}">${P(IC[id]||IC.all)}<span class="nm"><b>${esc(name)}</b><small>${tot}</small></span>${n?`<em>${n}</em>`:''}</button>`;
+  }).join('');
+}
+function card(i){
+  const s=L(), sv=saved.has(i.id), op=open.has(i.id), cp=copiedId===i.id;
+  return `<article class="card" data-card="${esc(i.id)}" style="${VARS(i.c)}">
+  <div class="top"><span class="ic" aria-hidden="true">${P(IC[i.c]||IC.all)}</span>
+   <div style="min-width:0"><h3 dir="${lang==='en'&&i.title_en?'ltr':'rtl'}">${esc(T(i))}</h3><span class="by">${isNew(i)?`<b>${s.isNew}</b>`:''}<bdi>${esc(String(i.a||'').replace(/^[.\s]+/,''))}</bdi> · <bdi>${fmt(i.date)}</bdi></span></div></div>
+  <div class="acts">
+   <span class="grp">
+   <button type="button" class="ab" data-info="${esc(i.id)}" aria-expanded="${op}" aria-label="${s.info}" title="${s.info}">${P(IC.info)}</button>
+   <a class="ab" href="${esc(i.url)}" target="_blank" rel="noopener" aria-label="${s.openPost}" title="${s.openPost}">${LI}</a>
+   <button type="button" class="ab${cp?' done':''}" data-share="${esc(i.id)}" aria-label="${cp?s.copied:s.share}" title="${cp?s.copied:s.share}">${P(cp?IC.check:IC.share)}</button>
+   ${i.link?`<a class="ab tool" href="${esc(i.link)}" target="_blank" rel="noopener" aria-label="${s.openTool}" title="${s.openTool}${i.linkLabel?': '+esc(i.linkLabel):''}">${GO}</a>`:''}
+   </span>
+   <button type="button" class="ab save" data-save="${esc(i.id)}" aria-pressed="${sv}" aria-label="${sv?s.unsave:s.save}" title="${sv?s.unsave:s.save}">${P(IC.mark).replace('fill="none"',`fill="${sv?'currentColor':'none'}"`)}</button>
+  </div>
+  ${op?`<div class="more"><p dir="${lang==='en'&&i.desc_en?'ltr':'rtl'}">${esc(D(i))}</p>${(i.tags&&i.tags.length)?`<div class="tags">${i.tags.map(t=>`<button type="button" data-tag="${esc(t)}" aria-pressed="${tagsOn.has(t)}">${esc(t)}</button>`).join('')}</div>`:''}</div>`:''}
+ </article>`;
+}
+function render(){
+  const s=L();
+  const list=DATA.items.filter(i=>(sec==='all'||i.c===sec)&&match(i)).sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(b.added).localeCompare(String(a.added)));
+  if(!list.length){$('out').innerHTML=`<p class="empty">${onlySaved&&!saved.size?s.noSaved:s.noMatch}</p>`; return;}
+  const rest=list.length-limit;
+  const shown=list.slice(0,limit), allOpen=shown.length>0&&shown.every(i=>open.has(i.id));
+  $('out').innerHTML=`<div class="lbar"><button type="button" class="xall" id="xAll" aria-label="${allOpen?s.collapseAll:s.expandAll}" title="${allOpen?s.collapseAll:s.expandAll}">${P(allOpen?IC.collapse:IC.expand)}<span>${allOpen?s.collapseAll:s.expandAll}</span></button></div><div class="list">${shown.map(card).join('')}</div>`+(rest>0?`<button type="button" class="loadmore" id="more">${s.more} (${s.left} ${rest})</button>`:'');
+}
+function tagbar(){
+  const s=L(), el=$('tagSel'); el.hidden=!tagsOn.size; if(!tagsOn.size){el.innerHTML=''; return;}
+  el.setAttribute('aria-label',s.tagsT);
+  el.innerHTML=P(IC.tag)+[...tagsOn].map(x=>`<button type="button" class="t" data-untag="${esc(x)}" aria-label="${s.removeTag}: ${esc(x)}" title="${s.removeTag}">${esc(x)}${P(IC.x)}</button>`).join('')+`<button type="button" class="clr" id="clrTags">${P(IC.x)}${s.clearTags}</button>`;
+}
+function all(){chrome(); tagbar(); if(DATA){tiles(); render();}}
+function setLang(l){lang=l; H.lang=l; H.dir=l==='ar'?'rtl':'ltr'; store.set('rbLang',l); document.title=l==='ar'?'RadioBIM — أدوات وأفكار AEC من LinkedIn':'RadioBIM — AEC tools & ideas from LinkedIn'; all();}
+
+$('bSearch').onclick=()=>{searching=!searching; if(!searching){q='';} limit=30; all(); if(searching) $('q').focus();};
+$('bSaved').onclick=()=>{onlySaved=!onlySaved; limit=30; all();};
+$('bLink').onclick=()=>{onlyLink=!onlyLink; limit=30; all();};
+$('bLang').onclick=()=>setLang(lang==='ar'?'en':'ar');
+$('bTheme').onclick=()=>{const t=H.dataset.theme==='dark'?'light':'dark'; H.dataset.theme=t; store.set('rbTheme',t); chrome();};
+$('tagSel').onclick=e=>{const b=e.target.closest('button'); if(!b) return; if(b.id==='clrTags') tagsOn.clear(); else if(b.dataset.untag) tagsOn.delete(b.dataset.untag); limit=30; tagbar(); tiles(); render();};
+$('tiles').onclick=e=>{const b=e.target.closest('[data-s]'); if(!b) return; sec=b.dataset.s; limit=30; tiles(); render();};
+$('out').onclick=async e=>{
+  const b=e.target.closest('button');
+  if(!b){ if(e.target.closest('a')) return; const c=e.target.closest('[data-card]'); if(!c) return; if(String(window.getSelection&&getSelection())) return; const id=c.dataset.card; open.has(id)?open.delete(id):open.add(id); render(); return; }
+  if(b.id==='more'){limit+=30; render(); return;}
+  if(b.id==='xAll'){const ids=[...document.querySelectorAll('#out [data-card]')].map(x=>x.dataset.card); const all=ids.length&&ids.every(id=>open.has(id)); ids.forEach(id=>all?open.delete(id):open.add(id)); render(); return;}
+  if(b.dataset.save){const id=b.dataset.save; saved.has(id)?saved.delete(id):saved.add(id); store.set('rbSaved',JSON.stringify([...saved])); all(); return;}
+  if(b.dataset.info){const id=b.dataset.info; open.has(id)?open.delete(id):open.add(id); render(); return;}
+  if(b.dataset.tag){const x=b.dataset.tag; tagsOn.has(x)?tagsOn.delete(x):tagsOn.add(x); limit=30; tagbar(); tiles(); render(); return;}
+  if(b.dataset.share){
+    const i=DATA.items.find(x=>x.id===b.dataset.share); if(!i) return;
+    try{ if(navigator.share){await navigator.share({title:T(i),text:T(i),url:i.url}); return;} }catch(err){ if(err&&err.name==='AbortError') return; }
+    copiedId=i.id; render(); clearTimeout(copiedT); copiedT=setTimeout(()=>{copiedId=null; render();},1800);
+    try{await navigator.clipboard.writeText(T(i)+'\n'+i.url)}catch(err){
+      const ta=document.createElement('textarea'); ta.value=T(i)+'\n'+i.url; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy')}catch(e2){} ta.remove();
+    }
+  }
+};
+try{const mq=matchMedia('(prefers-color-scheme: dark)');const follow=e=>{const t=store.get('rbTheme');if(t!=='dark'&&t!=='light'){H.dataset.theme=e.matches?'dark':'light';chrome();}};mq.addEventListener?mq.addEventListener('change',follow):mq.addListener(follow);}catch(e){}
+chrome();
+fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok) throw 0; return r.json();}).catch(()=>fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json())).then(d=>{DATA=d; setLang(lang);}).catch(()=>{$('out').innerHTML=`<p class="empty">${L().err}</p>`});
+</script>
+</body>
+</html>
