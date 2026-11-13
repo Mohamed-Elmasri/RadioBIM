@@ -34,11 +34,11 @@ $ld = ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' =
 $extra .= '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
 rb_head($title, $desc, $canon, $extra);
 ?>
-<h1><?= h($h1) ?></h1>
+<h1 style="margin:8px 0 0;font-size:28px;line-height:1.3"><?= h($h1) ?></h1>
 <p class="muted"><?= count($list) ?> بوست · posts</p>
-<form action="/posts" method="get" style="margin:8px 0 12px"><input name="q" value="<?= h($q) ?>" placeholder="دوّر على أداة أو موضوع · Search" style="width:100%;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 14px;font:inherit"></form>
-<div class="nav"><a class="btn" href="/posts">الكل</a><?php foreach ($S as $k => $v): ?><a class="btn" href="/section/<?= $k ?>"><?= h($v[0]) ?></a><?php endforeach; ?></div>
-<?php foreach ($list as $i) rb_card($i); ?>
-<h2>المواضيع · Topics</h2>
+<form class="search" action="/posts" method="get" role="search"><input name="q" value="<?= h($q) ?>" aria-label="Search" placeholder="دوّر على أداة أو موضوع · Search"></form>
+<div class="nav"><a class="ib txt" href="/posts">الكل</a><?php foreach ($S as $k => $v): ?><a class="ib txt" href="/section/<?= $k ?>"><?= h($v[0]) ?></a><?php endforeach; ?></div>
+<div class="list"><?php foreach ($list as $i) rb_card($i); ?></div>
+<h2 class="sh">المواضيع · Topics</h2>
 <div class="tags"><?php foreach (array_slice($tags, 0, 80, true) as $s => $t): ?><a href="/tag/<?= h($s) ?>"><?= h($t['name']) ?> (<?= $t['n'] ?>)</a><?php endforeach; ?></div>
 <?php rb_foot();
