@@ -61,10 +61,11 @@ if ($rel): ?>
 <aside class="side">
  <div class="panel">
   <?php if (!empty($item['link'])): ?><a class="cta o2" href="<?= h($item['link']) ?>" target="_blank" rel="nofollow noopener"><?= $ext ?><span data-l="ar">افتح الأداة</span><span data-l="en">Open the tool</span> · <?= h($item['linkLabel'] ?? 'Link') ?></a><?php endif; ?>
-  <div class="acts o2">
+  <div class="acts o2" style="position:relative">
    <a class="ib grow" href="<?= h($item['url']) ?>" target="_blank" rel="noopener"><?= $li ?><span data-l="ar">اقرا البوست الأصلي</span><span data-l="en">Read the original post</span></a>
-   <button class="ib sq" type="button" id="share" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l16-8-6 16-3-7z"/></svg></button>
+   <button class="ib sq" type="button" id="share" aria-label="Share" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l16-8-6 16-3-7z"/></svg></button>
    <button class="ib sq" type="button" id="save" aria-pressed="false" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"/></svg></button>
+   <span id="shTip" role="status" hidden style="position:absolute;inset-inline-end:0;top:-34px;background:var(--solid);color:var(--onSolid);font-size:13px;font-weight:700;padding:4px 10px;border-radius:9px"><span data-l="ar">اللينك اتنسخ</span><span data-l="en">Link copied</span></span>
   </div>
  </div>
  <div class="panel about">
@@ -80,7 +81,10 @@ if ($rel): ?>
 (function(){var id=<?= json_encode($item['id']) ?>,K='rbSaved',g=function(){try{return JSON.parse(localStorage.getItem(K)||'[]')}catch(e){return[]}};
 var sb=document.getElementById('save');function paint(){sb.setAttribute('aria-pressed',g().indexOf(id)>-1)}paint();
 sb.onclick=function(){var a=g(),i=a.indexOf(id);i>-1?a.splice(i,1):a.push(id);try{localStorage.setItem(K,JSON.stringify(a))}catch(e){}paint();};
-document.getElementById('share').onclick=function(){var u=location.href.split('#')[0];if(navigator.share){navigator.share({title:document.title,url:u}).catch(function(){})}else if(navigator.clipboard){navigator.clipboard.writeText(u)}};
+var sh=document.getElementById('share'),shIc=sh.innerHTML;
+function done(){sh.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>';sh.setAttribute('aria-pressed','true');var t=document.getElementById('shTip');t.hidden=false;setTimeout(function(){sh.innerHTML=shIc;sh.removeAttribute('aria-pressed');t.hidden=true;},2000);}
+function copy(u){if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(u).then(done,fb)}else fb();function fb(){var a=document.createElement('textarea');a.value=u;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');done()}catch(e){}a.remove();}}
+sh.onclick=function(){var u=location.href.split(/[?#]/)[0];var touch=matchMedia('(pointer:coarse)').matches;if(navigator.share&&touch){navigator.share({title:document.title,url:u}).catch(function(){})}else copy(u);};
 window.rbSetDesc=function(l){document.querySelectorAll('[data-desc]').forEach(function(p){p.hidden=p.dataset.desc!==l});document.querySelectorAll('[data-d]').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.d===l)})};
 document.querySelectorAll('[data-d]').forEach(function(b){b.onclick=function(){rbSetDesc(b.dataset.d)}});
 rbSetDesc(document.documentElement.lang==='en'?'en':'ar');
