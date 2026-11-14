@@ -79,6 +79,12 @@ a.ib{text-decoration:none}
 .lbar{display:flex;justify-content:space-between;align-items:center;direction:ltr;margin:4px 0 10px}
 .xall{height:32px;padding:0 10px;border-radius:10px;border:0;background:var(--chip);color:var(--fg);display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
 .fgrp{display:flex;gap:14px}
+.xgrp{display:flex;gap:8px}
+.dbar{display:flex;flex-wrap:wrap;gap:8px;margin:-2px 0 12px}
+.lbar .ib.nw.dchip,.dbar .ib.nw{height:32px;border-radius:10px;padding:0 6px 0 9px;gap:6px;font-size:12.5px;cursor:pointer}
+.dbar .ib svg{width:16px;height:16px}
+.dbar .ib .cin{min-width:20px;height:20px;padding:0 5px;border-radius:6px;font-size:11px}
+#bLang svg{width:24px;height:24px}
 .ib.nw{width:auto;padding:0 8px 0 12px;gap:7px;font-size:14px;cursor:pointer}
 .lbar .ib.nw{height:32px;border-radius:10px;padding:0 6px 0 10px;gap:6px;font-size:12.5px}
 .lbar .ib.nw svg{width:16px;height:16px}
@@ -99,7 +105,13 @@ html[dir="rtl"] .card h3,html[dir="rtl"] .more p{text-align:right}html[dir="ltr"
 .grp{display:flex;align-items:center;gap:6px;direction:ltr}
 .ab{flex:none;width:46px;height:46px;border-radius:16px;border:0;background:#FFFFFF;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 .ab svg{width:20px;height:20px}
-.ab.tool,.ab.done,.ab[aria-expanded="true"]{background:var(--ink);color:#FFFFFF}
+.ab.tool{width:auto;padding:0 12px;gap:6px;max-width:150px}
+.ab .dn{font-size:13px;font-weight:700;letter-spacing:-.2px}
+.ab.tool{flex:0 1 auto;min-width:0}
+.acts .grp{min-width:0}
+.ab .dn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+@media (max-width:400px){.acts,.acts .grp{gap:5px}.acts .ab{width:40px;height:40px;border-radius:13px}.acts .ab.tool{width:auto;padding:0 9px;gap:4px}.ab .dn{font-size:12.5px}}
+.ab.done,.ab[aria-expanded="true"]{background:var(--ink);color:#FFFFFF}
 .ab.save{margin-inline-start:auto;background:none}
 .ab.save svg{width:22px;height:22px}
 .more{padding:2px 0 8px;display:flex;flex-direction:column;gap:8px}
@@ -116,7 +128,7 @@ html[dir="rtl"] .tags{justify-content:flex-end}
 [data-theme="dark"] .card .by{color:#9AA3B2}
 [data-theme="dark"] .card .by b{background:var(--ac);color:#161A22}
 [data-theme="dark"] .ab,[data-theme="dark"] .tags button{background:#2B313D;color:#DDE2EA}
-[data-theme="dark"] .ab.tool,[data-theme="dark"] .ab.done,[data-theme="dark"] .ab[aria-expanded="true"]{background:var(--ac);color:#161A22}
+[data-theme="dark"] .ab.done,[data-theme="dark"] .ab[aria-expanded="true"]{background:var(--ac);color:#161A22}
 [data-theme="dark"] .ab.save{background:none}
 [data-theme="dark"] .more p{color:#C3CAD6}
 .tagsel{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin-bottom:8px;padding:4px 6px;border-radius:12px;background:var(--chip)}
@@ -139,6 +151,11 @@ footer a{color:var(--brand);font-weight:700}
 @media (max-width:440px){header{gap:4px}.ib{width:36px;height:36px;border-radius:12px}.ib svg{width:19px;height:19px}.brand b{font-size:18px}.brand{gap:5px}.sep{margin:0 1px}}
 @media (max-width:389px){header{gap:3px}.ib{width:33px;height:33px;border-radius:11px}.ib svg{width:18px;height:18px}.brand b{font-size:17px}.sep{margin:0}}
 @media (max-width:339px){.ib{width:30px;height:30px}.brand b{font-size:19px}}
+
+.acts .ab{width:38px;height:38px;border-radius:12px}.acts .ab svg{width:18px;height:18px}.acts .ab.tool{width:auto;padding:0 11px}
+@media (min-width:560px){.acts .ab{width:34px;height:34px;border-radius:11px}.acts .ab svg{width:16px;height:16px}.acts .ab.tool{padding:0 10px}.ab .dn{font-size:12.5px}}
+@media (max-width:400px){.acts .ab{width:36px;height:36px;border-radius:11px}.acts .ab.tool{width:auto;padding:0 9px;gap:4px}.ab .dn{font-size:12.5px}}
+@media (hover:hover){.ab.tool:hover{background:var(--ink);color:#FFFFFF}[data-theme="dark"] .ab.tool:hover{background:var(--ac);color:#161A22}}
 </style>
 </head>
 <body>
@@ -165,6 +182,7 @@ footer a{color:var(--brand);font-weight:700}
 const P=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
 const IC={
  expand:'M7 9l5-5 5 5M7 15l5 5 5-5',
+ reset:'M4 5v5h5M5.3 15a7.5 7.5 0 1 0 1.6-7.8L4 10',
  collapse:'M7 4l5 5 5-5M7 20l5-5 5 5',
  guide:'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9.2a2.6 2.6 0 0 1 5 .9c0 1.8-2.5 2.3-2.5 3.9M12 17h.01',
  all:'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z',
@@ -187,6 +205,24 @@ const IC={
  x:'M6 6l12 12M18 6L6 18',
  info:'M12 11v6M12 7.5v.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z'
 };
+const DEST=[
+ [/github\.com|gitlab\.com/,'GitHub','M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16'],
+ [/youtube\.com|youtu\.be/,'YouTube','M3 8a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zM10 9l5 3-5 3z'],
+ [/drive\.google|docs\.google|dropbox|onedrive|sharepoint/,'Drive','M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'],
+ [/forms\.gle|forms\.office|typeform|\/forms\//,'Form','M9 3h6v3H9zM7 4H5v17h14V4h-2M8 11h8M8 15h5'],
+ [/marketplace|apps\.autodesk|appsource|store\.|payhip|gumroad|shop|kickstarter/,'Store','M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2'],
+ [/udemy|coursera|course|academy|learn/,'Course','M2 9l10-5 10 5-10 5zM6 11v5c3.5 2.5 8.5 2.5 12 0v-5'],
+];
+const LBL={'GitHub':0,'YouTube':1,'Drive':2,'التسجيل':3,'App Store':4,'الشراء':4,'Udemy':5};
+const WEB='M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3.5 9h17M3.5 15h17M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18';
+const DLBL={ar:{Form:'استمارة',Store:'المتجر',Course:'الكورس',web:'الموقع'},en:{Form:'Form',Store:'Store',Course:'Course',web:'Website'}};
+const DKEYS=['GitHub','YouTube','Drive','Store','Form','Course','web'];
+function dkey(i){const n=dest(i).n; return DKEYS.includes(n)?n:'web';}
+function dIcon(k){const d=DEST.find(x=>x[1]===k); return d?d[2]:WEB;}
+function dLabel(d){const m=DLBL[lang]; return m[d.n]||(/^(YouTube|GitHub|Drive)$/.test(d.n)?d.n:m.web);}
+function dest(i){let h='';try{h=new URL(i.link).hostname.replace(/^www\./,'')}catch(e){}
+ if(!/lnkd\.in|shorturl|bit\.ly/.test(h)){const d=DEST.find(x=>x[0].test(i.link)); if(d) return {n:d[1],ic:d[2]}; return {n:h,ic:WEB};}
+ const k=LBL[i.linkLabel]; if(k!=null) return {n:DEST[k][1],ic:DEST[k][2]}; return {n:'',ic:WEB};}
 const GO='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>';
 const LI='<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.6 5.9h1.9V13H3.6zM4.55 2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM6.9 5.9h1.8v1h.03c.25-.48.87-.98 1.8-.98 1.92 0 2.27 1.26 2.27 2.9V13h-1.9V9.2c0-.7-.01-1.6-.98-1.6-.98 0-1.13.77-1.13 1.55V13H6.9z"/></svg>';
 const BG={all:'#EEF1F8',ai:'#DDE9FB',mcp:'#E6E0FA',addins:'#FBE5D6',opensource:'#D9F0E4',courses:'#FBEFC9',ideas:'#F8DDEA',tools:'#E4EDCB'};
@@ -198,12 +234,12 @@ const SEC={
  en:{all:'All',ai:'AI',mcp:'MCP',addins:'Add-ins',opensource:'Open Source',courses:'Courses',ideas:'Ideas',tools:'Tools'}
 };
 const STR={
- ar:{search:'بحث',expandAll:'افتح الكل',collapseAll:'اقفل الكل',guide:'إزاي تستخدم الموقع',hint:'أداة، شخص، أو كلمة',saved:'المحفوظ',tagsT:'التاجز المختارة',clearTags:'امسح التاجز',removeTag:'شيل التاج',matchN:'مطابق',links:'البوستات اللي فيها لينك أداة',withLink:'فيها لينك أداة',switchTo:'Switch to English',other:'EN',dark:'الوضع الغامق',light:'الوضع الفاتح',openTool:'افتح الأداة',openPost:'افتح البوست على LinkedIn',share:'ابعته لزميل',copied:'اللينك اتنسخ',info:'اعرض الوصف',save:'احفظ البوست',unsave:'شيله من المحفوظ',isNew:'جديد',newN:'جديد',savedN:'محفوظ',updated:'آخر تحديث',posts:'بوست',noSaved:'لسه ماحفظتش حاجة. دوس على علامة الحفظ في أي بوست.',noMatch:'مفيش بوستات مطابقة.',more:'اعرض أكتر',left:'باقي',err:'ملف البيانات مش موجود أو فيه خطأ.',note:'المصدر: بوستات LinkedIn. التاريخ تقريبي حسب عمر البوست وقت المسح.'},
- en:{search:'Search',expandAll:'Expand all',collapseAll:'Collapse all',guide:'How to use RadioBIM',hint:'Tool, person or keyword',saved:'Saved',tagsT:'Selected tags',clearTags:'Clear tags',removeTag:'Remove tag',matchN:'matching',links:'Posts with a tool link',withLink:'with a tool link',switchTo:'التحويل للعربي',other:'ع',dark:'Dark mode',light:'Light mode',openTool:'Open the tool',openPost:'Open the post on LinkedIn',share:'Send to a colleague',copied:'Link copied',info:'Show description',save:'Save post',unsave:'Remove from saved',isNew:'New',newN:'new',savedN:'saved',updated:'Updated',posts:'posts',noSaved:'Nothing saved yet. Tap the bookmark on any post.',noMatch:'No posts match.',more:'Show more',left:'left',err:'The data file is missing or broken.',note:'Source: LinkedIn posts. Dates are approximate, based on post age at scan time.'}
+ ar:{search:'بحث',expandAll:'افتح الكل',reset:'إعادة ضبط',collapseAll:'اقفل الكل',guide:'إزاي تستخدم الموقع',hint:'أداة، شخص، أو كلمة',saved:'المحفوظ',tagsT:'التاجز المختارة',clearTags:'امسح التاجز',removeTag:'شيل التاج',matchN:'مطابق',links:'البوستات اللي فيها لينك أداة',withLink:'فيها لينك أداة',switchTo:'Switch to English',other:'EN',dark:'الوضع الغامق',light:'الوضع الفاتح',openTool:'افتح الأداة',openPost:'افتح البوست على LinkedIn',share:'ابعته لزميل',copied:'اللينك اتنسخ',info:'اعرض الوصف',save:'احفظ البوست',unsave:'شيله من المحفوظ',isNew:'جديد',newN:'جديد',savedN:'محفوظ',updated:'آخر تحديث',posts:'بوست',noSaved:'لسه ماحفظتش حاجة. دوس على علامة الحفظ في أي بوست.',noMatch:'مفيش بوستات مطابقة.',more:'اعرض أكتر',left:'باقي',err:'ملف البيانات مش موجود أو فيه خطأ.',note:'المصدر: بوستات LinkedIn. التاريخ تقريبي حسب عمر البوست وقت المسح.'},
+ en:{search:'Search',expandAll:'Expand all',reset:'Reset',collapseAll:'Collapse all',guide:'How to use RadioBIM',hint:'Tool, person or keyword',saved:'Saved',tagsT:'Selected tags',clearTags:'Clear tags',removeTag:'Remove tag',matchN:'matching',links:'Posts with a tool link',withLink:'with a tool link',switchTo:'التحويل للعربي',other:'ع',dark:'Dark mode',light:'Light mode',openTool:'Open the tool',openPost:'Open the post on LinkedIn',share:'Send to a colleague',copied:'Link copied',info:'Show description',save:'Save post',unsave:'Remove from saved',isNew:'New',newN:'new',savedN:'saved',updated:'Updated',posts:'posts',noSaved:'Nothing saved yet. Tap the bookmark on any post.',noMatch:'No posts match.',more:'Show more',left:'left',err:'The data file is missing or broken.',note:'Source: LinkedIn posts. Dates are approximate, based on post age at scan time.'}
 };
 const H=document.documentElement, $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let DATA=null, lang=H.lang==='ar'?'ar':'en', sec='all', onlySaved=false, onlyLink=false, onlyNew=false, searching=false, q='', limit=30;
+let DATA=null, lang=H.lang==='ar'?'ar':'en', sec='all', onlySaved=false, onlyLink=false, onlyNew=false, linkType='', searching=false, q='', limit=30;
 let saved=new Set(); try{saved=new Set(JSON.parse(store.get('rbSaved')||'[]'))}catch(e){}
 const open=new Set(), tagsOn=new Set();
 const tagOk=i=>{if(!tagsOn.size) return true; const tg=i.tags||[]; for(const x of tagsOn) if(!tg.includes(x)) return false; return true;}; let copiedId=null, copiedT=0;
@@ -217,7 +253,7 @@ function chrome(){
   $('bSearch').innerHTML=P(IC.search); $('bGuide').innerHTML=P(IC.guide); $('bGuide').setAttribute('aria-label',s.guide); $('bGuide').title=s.guide; $('bGuide').href=(/radiobim\.com$/.test(location.hostname)||location.hostname==='localhost'?'guide.html':'https://radiobim.com/guide.html')+'?lang='+lang; $('bGuide').target=/radiobim\.com$/.test(location.hostname)||location.hostname==='localhost'?'_self':'_blank'; $('bSearch').setAttribute('aria-label',s.search); $('bSearch').title=s.search; $('bSearch').setAttribute('aria-pressed',searching);
   $('bSaved').innerHTML=P(IC.mark).replace('fill="none"',`fill="${onlySaved?'currentColor':'none'}"`)+(saved.size?`<em class="cnt">${saved.size}</em>`:'');
   $('bSaved').setAttribute('aria-label',s.saved+': '+saved.size); $('bSaved').title=s.saved; $('bSaved').setAttribute('aria-pressed',onlySaved);
-  $('bLang').innerHTML=P(IC.globe); $('bLang').setAttribute('aria-label',s.switchTo); $('bLang').title=s.switchTo;
+  $('bLang').innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="3.2" fill="currentColor"/><text x="8" y="11.6" text-anchor="middle" font-size="9.5" font-weight="800" font-family="inherit" fill="var(--chip)">A</text><rect x="9.5" y="9.5" width="13" height="13" rx="3.2" fill="currentColor" stroke="var(--chip)" stroke-width="1.6"/><text x="16" y="19.6" text-anchor="middle" font-size="10" font-weight="800" font-family="inherit" fill="var(--chip)">ع</text></svg>'; $('bLang').setAttribute('aria-label',s.switchTo); $('bLang').title=s.switchTo;
   $('bTheme').innerHTML=P(dark?IC.sun:IC.moon); $('bTheme').setAttribute('aria-label',dark?s.light:s.dark); $('bTheme').title=dark?s.light:s.dark; $('bTheme').setAttribute('aria-pressed',dark);
   const row=$('searchRow'); row.hidden=!searching;
   if(searching&&!row.firstChild){row.innerHTML=P(IC.search)+'<input type="search" id="q">'; $('q').addEventListener('input',e=>{q=e.target.value; limit=30; tiles(); render();});}
@@ -228,6 +264,7 @@ function match(i){
   if(onlySaved&&!saved.has(i.id)) return false;
   if(onlyLink&&!i.link) return false;
   if(onlyNew&&!isNew(i)) return false;
+  if(linkType&&(!i.link||dkey(i)!==linkType)) return false;
   if(!tagOk(i)) return false;
   const k=q.trim().toLowerCase(); if(!k) return true;
   return [i.title,i.desc,i.title_en,i.desc_en,i.a,(i.tags||[]).join(' ')].join(' ').toLowerCase().includes(k);
@@ -236,7 +273,7 @@ function tiles(){
   const s=L(), ids=['all'].concat(DATA.sections.map(x=>x.id));
   $('tiles').innerHTML=ids.map(id=>{
     const inSec=DATA.items.filter(i=>id==='all'||i.c===id);
-    const tot=inSec.filter(i=>(!onlySaved||saved.has(i.id))&&(!onlyLink||i.link)&&(!onlyNew||isNew(i))&&tagOk(i)).length, n=inSec.filter(isNew).length;
+    const tot=inSec.filter(i=>(!onlySaved||saved.has(i.id))&&(!onlyLink||i.link)&&(!onlyNew||isNew(i))&&(!linkType||(i.link&&dkey(i)===linkType))&&tagOk(i)).length, n=inSec.filter(isNew).length;
     const name=SEC[lang][id]||id;
     return `<button type="button" class="tile" data-s="${esc(id)}" aria-pressed="${sec===id}" aria-label="${esc(name)}, ${tot} ${s.posts}${n?`, ${n} ${s.newN}`:''}" style="${VARS(id)}">${P(IC[id]||IC.all)}<span class="nm"><b>${esc(name)}</b><small>${tot}</small></span>${n?`<em>${n}</em>`:''}</button>`;
   }).join('');
@@ -251,7 +288,7 @@ function card(i){
    <button type="button" class="ab" data-info="${esc(i.id)}" aria-expanded="${op}" aria-label="${s.info}" title="${s.info}">${P(IC.info)}</button>
    <a class="ab" href="${esc(i.url)}" target="_blank" rel="noopener" aria-label="${s.openPost}" title="${s.openPost}">${LI}</a>
    <button type="button" class="ab${cp?' done':''}" data-share="${esc(i.id)}" aria-label="${cp?s.copied:s.share}" title="${cp?s.copied:s.share}">${P(cp?IC.check:IC.share)}</button>
-   ${i.link?`<a class="ab tool" href="${esc(i.link)}" target="_blank" rel="noopener" aria-label="${s.openTool}" title="${s.openTool}${i.linkLabel?': '+esc(i.linkLabel):''}">${GO}</a>`:''}
+   ${i.link?(()=>{const d=dest(i);return `<a class="ab tool" href="${esc(i.link)}" target="_blank" rel="noopener" aria-label="${s.openTool}${d.n?': '+esc(d.n):''}" title="${s.openTool}${d.n?': '+esc(d.n):''}">${P(d.ic)}<span class="dn">${esc(dLabel(d))}</span></a>`})():''}
    </span>
    <button type="button" class="ab save" data-save="${esc(i.id)}" aria-pressed="${sv}" aria-label="${sv?s.unsave:s.save}" title="${sv?s.unsave:s.save}">${P(IC.mark).replace('fill="none"',`fill="${sv?'currentColor':'none'}"`)}</button>
   </div>
@@ -272,11 +309,15 @@ window.addEventListener('load',()=>eqRows());
 function render(){
   const s=L();
   const list=DATA.items.filter(i=>(sec==='all'||i.c===sec)&&match(i)).sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(b.added).localeCompare(String(a.added)));
-  const nN=DATA.items.filter(isNew).length, lN=DATA.items.filter(i=>i.link).length, nb=`<div class="fgrp" dir="${lang==='ar'?'rtl':'ltr'}">${nN?`<button type="button" class="ib nw" id="bNew" aria-pressed="${onlyNew}" title="${lang==='ar'?'اعرض الجديد بس':'Show new posts only'}">${s.isNew}<em class="cin">${nN}</em></button>`:''}<button type="button" class="ib nw" id="bLink" aria-pressed="${onlyLink}" aria-label="${s.links}: ${lN}" title="${s.links}">${P(IC.link)}<em class="cin">${lN}</em></button></div>`;
-  if(!list.length){$('out').innerHTML=`<div class="lbar">${lang==='ar'?'<span></span>':nb}${lang==='ar'?nb:''}</div><p class="empty">${onlySaved&&!saved.size?s.noSaved:s.noMatch}</p>`; return;}
+  const inS=i=>sec==='all'||i.c===sec, cnt=(f,set)=>{const sv=[onlyNew,onlyLink,linkType]; set(); const n=DATA.items.filter(i=>inS(i)&&match(i)&&f(i)).length; [onlyNew,onlyLink,linkType]=sv; return n;};
+  const nN=cnt(isNew,()=>{onlyNew=false}), lN=cnt(i=>i.link,()=>{onlyLink=false;linkType=''}), nb=`<div class="fgrp" dir="${lang==='ar'?'rtl':'ltr'}">${DATA.items.some(isNew)?`<button type="button" class="ib nw" id="bNew" aria-pressed="${onlyNew}" title="${lang==='ar'?'اعرض الجديد بس':'Show new posts only'}">${s.isNew}<em class="cin">${nN}</em></button>`:''}<button type="button" class="ib nw" id="bLink" aria-pressed="${onlyLink}" aria-label="${s.links}: ${lN}" title="${s.links}">${P(IC.link)}<em class="cin">${lN}</em></button></div>`;
+  const dc={}; if(onlyLink){const lt=linkType; linkType=''; DATA.items.forEach(i=>{if(i.link&&inS(i)&&match(i)){const k=dkey(i); dc[k]=(dc[k]||0)+1;}}); linkType=lt;}
+  const db=onlyLink?`<div class="dbar" dir="${lang==='ar'?'rtl':'ltr'}">${DKEYS.filter(k=>dc[k]||k===linkType).map(k=>{const nm=dLabel({n:k==='web'?'':k}); return `<button type="button" class="ib nw dchip" data-dk="${k}" aria-pressed="${linkType===k}" title="${esc(nm)}" aria-label="${esc(nm)}: ${dc[k]}">${P(dIcon(k))}<em class="cin">${dc[k]||0}</em></button>`}).join('')}</div>`:'';
+  const rbE=(onlyNew||onlyLink||onlySaved||sec!=='all'||tagsOn.size||q)?`<button type="button" class="xall" id="xReset" title="${s.reset}" aria-label="${s.reset}">${P(IC.reset)}<span>${s.reset}</span></button>`:'<span></span>';
+  if(!list.length){$('out').innerHTML=`<div class="lbar">${lang==='ar'?rbE:nb}${lang==='ar'?nb:rbE}</div>${db}<p class="empty">${onlySaved&&!saved.size?s.noSaved:s.noMatch}</p>`; return;}
   const rest=list.length-limit;
   const shown=list.slice(0,limit), allOpen=shown.length>0&&shown.every(i=>open.has(i.id));
-  $('out').innerHTML=`<div class="lbar">${lang==='ar'?'':nb}<button type="button" class="xall" id="xAll" aria-label="${allOpen?s.collapseAll:s.expandAll}" title="${allOpen?s.collapseAll:s.expandAll}">${P(allOpen?IC.collapse:IC.expand)}<span>${allOpen?s.collapseAll:s.expandAll}</span></button>${lang==='ar'?nb:''}</div><div class="list">${shown.map(card).join('')}</div>`+(rest>0?`<button type="button" class="loadmore" id="more">${s.more} (${s.left} ${rest})</button>`:''); eqRows();
+  $('out').innerHTML=`<div class="lbar">${lang==='ar'?'':nb}${(()=>{const act=onlyNew||onlyLink||onlySaved||sec!=='all'||tagsOn.size||q; const rb=act?`<button type="button" class="xall" id="xReset" title="${s.reset}" aria-label="${s.reset}">${P(IC.reset)}<span>${s.reset}</span></button>`:''; const xb=`<button type="button" class="xall" id="xAll" aria-label="${allOpen?s.collapseAll:s.expandAll}" title="${allOpen?s.collapseAll:s.expandAll}">${P(allOpen?IC.collapse:IC.expand)}<span>${allOpen?s.collapseAll:s.expandAll}</span></button>`; return `<div class="xgrp">${lang==='ar'?xb+rb:rb+xb}</div>`})()}${lang==='ar'?nb:''}</div>${db}<div class="list">${shown.map(card).join('')}</div>`+(rest>0?`<button type="button" class="loadmore" id="more">${s.more} (${s.left} ${rest})</button>`:''); eqRows();
 }
 function tagbar(){
   const s=L(), el=$('tagSel'); el.hidden=!tagsOn.size; if(!tagsOn.size){el.innerHTML=''; return;}
@@ -296,8 +337,10 @@ $('out').onclick=async e=>{
   const b=e.target.closest('button');
   if(!b){ if(e.target.closest('a')) return; const c=e.target.closest('[data-card]'); if(!c) return; if(String(window.getSelection&&getSelection())) return; const id=c.dataset.card; open.has(id)?open.delete(id):open.add(id); render(); return; }
   if(b.id==='more'){limit+=30; render(); return;}
-  if(b.id==='bLink'){onlyLink=!onlyLink; limit=30; all(); return;}
+  if(b.dataset.dk){linkType=linkType===b.dataset.dk?'':b.dataset.dk; limit=30; all(); return;}
+  if(b.id==='bLink'){onlyLink=!onlyLink; if(!onlyLink) linkType=''; limit=30; all(); return;}
   if(b.id==='bNew'){onlyNew=!onlyNew; limit=30; all(); return;}
+  if(b.id==='xReset'){onlyNew=false; onlyLink=false; linkType=''; onlySaved=false; sec='all'; tagsOn.clear(); q=''; searching=false; limit=30; all(); return;}
   if(b.id==='xAll'){const ids=[...document.querySelectorAll('#out [data-card]')].map(x=>x.dataset.card); const all=ids.length&&ids.every(id=>open.has(id)); ids.forEach(id=>all?open.delete(id):open.add(id)); render(); return;}
   if(b.dataset.save){const id=b.dataset.save; saved.has(id)?saved.delete(id):saved.add(id); store.set('rbSaved',JSON.stringify([...saved])); all(); return;}
   if(b.dataset.info){const id=b.dataset.info; open.has(id)?open.delete(id):open.add(id); render(); return;}
