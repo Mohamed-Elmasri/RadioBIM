@@ -8,6 +8,10 @@
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="RadioBIM">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#1E2A4A">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="RadioBIM">
@@ -143,6 +147,15 @@ html[dir="rtl"] .tags{justify-content:flex-end}
 [data-theme="dark"] .tags button[aria-pressed="true"]{background:var(--ac);color:#161A22}
 .empty{margin:0;padding:36px 4px;font-size:15.5px;text-align:center;color:var(--muted)}
 .loadmore{display:block;margin:16px auto 0;height:48px;padding:0 24px;border-radius:16px;border:0;background:var(--fg);color:var(--bg);font-size:15px;font-weight:700}
+#inst{position:fixed;inset-inline:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:50;max-width:520px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 14px;border-radius:18px;background:var(--bg);color:var(--fg);border:1px solid var(--chip);box-shadow:0 10px 30px rgba(20,28,50,.18)}
+#inst[hidden]{display:none}
+#inst img{width:44px;height:44px;border-radius:12px;flex:none}
+#inst .it{flex:1;min-width:0;line-height:1.35}
+#inst b{display:block;font-size:14.5px}
+#inst small{display:block;font-size:12.5px;color:var(--muted)}
+#inst .ig{height:36px;padding:0 14px;border-radius:11px;border:0;background:var(--ink);color:#fff;font:inherit;font-weight:700;font-size:13.5px;cursor:pointer;flex:none}
+[data-theme="dark"] #inst .ig{background:var(--brand);color:#161A22}
+#inst .ix{width:32px;height:32px;border-radius:10px;border:0;background:var(--chip);color:var(--fg);cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center}
 footer{margin-top:32px;color:var(--muted);font-size:12.5px;text-align:center}
 footer a{color:var(--brand);font-weight:700}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
@@ -176,6 +189,7 @@ footer a{color:var(--brand);font-weight:700}
 <nav class="tiles" id="tiles"></nav>
 <main id="out" aria-live="polite"></main>
 <footer id="foot"></footer>
+<div id="inst" hidden role="dialog" aria-live="polite"><img src="/icon-192.png" alt=""><div class="it"><b id="instT"></b><small id="instB"></small></div><button type="button" class="ig" id="instGo" hidden></button><button type="button" class="ix" id="instX"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
 <noscript><p style="text-align:center"><a href="/posts">كل البوستات · All posts</a></p></noscript>
 </div>
 <script>
@@ -306,6 +320,23 @@ let eqT=0; window.addEventListener('resize',()=>{clearTimeout(eqT); eqT=setTimeo
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>eqRows());
 if(document.fonts&&document.fonts.addEventListener) document.fonts.addEventListener('loadingdone',()=>eqRows());
 window.addEventListener('load',()=>eqRows());
+if('serviceWorker' in navigator && location.protocol==='https:') window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+(function(){
+  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+  if(standalone){try{localStorage.setItem('rbInstalled','1')}catch(e){} return;}
+  let dismissed=false; try{dismissed=!!localStorage.getItem('rbInstallX')}catch(e){}
+  if(dismissed) return;
+  const T={ar:{t:'ثبّت RadioBIM على موبايلك',b:'يفتح زي التطبيق من شاشتك الرئيسية.',go:'ثبّت',ios:'دوس على زرار المشاركة، وبعدين اختار Add to Home Screen.',x:'اقفل'},en:{t:'Install RadioBIM on your phone',b:'It opens like an app from your home screen.',go:'Install',ios:'Tap the Share button, then choose Add to Home Screen.',x:'Close'}};
+  let ev=null, ios=false;
+  const ua=navigator.userAgent, isIOS=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1), safari=/Safari/.test(ua)&&!/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua);
+  const show=()=>{const L=T[lang]||T.en; $('instT').textContent=L.t; $('instB').textContent=ios?L.ios:L.b; $('instGo').textContent=L.go; $('instGo').hidden=ios||!ev; $('instX').setAttribute('aria-label',L.x); $('inst').hidden=false;};
+  window.__instShow=()=>{if(!$('inst').hidden) show();};
+  $('instX').onclick=()=>{$('inst').hidden=true; try{localStorage.setItem('rbInstallX','1')}catch(e){}};
+  $('instGo').onclick=async()=>{if(!ev) return; $('inst').hidden=true; ev.prompt(); try{const c=await ev.userChoice; if(c&&c.outcome==='dismissed') localStorage.setItem('rbInstallX','1');}catch(e){} ev=null;};
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault(); ev=e; setTimeout(show,4000);});
+  window.addEventListener('appinstalled',()=>{$('inst').hidden=true; try{localStorage.setItem('rbInstalled','1')}catch(e){}});
+  if(isIOS&&safari){ios=true; setTimeout(show,5000);}
+})();
 function render(){
   const s=L();
   const list=DATA.items.filter(i=>(sec==='all'||i.c===sec)&&match(i)).sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(b.added).localeCompare(String(a.added)));
@@ -324,7 +355,7 @@ function tagbar(){
   el.setAttribute('aria-label',s.tagsT);
   el.innerHTML=P(IC.tag)+[...tagsOn].map(x=>`<button type="button" class="t" data-untag="${esc(x)}" aria-label="${s.removeTag}: ${esc(x)}" title="${s.removeTag}">${esc(x)}${P(IC.x)}</button>`).join('')+`<button type="button" class="clr" id="clrTags">${P(IC.x)}${s.clearTags}</button>`;
 }
-function all(){chrome(); tagbar(); if(DATA){tiles(); render();}}
+function all(){chrome(); tagbar(); if(DATA){tiles(); render();} if(window.__instShow) window.__instShow();}
 function setLang(l){lang=l; H.lang=l; H.dir=l==='ar'?'rtl':'ltr'; store.set('rbLang',l); document.title=l==='ar'?'RadioBIM — أدوات وأفكار AEC من LinkedIn':'RadioBIM — AEC tools & ideas from LinkedIn'; all();}
 
 $('bSearch').onclick=()=>{searching=!searching; if(!searching){q='';} limit=30; all(); if(searching) $('q').focus();};

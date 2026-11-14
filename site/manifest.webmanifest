@@ -1,0 +1,19 @@
+{
+  "name": "RadioBIM — راديو الـ BIM",
+  "short_name": "RadioBIM",
+  "description": "Daily radar of LinkedIn posts on AI in AEC, MCP, Revit add-ins, open source, courses and engineers' tools.",
+  "id": "/",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E2A4A",
+  "lang": "ar",
+  "dir": "auto",
+  "categories": ["productivity", "education", "news"],
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

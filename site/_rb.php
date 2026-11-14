@@ -79,6 +79,7 @@ function rb_head($title, $desc, $canon, $extra = '') { ?>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <meta name="theme-color" content="#1E2A4A">
 <meta property="og:type" content="article"><meta property="og:site_name" content="RadioBIM">
 <meta property="og:title" content="<?= h($title) ?>"><meta property="og:description" content="<?= h($desc) ?>">
