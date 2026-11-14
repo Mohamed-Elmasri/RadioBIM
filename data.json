@@ -63,7 +63,7 @@
 "added": "2026-11-14",
 "title_en": "4D simulation of your project with AI in seconds",
 "desc_en": "A video showing how to produce a 4D simulation quickly with AI, with a full course behind it.",
-"link": "https://lnkd.in/dCSQJ6Ur",
+"link": "https://youtu.be/NKgYlTJTKkc",
 "linkLabel": "اللينك"
 },
 {
@@ -99,7 +99,7 @@
 "added": "2026-11-14",
 "title_en": "Formula Finder for Revit: a tool you hold",
 "desc_en": "A physical rotating dial that shows triangle and arc formulas in ready Revit syntax for the Family Editor.",
-"link": "https://lnkd.in/giVH64Vj",
+"link": "https://www.kickstarter.com/projects/paulaubin/formula-finder-for-revit-by-paul-f-aubin",
 "linkLabel": "اللينك"
 },
 {
@@ -223,7 +223,7 @@
 "added": "2026-11-14",
 "title_en": "EVM S-Curve visual for Power BI",
 "desc_en": "A custom AppSource visual with S-curves, CPI/SPI KPIs and EAC forecasts by several methods.",
-"link": "https://lnkd.in/dTjFauR9",
+"link": "https://marketplace.microsoft.com/en-us/product/abdalla_dabes.evm-s-curve-visual",
 "linkLabel": "اللينك"
 },
 {
@@ -277,7 +277,7 @@
 "added": "2026-11-14",
 "title_en": "AI-powered 4D app on the AEC Data Model",
 "desc_en": "Tested the AECDM API and its new custom properties by building a 4D app that uses Revit data outside the model.",
-"link": "https://lnkd.in/gJdi9cUW",
+"link": "https://github.com/autodesk-platform-services/aps-aecdatamodel-explorer",
 "linkLabel": "اللينك"
 },
 {
@@ -381,7 +381,7 @@
 "added": "2026-11-14",
 "title_en": "First Revit MCP connector test",
 "desc_en": "Testing Claude with Revit through MCP, with links to the code it builds on.",
-"link": "https://lnkd.in/e3Ux8G44",
+"link": "https://www.youtube.com/watch?v=mUJGSjQHBm8",
 "linkLabel": "اللينك"
 },
 {
@@ -437,7 +437,7 @@
 "added": "2026-11-14",
 "title_en": "Power BI cost-control template",
 "desc_en": "A downloadable cost-control dashboard plus the Figma design file to adjust it.",
-"link": "https://lnkd.in/dUYw8vSR",
+"link": "https://drive.google.com/file/d/1pQDuQROts_4M-kUaiarw2_ODz0Hbwvl2/view",
 "linkLabel": "اللينك"
 },
 {
@@ -456,7 +456,7 @@
 "added": "2026-11-14",
 "title_en": "5D BIM Power BI dashboard",
 "desc_en": "4D/5D reports, cashflow tied to the P6 S-curve, earned value and what-if scenarios.",
-"link": "https://lnkd.in/dd8vxS6J",
+"link": "https://masteryofdigital.com/b/5dbimmanual",
 "linkLabel": "اللينك"
 },
 {
@@ -527,7 +527,7 @@
 "added": "2026-11-14",
 "title_en": "SYNCHRO 4D animations in Unreal",
 "desc_en": "GitHub code rendering equipment paths from the SYNCHRO iTwin API in Unreal with Cesium 3D tiles.",
-"link": "https://lnkd.in/dbkyuyFf",
+"link": "https://github.com/iTwin/itwin-unreal-plugin/",
 "linkLabel": "اللينك"
 },
 {
@@ -645,7 +645,7 @@
 "added": "2026-11-14",
 "title_en": "20 Revit API newsletters",
 "desc_en": "An archive of short newsletters from dev setup to building an extension, pyRevit basics and parameters.",
-"link": "https://lnkd.in/gFXhfaky",
+"link": "https://preview.mailerlite.io/preview/52352/emails/58149506294744520",
 "linkLabel": "اللينك"
 },
 {
@@ -663,7 +663,7 @@
 "added": "2026-11-14",
 "title_en": "Revit railings guide",
 "desc_en": "A chart explaining each of the 63 railing-type parameters, with an advanced guide.",
-"link": "https://lnkd.in/d_EtjAfu",
+"link": "https://www.bimpure.com/blog/mastering-9-revit-railings-advanced-properties",
 "linkLabel": "اللينك"
 },
 {
@@ -698,7 +698,7 @@
 "added": "2026-11-14",
 "title_en": "All his Dynamo scripts in one link",
 "desc_en": "Scripts for warnings, family renaming, rebar, clash flags, view duplication and more, updated over time.",
-"link": "https://lnkd.in/di9N6vVT",
+"link": "https://drive.google.com/drive/folders/1a1JYfvPhWWoDLpDfJ35ayKbr6tv2vHUs",
 "linkLabel": "اللينك"
 },
 {
@@ -751,7 +751,7 @@
 "added": "2026-11-14",
 "title_en": "Identifying Revit families with AI Builder",
 "desc_en": "An example using Power Apps AI Builder to recognise families, plus a free alternative.",
-"link": "https://lnkd.in/exuCUu6",
+"link": "https://teachablemachine.withgoogle.com/",
 "linkLabel": "اللينك"
 },
 {
@@ -820,7 +820,7 @@
 "added": "2026-11-14",
 "title_en": "PREx: Revit API tools in C#",
 "desc_en": "Auto dimensions for grids, footings and columns, sections and numbering, with tutorials.",
-"link": "https://lnkd.in/dTJRkGPT",
+"link": "https://www.linkedin.com/company/prex-addons/",
 "linkLabel": "اللينك"
 },
 {
@@ -889,7 +889,7 @@
 "added": "2026-11-14",
 "title_en": "Linking Revit cloud models",
 "desc_en": "A talk on three linking methods for Design Collaboration projects on ACC and BIM 360.",
-"link": "https://lnkd.in/g4R52TkJ",
+"link": "https://www.youtube.com/watch?v=oVK9itZschA",
 "linkLabel": "اللينك"
 },
 {
@@ -908,7 +908,7 @@
 "added": "2026-11-14",
 "title_en": "Dynamo for formwork modeling and area",
 "desc_en": "A script that models formwork and calculates its area for slabs, beams and columns, with a beginner playlist.",
-"link": "https://lnkd.in/dkQWrKBV",
+"link": "https://www.youtube.com/watch?v=U5seDmmS4ow",
 "linkLabel": "اللينك"
 },
 {
@@ -1048,7 +1048,7 @@
 "added": "2026-11-14",
 "title_en": "Point cloud to document existing buildings in Revit",
 "desc_en": "Laser-scan the place and pull the data into a model; useful for heritage documentation.",
-"link": "https://lnkd.in/e6YVcXVZ",
+"link": "https://www.youtube.com/watch?v=hx6BK3sRLrk",
 "linkLabel": "اللينك"
 },
 {
@@ -1067,7 +1067,7 @@
 "added": "2026-11-14",
 "title_en": "Courses and files for every construction role",
 "desc_en": "A collection for planning, cost, contracts, technical office and quality.",
-"link": "https://lnkd.in/duMbfat",
+"link": "https://www.facebook.com/mostafaabdoz/posts/3895889640449025",
 "linkLabel": "اللينك"
 },
 {
@@ -1084,7 +1084,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/eaKAzQh4",
 "added": "baseline",
-"link": "https://lnkd.in/drxmNyxj",
+"link": "https://rvtconvert.com/",
 "linkLabel": "اللينك",
 "title_en": "Downgrade site for Revit files",
 "desc_en": "Converts Revit files and families to an older version in the browser."
@@ -1196,7 +1196,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/eEdXmCmH",
 "added": "baseline",
-"link": "https://lnkd.in/eYb9C-zR",
+"link": "https://youtu.be/skPcB4O7tvc",
 "linkLabel": "اللينك",
 "title_en": "Claude moves a Revit model to ETABS",
 "desc_en": "One prompt through Revit Samurai and ETABS Samurai, with no IFC and no remodeling."
@@ -1215,7 +1215,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/eHqNJ_GG",
 "added": "baseline",
-"link": "https://lnkd.in/eZkZrJbY",
+"link": "https://claude.ai/artifact/LCD3UR4aDjZcZ4SCdF919r",
 "linkLabel": "التسجيل",
 "title_en": "Workshop: ISO 19650 + connecting AI agents to Revit",
 "desc_en": "Two days: BIM documents, information management and the basics of connecting agents to Revit."
@@ -1661,7 +1661,7 @@
 "date": "2026-10-11",
 "url": "https://lnkd.in/p/eMYRxbJp",
 "added": "baseline",
-"link": "https://lnkd.in/dk_-9HqS",
+"link": "https://marketplace.autodesk.com/apps/047e4876-3dc1-4961-9f52-151e7c3ad5b9",
 "linkLabel": "اللينك",
 "title_en": "Electrical Panels Manager",
 "desc_en": "Calculates mains, selects breakers and edits panels inside Revit instead of Excel."
@@ -1739,7 +1739,7 @@
 "date": "2026-10-11",
 "url": "https://lnkd.in/p/e6s3J5Bn",
 "added": "baseline",
-"link": "https://lnkd.in/exdJUFBy",
+"link": "https://youtu.be/k2Jl5lvpJrA",
 "linkLabel": "اللينك",
 "title_en": "AIConBIM: a model from AutoCAD and PDF",
 "desc_en": "Walls, stairs, doors and ceilings in under an hour, and families from text. Free for now."
@@ -1807,7 +1807,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/etV7AsQf",
 "added": "baseline",
-"link": "https://lnkd.in/dAcdn8DK",
+"link": "https://marketplace.autodesk.com/apps/49d349d3-a1fd-4ba2-ad8a-3a9b20f62a0d",
 "linkLabel": "اللينك",
 "title_en": "MEP 3D Router v2.0",
 "desc_en": "Routing pipes, ducts and trays from the 3D view, now with tees anywhere."
@@ -1919,7 +1919,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/ejhCGu-4",
 "added": "baseline",
-"link": "https://lnkd.in/dVHWusS2",
+"link": "https://www.youtube.com/watch?v=EIQx1d-COZY",
 "linkLabel": "اللينك",
 "title_en": "pyRevit 7.0: faster, with MCP and WebView2",
 "desc_en": "The update walkthrough video passed 10K views in 4 days."
@@ -2037,7 +2037,7 @@
 "date": "2026-11-06",
 "url": "https://lnkd.in/p/eEhYAGuD",
 "added": "baseline",
-"link": "https://lnkd.in/epqZ5YY5",
+"link": "https://aiconstructionnews.com/blog/applied-methods/real-time-ai-reporting-for-construction-projects",
 "linkLabel": "اللينك",
 "title_en": "MODELi: project controls built with Claude",
 "desc_en": "4D/5D, BOQ and earned value in one dashboard in the browser."
@@ -2407,7 +2407,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/ez2JuDU7",
 "added": "baseline",
-"link": "https://lnkd.in/egxMv_V5",
+"link": "https://mcp-hub.firstoption-es.com/",
 "linkLabel": "اللينك",
 "title_en": "FirstOption: shared AI commands for the office",
 "desc_en": "Every working command is saved and reaches every machine, and the models run locally."
@@ -2441,7 +2441,7 @@
 "date": "2026-10-18",
 "url": "https://lnkd.in/p/eYPkMvE7",
 "added": "baseline",
-"link": "https://shorturl.at/WzlJm",
+"link": "https://www.linkedin.com/posts/ziad-magdy-anwar_civil3d-bim-infrastructure-ugcPost-7513724294615420928-XaCq/",
 "linkLabel": "الموقع",
 "title_en": "Zi Tool: Create Part in Civil 3D",
 "desc_en": "Create your own fittings and valves for pressure networks."
@@ -2700,7 +2700,7 @@
 "date": "2026-11-07",
 "url": "https://lnkd.in/p/enSvYvch",
 "added": "baseline",
-"link": "https://lnkd.in/d-UXmr6f",
+"link": "https://ifcsheet.bimvoice.com/",
 "linkLabel": "اللينك",
 "title_en": "IfcSheet: drawings from a Bonsai model",
 "desc_en": "An open tool that produces drawings from IFC, with a demo you can try right away."
@@ -2720,7 +2720,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/e3ruvqBX",
 "added": "baseline",
-"link": "https://lnkd.in/d3rKawZv",
+"link": "https://www.youtube.com/watch?v=ZqJlc1kpTcg",
 "linkLabel": "اللينك",
 "title_en": "Contribute to pyRevit with git forks",
 "desc_en": "How to propose fixes and features to the open project."
@@ -2776,7 +2776,7 @@
 "date": "2026-11-06",
 "url": "https://lnkd.in/p/eVA-3QrR",
 "added": "baseline",
-"link": "https://lnkd.in/dRz8fRy8",
+"link": "https://www.youtube.com/playlist?list=PLNMim060_nUK6qoVzrpjLucG_aBNaz_Ny",
 "linkLabel": "اللينك",
 "title_en": "The best open-source tools for engineers",
 "desc_en": "A YouTube list of free alternatives to paid software."
@@ -2836,7 +2836,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/ecKqMa7h",
 "added": "baseline",
-"link": "https://lnkd.in/dezaA47n",
+"link": "https://www.linkedin.com/pulse/i-built-claude-skill-turns-120-sheet-drawing-set-how-abdul-jabbar-cnigf/",
 "linkLabel": "اللينك",
 "title_en": "Claude skill: architectural PDF to dashboard",
 "desc_en": "Tap any door or room to see its data; 466 of 468 doors correct."
@@ -3009,7 +3009,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/evDJkcRD",
 "added": "baseline",
-"link": "https://lnkd.in/etSuvEeg",
+"link": "https://samurai-samurai11.vercel.app/",
 "linkLabel": "اللينك",
 "title_en": "Navis Samurai: step-by-step install",
 "desc_en": "Connecting Claude to Navisworks Manage 2024-2026."
@@ -3118,7 +3118,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/eUuFMExU",
 "added": "baseline",
-"link": "https://lnkd.in/ei3C7MNG",
+"link": "https://samurai-samurai11.vercel.app/product/ai-samurai-etabs",
 "linkLabel": "اللينك",
 "title_en": "CSI Samurai: Claude checks punching in SAFE",
 "desc_en": "Works on an open SAFE model and produces a column layout."
@@ -3227,7 +3227,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/e_2sZiha",
 "added": "baseline",
-"link": "https://lnkd.in/eUHP_N28",
+"link": "https://www.udemy.com/course/build-your-first-revit-add-in-with-ai/?referralCode=A6EAAF57E6C3478EF006",
 "linkLabel": "التسجيل",
 "title_en": "Course: Build Your First Revit Add-in with AI",
 "desc_en": "3 new lectures on best practices and advanced techniques."
@@ -3245,7 +3245,7 @@
 "date": "2026-10-18",
 "url": "https://lnkd.in/p/eurBh9K7",
 "added": "baseline",
-"link": "https://lnkd.in/dpSwYwhF",
+"link": "https://apps.autodesk.com/RVT/en/Detail/Index?id=5773910748155457827&appLang=en&os=Win64",
 "linkLabel": "اللينك",
 "title_en": "AG Hanger Generator",
 "desc_en": "Automatic hangers on pipes, ducts, trays and conduits."
@@ -3334,7 +3334,7 @@
 "date": "2026-10-18",
 "url": "https://lnkd.in/p/eK7m8q3j",
 "added": "baseline",
-"link": "https://lnkd.in/ezQQPKwW",
+"link": "https://marketplace.autodesk.com/apps/9d344abb-aada-4dd3-b49c-bbd7a1ec26d0",
 "linkLabel": "اللينك",
 "title_en": "Clash Live: clashes with existing structures",
 "desc_en": "A Revit add-in that detects conflicts with existing facilities."
@@ -3468,7 +3468,7 @@
 "date": "2026-11-07",
 "url": "https://lnkd.in/p/eV7-GMWN",
 "added": "baseline",
-"link": "https://lnkd.in/eh2jxGrQ",
+"link": "https://www.mediafire.com/file/w0ybtolkx47wttq/SH-TOOLS-Trial-Setup-1.1.1.exe/file",
 "linkLabel": "اللينك",
 "title_en": "SH TOOLS: 12 coordination and shop drawing tools",
 "desc_en": "Clash checks on the model or view, plus review and shop drawing tools."
@@ -3485,7 +3485,7 @@
 "date": "2026-11-07",
 "url": "https://lnkd.in/p/ef63WY9M",
 "added": "baseline",
-"link": "https://lnkd.in/d8_7w5B6",
+"link": "https://marketplace.autodesk.com/apps/7c50a77f-0a42-403b-819f-7717b150401e",
 "linkLabel": "اللينك",
 "title_en": "BIMPROVE Geometry Converter for 2027",
 "desc_en": "Revit 2027 support and bug fixes on the App Store."
@@ -3521,7 +3521,7 @@
 "date": "2026-11-06",
 "url": "https://lnkd.in/p/e4B-Z6cs",
 "added": "baseline",
-"link": "https://lnkd.in/gKWENdFv",
+"link": "https://thermist.com/equipmentbuilder",
 "linkLabel": "اللينك",
 "title_en": "From PDF to a Revit family without Revit",
 "desc_en": "Produces an RFA file from a PDF without Revit being open."
@@ -3557,7 +3557,7 @@
 "date": "2026-11-06",
 "url": "https://lnkd.in/p/e6dkgRCe",
 "added": "baseline",
-"link": "https://lnkd.in/eA9WmVxs",
+"link": "https://jedbjorn.github.io/rst-c/",
 "linkLabel": "اللينك",
 "title_en": "RST-C v3: a ribbon manager for Revit",
 "desc_en": "Your own tab to group tools with names, icons and colors."
@@ -3693,7 +3693,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/enzPweZp",
 "added": "baseline",
-"link": "https://lnkd.in/dnCECYBZ",
+"link": "https://marketplace.autodesk.com/apps/10c69058-7791-4778-9ef1-dc8846e6ea6d",
 "linkLabel": "اللينك",
 "title_en": "TA.me: aligning schedules and legends",
 "desc_en": "Lines up schedules and legends on sheets. Free."
@@ -3727,7 +3727,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/exvvGS3t",
 "added": "baseline",
-"link": "https://lnkd.in/d_5uT5zc",
+"link": "https://drive.google.com/file/d/1v3B8vW9NLLXpZDNUIPWcC1SHBnMKrzLf/view",
 "linkLabel": "اللينك",
 "title_en": "A Sheet Manager alternative to DiRoots",
 "desc_en": "Sheets, revisions and publishing from one screen, an in-house add-in."
@@ -3762,7 +3762,7 @@
 "date": "2026-11-08",
 "url": "https://lnkd.in/p/e6Wv692N",
 "added": "baseline",
-"link": "https://lnkd.in/d_JPviEB",
+"link": "https://www.heroflow.de/products/revit",
 "linkLabel": "اللينك",
 "title_en": "HeroFlow for Revit",
 "desc_en": "Free everyday BIM tools, from 2024 to 2027."
@@ -3884,7 +3884,7 @@
 "date": "2026-11-03",
 "url": "https://lnkd.in/p/e48kXrTZ",
 "added": "baseline",
-"link": "https://lnkd.in/gr99-m2X",
+"link": "https://youtu.be/e7HWOLRodOE",
 "linkLabel": "اللينك",
 "title_en": "BIM Pure 0.5: Scriptorium and Rooms Creator",
 "desc_en": "Spreads spec text across several sheets and creates rooms from CSV/Excel."
@@ -4098,7 +4098,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/er6T5UQW",
 "added": "baseline",
-"link": "https://lnkd.in/geWTbHwc",
+"link": "https://github.com/mac999/bepbench",
 "linkLabel": "اللينك",
 "title_en": "BEPbench: the BEP as data",
 "desc_en": "An open tool that writes, scores and exports the BEP alongside the IFC model."
@@ -4199,7 +4199,7 @@
 "date": "2026-10-18",
 "url": "https://lnkd.in/p/e_hBcnVx",
 "added": "baseline",
-"link": "https://lnkd.in/dmjgvhSj",
+"link": "https://www.tech4engineers.com/courses/ai-for-bim-professional",
 "linkLabel": "التسجيل",
 "title_en": "AI training for BIM model data analysis",
 "desc_en": "Analyzing project data, tracking issues and preparing documents with AI."
@@ -4455,7 +4455,7 @@
 "date": "2026-11-01",
 "url": "https://lnkd.in/p/eU5S8VqV",
 "added": "baseline",
-"link": "https://lnkd.in/enUgbzxx",
+"link": "https://mcp-hub.firstoption-es.com/",
 "linkLabel": "اللينك",
 "title_en": "SH5BT: talk to Revit by drawing",
 "desc_en": "Draw on the view and write your request, and the agent does it (FirstOption MCP)."
@@ -4492,7 +4492,7 @@
 "date": "2026-10-25",
 "url": "https://lnkd.in/p/eid2atv4",
 "added": "baseline",
-"link": "https://lnkd.in/guKJk56S",
+"link": "https://github.com/idfkit/idfkit-mcp",
 "linkLabel": "اللينك",
 "title_en": "MCP for building performance software",
 "desc_en": "Agents connected to OpenStudio, DesignBuilder and IES VE."
@@ -4585,7 +4585,7 @@
 "date": "2026-11-07",
 "url": "https://lnkd.in/p/eER5KvuD",
 "added": "baseline",
-"link": "https://lnkd.in/deEaTnp8",
+"link": "https://github.com/BURAKAFRIDI92/BURAK-BIM/releases",
 "linkLabel": "اللينك",
 "title_en": "BURAK-BIM v1.3.0: Claude for 5 programs",
 "desc_en": "An open setup that connects Claude to Revit, Navisworks, AutoCAD, Bluebeam and ETABS."
@@ -4602,7 +4602,7 @@
 "date": "2026-11-08",
 "url": "https://lnkd.in/p/enHkre42",
 "added": "baseline",
-"link": "https://lnkd.in/ev6cz5JU",
+"link": "https://openbimstudio.amdghedy.workers.dev/",
 "linkLabel": "اللينك",
 "title_en": "OpenBIMStudio in Arabic and 6 languages",
 "desc_en": "The platform and its AI now work in Arabic, English, Chinese and more."
@@ -4637,7 +4637,7 @@
 "date": "2026-11-07",
 "url": "https://lnkd.in/p/es_njxQq",
 "added": "baseline",
-"link": "https://shorturl.at/U4BqE",
+"link": "https://1drv.ms/u/c/8b341b71a93c7d1c/IQChO2THcKSsQJ0dizqCZfn0AZn7hgnINaop3RDnLxsNOYI?e=wiVTY1",
 "linkLabel": "الموقع",
 "title_en": "NaviMove: move through Navisworks like a game",
 "desc_en": "Fast navigation and common commands in Navisworks Manage. Free."
@@ -4781,7 +4781,7 @@
 "Structural",
 "Shop Drawings"
 ],
-"link": "https://lnkd.in/dDazq3pu",
+"link": "https://drive.google.com/file/d/1F2OxpjMvfyPukwyh5t3RvYIZJScLe2sX/view",
 "linkLabel": "اللينك",
 "title_en": "LISP for column rebar details",
 "desc_en": "An AutoCAD routine that draws column reinforcement details automatically."
@@ -5052,7 +5052,7 @@
 "Clash Detection",
 "Coordination"
 ],
-"link": "https://lnkd.in/eX7ckzPg",
+"link": "https://www.mediafire.com/file/b0cvjv12z4tjzjt/RevitClashDetective_v2_MultiVersion_Installer.exe/file",
 "linkLabel": "اللينك",
 "title_en": "Revit Clash Detective inside Revit",
 "desc_en": "Isolates each clash instantly in 3D, colors it and exports a CSV with element IDs."
@@ -5125,7 +5125,7 @@
 "Revit",
 "Free"
 ],
-"link": "https://lnkd.in/eckp8wmT",
+"link": "https://sherif-yasser-engineering.sherifyasser28.chatgpt.site/",
 "linkLabel": "اللينك",
 "title_en": "Model Finder: now for Revit 2022-2026",
 "desc_en": "Search rooms, tags, families and element IDs in the model and links, with zoom and isolate."
@@ -5181,7 +5181,7 @@
 "Infrastructure",
 "Free"
 ],
-"link": "https://lnkd.in/erVYbNCZ",
+"link": "https://sora.mohamedabosebie.workers.dev/soca/download",
 "linkLabel": "اللينك",
 "title_en": "SOCA: from a line on the map to a HEC-HMS model",
 "desc_en": "A free tool that builds catchments, curve numbers, a report and a ready HEC-HMS model for wadis."
@@ -5367,7 +5367,7 @@
 "Ribbon",
 "Shop Drawings"
 ],
-"link": "https://lnkd.in/dj2csnYj",
+"link": "https://drive.google.com/drive/folders/1iHAgHwn_3dKaCGTm6790Wg4AhFfHHqi8",
 "linkLabel": "اللينك",
 "title_en": "BIM Tools Prototype: 30+ Revit tools",
 "desc_en": "3 tabs for Revit 2023-2027: modeling, Islamic, Najdi and Hijazi ornaments, and Auto Annotate."
@@ -5607,7 +5607,7 @@
 "BIMCraft",
 "Coding"
 ],
-"link": "https://lnkd.in/eTUpJ3gH",
+"link": "https://www.hestiabim.com/app/",
 "linkLabel": "الموقع",
 "title_en": "Hesita: a BIM modeler in the browser",
 "desc_en": "A BIM modeler that runs in the browser in seconds, a new BIMCraft rival from the vibe-code wave."
@@ -5716,7 +5716,7 @@
 "Free",
 "Web App"
 ],
-"link": "https://lnkd.in/dNnAji6i",
+"link": "https://plannexcg.com/plannex-calendar-studio-reporting-calendar-builder",
 "linkLabel": "الموقع",
 "title_en": "Plannex Calendar Studio for reports",
 "desc_en": "A free browser tool that schedules report dates around holidays and exports to PDF or Excel."
@@ -5841,7 +5841,7 @@
 "MEP",
 "Visualization"
 ],
-"link": "https://lnkd.in/eRc2n_2r",
+"link": "https://hefestolab.github.io/",
 "linkLabel": "اللينك",
 "title_en": "HEFESTO: from a P&ID PDF to a BIM model",
 "desc_en": "AI agents traced 300 pipe runs and 465 elbows from the P&ID and produced a 2D/3D model in one HTML file."
@@ -5860,7 +5860,7 @@
 "Point Cloud",
 "IFC"
 ],
-"link": "https://lnkd.in/dUBpqckq",
+"link": "https://doi.org/10.48550/arXiv.2611.10644",
 "linkLabel": "اللينك",
 "title_en": "Agent2BIM: from a phone scan to BIM",
 "desc_en": "An arXiv paper measuring how accurately AI agents build as-builts from 7 scan methods, with and without a prior IFC."
@@ -5917,7 +5917,7 @@
 "Web App",
 "Open Source"
 ],
-"link": "https://lnkd.in/d_BR7nda",
+"link": "https://github.com/mhaseebmohal/structural-frame-analysis",
 "linkLabel": "GitHub",
 "title_en": "Structural Analyser: built with Claude Code",
 "desc_en": "A browser tool for 2D and 3D frame analysis and design, written almost entirely by Claude and checked by hand."
@@ -6480,7 +6480,7 @@
 "Open Source",
 "Free"
 ],
-"link": "https://lnkd.in/d5TNGAbt",
+"link": "https://www.youtube.com/playlist?list=PLNMim060_nUK6qoVzrpjLucG_aBNaz_Ny",
 "linkLabel": "YouTube",
 "title_en": "Free open-source tools for engineers",
 "desc_en": "A list of free open-source alternatives to paid software for engineering and productivity."
@@ -6574,7 +6574,7 @@
 "MEP",
 "AutoCAD"
 ],
-"link": "https://lnkd.in/eEgSzrRY",
+"link": "https://youtu.be/nwnNn11OwpE",
 "linkLabel": "YouTube"
 },
 {
