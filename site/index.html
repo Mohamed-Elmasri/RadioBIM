@@ -74,7 +74,7 @@ a.ib{text-decoration:none}
 .tile .nm small{font-size:11px;font-weight:700;opacity:.65;font-variant-numeric:tabular-nums}
 .tile span{font-size:12px;font-weight:600;line-height:1.2;text-align:center}
 .tile em{font-style:normal;position:absolute;top:-6px;inset-inline-start:-6px;min-width:24px;height:24px;padding:0 6px;border-radius:12px;background:var(--fg);color:var(--bg);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
-.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:10px;align-items:stretch}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:10px;align-items:start}
 .card>.acts{margin-top:auto}
 .lbar{display:flex;justify-content:flex-end;direction:ltr;margin:-4px 0 8px}
 .xall{height:32px;padding:0 10px;border-radius:10px;border:0;background:var(--chip);color:var(--fg);display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
@@ -250,13 +250,24 @@ function card(i){
   ${op?`<div class="more"><p dir="${lang==='en'&&i.desc_en?'ltr':'rtl'}">${esc(D(i))}</p>${(i.tags&&i.tags.length)?`<div class="tags">${i.tags.map(t=>`<button type="button" data-tag="${esc(t)}" aria-pressed="${tagsOn.has(t)}">${esc(t)}</button>`).join('')}</div>`:''}</div>`:''}
  </article>`;
 }
+function eqRows(){
+  const cs=[...document.querySelectorAll('#out .list [data-card]')]; if(!cs.length) return;
+  cs.forEach(c=>c.style.minHeight='');
+  const rows=new Map();
+  cs.forEach(c=>{const m=c.querySelector('.more'); const extra=m?m.offsetHeight+4:0; const k=c.offsetTop; if(!rows.has(k)) rows.set(k,[]); rows.get(k).push([c,c.offsetHeight-extra,extra]);});
+  rows.forEach(r=>{if(r.length<2) return; const mx=Math.max(...r.map(x=>x[1])); r.forEach(([c,h,ex])=>{c.style.minHeight=(mx+ex)+'px';});});
+}
+let eqT=0; window.addEventListener('resize',()=>{clearTimeout(eqT); eqT=setTimeout(eqRows,120);});
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>eqRows());
+if(document.fonts&&document.fonts.addEventListener) document.fonts.addEventListener('loadingdone',()=>eqRows());
+window.addEventListener('load',()=>eqRows());
 function render(){
   const s=L();
   const list=DATA.items.filter(i=>(sec==='all'||i.c===sec)&&match(i)).sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(b.added).localeCompare(String(a.added)));
   if(!list.length){$('out').innerHTML=`<p class="empty">${onlySaved&&!saved.size?s.noSaved:s.noMatch}</p>`; return;}
   const rest=list.length-limit;
   const shown=list.slice(0,limit), allOpen=shown.length>0&&shown.every(i=>open.has(i.id));
-  $('out').innerHTML=`<div class="lbar"><button type="button" class="xall" id="xAll" aria-label="${allOpen?s.collapseAll:s.expandAll}" title="${allOpen?s.collapseAll:s.expandAll}">${P(allOpen?IC.collapse:IC.expand)}<span>${allOpen?s.collapseAll:s.expandAll}</span></button></div><div class="list">${shown.map(card).join('')}</div>`+(rest>0?`<button type="button" class="loadmore" id="more">${s.more} (${s.left} ${rest})</button>`:'');
+  $('out').innerHTML=`<div class="lbar"><button type="button" class="xall" id="xAll" aria-label="${allOpen?s.collapseAll:s.expandAll}" title="${allOpen?s.collapseAll:s.expandAll}">${P(allOpen?IC.collapse:IC.expand)}<span>${allOpen?s.collapseAll:s.expandAll}</span></button></div><div class="list">${shown.map(card).join('')}</div>`+(rest>0?`<button type="button" class="loadmore" id="more">${s.more} (${s.left} ${rest})</button>`:''); eqRows();
 }
 function tagbar(){
   const s=L(), el=$('tagSel'); el.hidden=!tagsOn.size; if(!tagsOn.size){el.innerHTML=''; return;}
