@@ -86,25 +86,6 @@
    "linkLabel": "Drive"
   },
   {
-   "id": "0686669a",
-   "c": "addins",
-   "title": "Copy Bracket Along Curve (Tekla)",
-   "desc": "Plugin بيوزع الـ Bracket assemblies على مسارات منحنية وثلاثية الأبعاد بمسافات منتظمة أوتوماتيك.",
-   "title_en": "Copy Bracket Along Curve (Tekla)",
-   "desc_en": "A plugin that distributes bracket assemblies along elliptical and 3D curved paths with controlled spacing.",
-   "a": "Mariam tarek",
-   "date": "2026-11-14",
-   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527545354691489792",
-   "added": "2026-11-15",
-   "tags": [
-    "Tekla",
-    "Steel",
-    "Automation"
-   ],
-   "link": "https://drive.google.com/file/d/1t0P__TS6Xxeq4KTJwAZpCufNufJBhREC/view?usp=sharing",
-   "linkLabel": "Drive"
-  },
-  {
    "id": "dd048535",
    "c": "courses",
    "title": "محاكاة 4D لمشروعك بالـ AI في ثواني",
