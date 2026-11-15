@@ -6931,6 +6931,142 @@
     "Claude",
     "Web App"
    ]
+  },
+  {
+   "id": "1fc1c7a5",
+   "c": "addins",
+   "title": "Copy Bracket Along Curve: plugin لـ Tekla",
+   "desc": "بيوزّع الـ Bracket Assemblies بمسافات ثابتة على مسارات بيضاوية و3D بدل الموديلينج اليدوي",
+   "title_en": "Copy Bracket Along Curve: Tekla plugin",
+   "desc_en": "Spaces bracket assemblies evenly along elliptical and 3D curves instead of manual modeling",
+   "a": "Mariam tarek",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/db3DQ7aK",
+   "added": "2026-11-15",
+   "tags": [
+    "Tekla",
+    "Structural",
+    "Automation",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1t0P__TS6Xxeq4KTJwAZpCufNufJBhREC/view?usp=sharing",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "df4d046c",
+   "c": "addins",
+   "title": "ESD: Auto Wiring للـ shop drawings",
+   "desc": "add-ins بترسم الـ wiring والـ circuit lines في Revit أوتوماتيك وتوفر أكتر من 50% من الوقت",
+   "title_en": "ESD: Auto Wiring for shop drawings",
+   "desc_en": "Revit add-ins that draw wiring and circuit lines automatically, saving 50%+ of the time",
+   "a": "Ahmed Elnopy",
+   "date": "2026-11-14",
+   "url": "https://lnkd.in/p/d5rngJty",
+   "added": "2026-11-15",
+   "tags": [
+    "Revit",
+    "Electrical",
+    "Shop Drawings",
+    "MEP",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1VRtvNAfsY3BK14AUgDHPL4MDO4M22RDW/view?usp=drive_link",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "ca6b62db",
+   "c": "tools",
+   "title": "Stair Pressurisation Calculator مجاني",
+   "desc": "بيحسب airflow المروحة والتسريب والـ static pressure ومساحة فتحة التنفيس لضغط السلالم",
+   "title_en": "Free Stair Pressurisation Calculator",
+   "desc_en": "Estimates fan airflow, stair leakage, static pressure and relief vent area for stairs",
+   "a": "Huey Liew",
+   "date": "2026-11-11",
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7526131768274468864",
+   "added": "2026-11-15",
+   "tags": [
+    "MEP",
+    "Web App",
+    "Free",
+    "Code Compliance"
+   ],
+   "link": "https://www.practicalhvac.com/blog/stair-pressurisation-calculator",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "195b47e5",
+   "c": "ideas",
+   "title": "دليل Claude للمقاولات في 6 قواعد",
+   "desc": "اكتب brief مش prompt، حوّل الشغل لـ skills، ووزّع الملفات الكبيرة على agents.",
+   "title_en": "Claude for construction: 6 rules",
+   "desc_en": "Write briefs not prompts, turn work into skills, split big jobs across agents.",
+   "a": "Hamza Abdul Jabbar",
+   "date": "2026-11-14",
+   "url": "https://lnkd.in/p/dFjMcP6z",
+   "added": "2026-11-15",
+   "tags": [
+    "Claude",
+    "Prompting",
+    "Skills",
+    "AI Agents",
+    "Primavera P6"
+   ]
+  },
+  {
+   "id": "7acd4748",
+   "c": "addins",
+   "title": "Tekla Report Generator: تقارير تلقائية",
+   "desc": "تطبيق C# على Tekla Open API بيطلع MTO وbolt list وdashboard وتقارير Excel منظمة.",
+   "title_en": "Tekla Report Generator: auto reports",
+   "desc_en": "C# Tekla Open API app for MTO, bolt lists, a dashboard and Excel reports.",
+   "a": "MD MOZAHID",
+   "date": "2026-11-14",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527319661072470016",
+   "added": "2026-11-15",
+   "tags": [
+    "Tekla",
+    "Structural",
+    "Quantity Takeoff",
+    "Excel",
+    "Automation"
+   ]
+  },
+  {
+   "id": "241abf27",
+   "c": "tools",
+   "title": "Sobaie Hydro Suite: من المطر للـ hydrograph",
+   "desc": "برنامج مجاني بيجمع تحليل المطر والأحواض والـ hydrograph ويصدّر مشروع HEC-HMS.",
+   "title_en": "Sobaie Hydro Suite: rain to hydrograph",
+   "desc_en": "Free app joining rainfall, catchment and hydrograph analysis, exports to HEC-HMS.",
+   "a": "Mohamed Abosobaie",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/dmqJj3iC",
+   "added": "2026-11-15",
+   "tags": [
+    "Infrastructure",
+    "Free",
+    "Hydrology",
+    "HEC-HMS"
+   ],
+   "link": "https://sora.mohamedabosebie.workers.dev/suite/download",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "5913df7b",
+   "c": "ideas",
+   "title": "أدوات Downgrade أونلاين: ملفك رايح فين؟",
+   "desc": "قبل ما ترفع موديل العميل لأداة أونلاين، اسأل مين بيخزن الداتا ومين بيتحمل الخطر.",
+   "title_en": "Online downgrade: where does the file go?",
+   "desc_en": "Before uploading a client model online, ask who stores the data and carries the risk.",
+   "a": "Anthony CARTA",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/dkany8TD",
+   "added": "2026-11-15",
+   "tags": [
+    "Downgrade",
+    "Data Security",
+    "Revit"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
