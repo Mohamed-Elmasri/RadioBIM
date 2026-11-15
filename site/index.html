@@ -326,7 +326,8 @@ if('serviceWorker' in navigator && location.protocol==='https:') window.addEvent
   if(standalone){try{localStorage.setItem('rbInstalled','1')}catch(e){} return;}
   let dismissed=false; try{dismissed=!!localStorage.getItem('rbInstallX')}catch(e){}
   if(dismissed) return;
-  const T={ar:{t:'ثبّت RadioBIM على موبايلك',b:'يفتح زي التطبيق من شاشتك الرئيسية.',go:'ثبّت',ios:'دوس على زرار المشاركة، وبعدين اختار Add to Home Screen.',x:'اقفل'},en:{t:'Install RadioBIM on your phone',b:'It opens like an app from your home screen.',go:'Install',ios:'Tap the Share button, then choose Add to Home Screen.',x:'Close'}};
+  const mob=/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const T={ar:{t:mob?'ثبّت RadioBIM على موبايلك':'ثبّت RadioBIM على جهازك',b:mob?'يفتح زي التطبيق من شاشتك الرئيسية.':'يفتح زي البرنامج من الـ desktop أو شريط المهام.',go:'ثبّت',ios:'دوس على زرار المشاركة، وبعدين اختار Add to Home Screen.',x:'اقفل'},en:{t:mob?'Install RadioBIM on your phone':'Install RadioBIM on your computer',b:mob?'It opens like an app from your home screen.':'It opens like an app from your desktop or taskbar.',go:'Install',ios:'Tap the Share button, then choose Add to Home Screen.',x:'Close'}};
   let ev=null, ios=false;
   const ua=navigator.userAgent, isIOS=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1), safari=/Safari/.test(ua)&&!/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua);
   const show=()=>{const L=T[lang]||T.en; $('instT').textContent=L.t; $('instB').textContent=ios?L.ios:L.b; $('instGo').textContent=L.go; $('instGo').hidden=ios||!ev; $('instX').setAttribute('aria-label',L.x); $('inst').hidden=false;};
