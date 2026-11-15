@@ -48,6 +48,63 @@
  ],
  "items": [
   {
+   "id": "4a77e577",
+   "c": "addins",
+   "title": "Sheet Linker X-BIM: Excel ↔ Revit FREE",
+   "desc": "بيصدّر بيانات الجداول لـ Excel وتعدلها وترجّعها للريفيت، مع مراجعة التغييرات قبل التطبيق.",
+   "title_en": "Sheet Linker X-BIM: Excel ↔ Revit FREE",
+   "desc_en": "Exports schedule data to Excel, lets you edit and import changes back with a review step before applying.",
+   "a": "Ahmed Sobhy",
+   "date": "2026-11-15",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527730039031910401",
+   "added": "2026-11-15",
+   "tags": [
+    "Revit",
+    "Excel",
+    "Add-in"
+   ],
+   "link": "https://ahmed-sobhy-bim.vercel.app",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "efb99ed5",
+   "c": "tools",
+   "title": "شيت Duct Sizer بديل ومُحسّن",
+   "desc": "شيت Excel فيه مميزات زيادة على Duct Sizer: تضيف مقاسات متعددة وتعدّل CFM من غير مسح القديم.",
+   "title_en": "Enhanced Duct Sizer sheet alternative",
+   "desc_en": "An Excel sheet with extras over Duct Sizer: add multiple sizes and edit CFM without erasing old values.",
+   "a": "Tarek Samy Kamel",
+   "date": "2026-10-25",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518947519301849088",
+   "added": "2026-11-15",
+   "tags": [
+    "Excel",
+    "HVAC",
+    "MEP"
+   ],
+   "link": "https://drive.google.com/drive/folders/12gFOWGllt8U0e-OZcGQS98ZQApLjf0so",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "0686669a",
+   "c": "addins",
+   "title": "Copy Bracket Along Curve (Tekla)",
+   "desc": "Plugin بيوزع الـ Bracket assemblies على مسارات منحنية وثلاثية الأبعاد بمسافات منتظمة أوتوماتيك.",
+   "title_en": "Copy Bracket Along Curve (Tekla)",
+   "desc_en": "A plugin that distributes bracket assemblies along elliptical and 3D curved paths with controlled spacing.",
+   "a": "Mariam tarek",
+   "date": "2026-11-14",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527545354691489792",
+   "added": "2026-11-15",
+   "tags": [
+    "Tekla",
+    "Steel",
+    "Automation"
+   ],
+   "link": "https://drive.google.com/file/d/1t0P__TS6Xxeq4KTJwAZpCufNufJBhREC/view?usp=sharing",
+   "linkLabel": "Drive"
+  },
+  {
    "id": "dd048535",
    "c": "courses",
    "title": "محاكاة 4D لمشروعك بالـ AI في ثواني",
