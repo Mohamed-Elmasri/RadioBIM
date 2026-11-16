@@ -7105,6 +7105,306 @@
     "Data Security",
     "Revit"
    ]
+  },
+  {
+   "id": "aa0829c4",
+   "c": "ai",
+   "title": "4D من P6: محاكاة في ملف HTML واحد",
+   "desc": "workflow بالـ AI حوّل 92 ألف نشاط XER لـ 4D تفاعلي بـ Gantt متزامن، من غير لايسنس.",
+   "title_en": "P6 to 4D: simulation in one HTML file",
+   "desc_en": "AI workflow turned 92k XER activities into an interactive 4D with a synced Gantt.",
+   "a": "Maisra Ali",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gWYRNrAC",
+   "added": "2026-11-16",
+   "tags": [
+    "Primavera P6",
+    "4D",
+    "Navisworks",
+    "AI Agents",
+    "Web App"
+   ]
+  },
+  {
+   "id": "d4ad4dfb",
+   "c": "ai",
+   "title": "P6 Progress Skill: تحديث نسب 10 مباني",
+   "desc": "AI skill بيقرا ملف XER الجديد ويحدّث شيت الإنجاز بأوزان التكلفة ويراجع الإجماليات.",
+   "title_en": "P6 Progress Skill: 10 buildings updated",
+   "desc_en": "AI skill reads the new XER and updates the cost-weighted progress sheet, then checks totals.",
+   "a": "Abdulrahman Ahmed",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gsEvWFaM",
+   "added": "2026-11-16",
+   "tags": [
+    "Primavera P6",
+    "Claude",
+    "Skills",
+    "Excel",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "ed5e48f7",
+   "c": "ideas",
+   "title": "10 أدوات AI للـ GIS وتحليل المواقع",
+   "desc": "قايمة مجرّبة: ArcGIS GeoAI و Felt و CARTO و Aino وغيرها، وكل أداة بتعمل إيه بالظبط.",
+   "title_en": "10 AI tools for GIS and site analysis",
+   "desc_en": "Tested list: ArcGIS GeoAI, Felt, CARTO, Aino and more, with what each one does.",
+   "a": "Ibrahim A.I. Abdelhady, Ph.D., AIA, PE",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/g6FfXMq3",
+   "added": "2026-11-16",
+   "tags": [
+    "GIS",
+    "Gen AI",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "edcc6bd6",
+   "c": "addins",
+   "title": "ETABS: تحذيرات too close من 303 لـ 33",
+   "desc": "أداة C# بتعدّل البلاطات مكانها وتضيف النقط الناقصة، مع viewer بيلوّن كل تحذير اتحل.",
+   "title_en": "ETABS: too-close warnings 303 to 33",
+   "desc_en": "C# tool edits slabs in place and adds missing points; a viewer colors each fixed warning.",
+   "a": "Mahmoud Yousief",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/g8nucCVs",
+   "added": "2026-11-16",
+   "tags": [
+    "ETABS",
+    "Structural",
+    "Automation",
+    "Coding"
+   ]
+  },
+  {
+   "id": "87006f95",
+   "c": "addins",
+   "title": "Bending Details: تفريد حديد أوتوماتيك",
+   "desc": "add-in لـ Revit بيحط tags و dimensions لتفريد حديد القواعد والبلاطات حتى لو التسليح مايل.",
+   "title_en": "Bending Details: auto rebar detailing",
+   "desc_en": "Revit add-in places tags and dimensions for footing and slab bar bending, even skewed bars.",
+   "a": "Youssef Elshahri",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gcmAGVTr",
+   "added": "2026-11-16",
+   "tags": [
+    "Revit",
+    "Structural",
+    "Shop Drawings",
+    "pyRevit",
+    "Revit API"
+   ]
+  },
+  {
+   "id": "58199fa0",
+   "c": "mcp",
+   "title": "DarwishMCP: Revit MCP مجاني local",
+   "desc": "شغال على جهازك بس، Dry Run قبل أي تعديل، scripts و playbooks جاهزة، من Revit 2020 لـ 2027.",
+   "title_en": "DarwishMCP: free local Revit MCP",
+   "desc_en": "Runs only on your machine, dry run before edits, saved scripts and playbooks, Revit 2020-2027.",
+   "a": "Ali Darwesh",
+   "date": "2026-11-16",
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528040429787725824",
+   "added": "2026-11-16",
+   "tags": [
+    "MCP",
+    "Revit",
+    "Free",
+    "AI Agents",
+    "MEP"
+   ],
+   "link": "https://www.mediafire.com/file/g7juhjct7sl5xzt/DarwishMCP-Setup-6.1.0.rar/file",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "ef5854a0",
+   "c": "opensource",
+   "title": "IFClite: 1.09 GB IFC في تاب واحد",
+   "desc": "148 موديل مدمجين في ملف واحد بيفتح في المتصفح بـ Rust و WebAssembly و WebGPU.",
+   "title_en": "IFClite: 1.09 GB of IFC in one tab",
+   "desc_en": "148 models merged into one file that opens in the browser with Rust, WASM and WebGPU.",
+   "a": "Louis Trümpler",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gsHpFyJr",
+   "added": "2026-11-16",
+   "tags": [
+    "IFC",
+    "Open Source",
+    "Web App",
+    "Free"
+   ],
+   "link": "https://ifclite.com",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "cf0487c3",
+   "c": "ai",
+   "title": "HandyBIM: تشاور على العنصر تشوف IFC",
+   "desc": "بالـ webcam تشاور على عمود فتظهر خصائص IFC؛ اتبنى بـ Google Antigravity فوق HandyBIM.",
+   "title_en": "HandyBIM: point at it, see IFC data",
+   "desc_en": "Point at a column on a webcam and its IFC properties pop up; built with Google Antigravity.",
+   "a": "Muthukumar N",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gSEXw-tK",
+   "added": "2026-11-16",
+   "tags": [
+    "IFC",
+    "Visualization",
+    "Coding",
+    "Gen AI"
+   ],
+   "link": "https://youtu.be/C4jeYUPSJpA",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "6f15db23",
+   "c": "addins",
+   "title": "BWIC Tool: فتحات Builder's Work بضغطة",
+   "desc": "بيقرا فتحات موديل BWIC ويحط void families ويقص المعماري، ويعمل clash وsync مع كل revision.",
+   "title_en": "BWIC Tool: Builder's Work in one click",
+   "desc_en": "Reads BWIC openings, places voids, cuts the model, checks clashes and syncs each revision.",
+   "a": "Moayad Habib",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/ggeS_gcy",
+   "added": "2026-11-16",
+   "tags": [
+    "Revit",
+    "Coordination",
+    "Automation",
+    "Clash Detection"
+   ]
+  },
+  {
+   "id": "41bbba8d",
+   "c": "mcp",
+   "title": "Rhino.Inside.Revit MCP: من Rhino AI لـ Revit",
+   "desc": "Rhino AI بيخطط والـ MCP بيكتب في Revit؛ اتعرض بموديل كوبري من رسومات 2D في Rhino World.",
+   "title_en": "Rhino.Inside.Revit MCP: Rhino AI to Revit",
+   "desc_en": "Rhino AI plans and the MCP writes to Revit; shown with a bridge model built from 2D drawings.",
+   "a": "Rhino.Inside.Revit Community",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gCcHE8bx",
+   "added": "2026-11-16",
+   "tags": [
+    "MCP",
+    "Rhino",
+    "Revit",
+    "Infrastructure"
+   ]
+  },
+  {
+   "id": "035c0733",
+   "c": "courses",
+   "title": "ورشة مجانية: Rhino MCP لـ Revit",
+   "desc": "خطوة بخطوة من رسومات 2D لموديل 3D بـ Rhino MCP وتحويله لعناصر Revit؛ 16 نوفمبر.",
+   "title_en": "Free workshop: Rhino MCP to Revit",
+   "desc_en": "Step by step from 2D drawings to a 3D model with Rhino MCP, then native Revit; Nov 16.",
+   "a": "Krzysztof Kris Wojslaw",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gdDf6wdg",
+   "added": "2026-11-16",
+   "tags": [
+    "MCP",
+    "Rhino",
+    "Revit",
+    "Grasshopper",
+    "Free"
+   ],
+   "link": "https://learngrasshopper.com/revit-rhino-mcp/",
+   "linkLabel": "التسجيل"
+  },
+  {
+   "id": "4aa7f6b2",
+   "c": "addins",
+   "title": "Revit لـ Carrier HAP: cooling load أسرع",
+   "desc": "workflow بينقل بيانات الغرف والمبنى من موديل Revit لـ HAP بدل الإدخال اليدوي.",
+   "title_en": "Revit to Carrier HAP: faster cooling load",
+   "desc_en": "Workflow moves room and building data from the Revit model into HAP instead of manual entry.",
+   "a": "Ranga Kumarasinghe",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/g5Xt8gEQ",
+   "added": "2026-11-16",
+   "tags": [
+    "Revit",
+    "MEP",
+    "Energy",
+    "Automation"
+   ]
+  },
+  {
+   "id": "35aabfb9",
+   "c": "ai",
+   "title": "Claude: تسمية 106 shop drawing بضغطة",
+   "desc": "Claude قرا العنوان والـ Approval Code من كل PDF وغيّر الأسماء، مع أداة Undo.",
+   "title_en": "Claude: 106 shop drawings renamed at once",
+   "desc_en": "Claude read the title and approval code in each PDF and renamed them, with an undo tool.",
+   "a": "Mahmoud Janem",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gyEjNe9h",
+   "added": "2026-11-16",
+   "tags": [
+    "Claude",
+    "Shop Drawings",
+    "Automation",
+    "Construction"
+   ]
+  },
+  {
+   "id": "a57c0dc3",
+   "c": "tools",
+   "title": "FME: كتالوج GIS بيوثّق نفسه",
+   "desc": "workspace بيفحص فولدرات Shapefile و GeoJSON ويسجل الـ CRS والحقول في كتالوج HTML تفاعلي.",
+   "title_en": "FME: self-documenting GIS catalog",
+   "desc_en": "Workspace scans Shapefile and GeoJSON folders and logs CRS and fields in an HTML catalog.",
+   "a": "Vishnu N V",
+   "date": "2026-11-14",
+   "url": "https://lnkd.in/p/gG5fQmWX",
+   "added": "2026-11-16",
+   "tags": [
+    "GIS",
+    "QA/QC",
+    "Automation"
+   ]
+  },
+  {
+   "id": "e8b8f9a8",
+   "c": "addins",
+   "title": "LISPs و Revit plugins مجانًا في مكان واحد",
+   "desc": "جمع ليسبات AutoCAD وبلاجنز Revit اللي بيستخدمها في شغله، واللينك بيتبعت في الكومنتات.",
+   "title_en": "Free LISPs and Revit plugins in one place",
+   "desc_en": "He collected the AutoCAD LISPs and Revit plugins he uses daily; link shared in comments.",
+   "a": "Salih Hassan PMP ®️",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gBa8HAVb",
+   "added": "2026-11-16",
+   "tags": [
+    "AutoLISP",
+    "AutoCAD",
+    "Revit",
+    "Free",
+    "Electrical"
+   ]
+  },
+  {
+   "id": "2f56b0b9",
+   "c": "mcp",
+   "title": "Revit MCP + Claude: dimensions وكميات",
+   "desc": "وصّل Claude بموديل Revit حي وطلب بالإنجليزي إضافة dimensions على شيت وسحب كميات.",
+   "title_en": "Revit MCP + Claude: dimensions, quantities",
+   "desc_en": "Linked Claude to a live Revit model to add sheet dimensions and pull quantities.",
+   "a": "RAHUL RAMACHANDRAN",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gcVdZBkj",
+   "added": "2026-11-16",
+   "tags": [
+    "MCP",
+    "Revit",
+    "Claude",
+    "Quantity Takeoff"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
