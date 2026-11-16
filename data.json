@@ -7405,6 +7405,25 @@
     "Claude",
     "Quantity Takeoff"
    ]
+  },
+  {
+   "id": "44af3aef",
+   "c": "addins",
+   "title": "Rebar بـ Grasshopper: ارسم مرة واتحدّث",
+   "desc": "تسكتش الحديد في Rhino و Grasshopper يطلع الكانات والطولي في Revit، ويتحدّث مع أي تعديل.",
+   "title_en": "Rebar via Grasshopper: sketch once",
+   "desc_en": "Sketch rebar in Rhino and Grasshopper builds stirrups and bars in Revit, updating on change.",
+   "a": "Rhino.Inside.Revit Community",
+   "date": "2026-11-15",
+   "url": "https://lnkd.in/p/gkZFxbnY",
+   "added": "2026-11-16",
+   "tags": [
+    "Revit",
+    "Grasshopper",
+    "Rhino",
+    "Structural",
+    "Computational Design"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
