@@ -67,26 +67,6 @@
    "linkLabel": "الموقع"
   },
   {
-   "id": "0686669a",
-   "c": "addins",
-   "title": "Copy Bracket Along Curve: Tekla plugin",
-   "desc": "Plugin لـ Tekla Structures بيوزع الـ bracket assemblies على المسارات المنحنية والـ 3D أوتوماتيك.",
-   "title_en": "Copy Bracket Along Curve: Tekla plugin",
-   "desc_en": "A Tekla Structures plugin that distributes bracket assemblies along curved and 3D paths automatically.",
-   "a": "Mariam tarek",
-   "date": "2026-11-15",
-   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527545354691489792",
-   "added": "2026-11-16",
-   "tags": [
-    "Tekla",
-    "Steel",
-    "Plugin",
-    "Automation"
-   ],
-   "link": "https://drive.google.com/file/d/1t0P__TS6Xxeq4KTJwAZpCufNufJBhREC/view?usp=sharing",
-   "linkLabel": "Drive"
-  },
-  {
    "id": "efb99ed5",
    "c": "tools",
    "title": "شيت Duct Sizer بديل ومُحسّن",
