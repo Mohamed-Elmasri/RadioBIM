@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "sections": [
   {
    "id": "ai",
@@ -7424,6 +7424,285 @@
     "Structural",
     "Computational Design"
    ]
+  },
+  {
+   "id": "2b5f1c26",
+   "c": "tools",
+   "title": "Civil Automation Lab: شبكة طرق من الـ centerlines",
+   "desc": "موقع مجاني بيطلع plan كامل لشبكة الطرق من الـ centerlines بس وتستورده في Civil 3D.",
+   "title_en": "Civil Automation Lab: roads from centerlines",
+   "desc_en": "Free website that builds a full road network plan from centerlines, ready for Civil 3D.",
+   "a": "Mohamed Attwa",
+   "date": "2026-11-16",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528139515710980096",
+   "added": "2026-11-17",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Web App",
+    "Free"
+   ],
+   "link": "https://www.civilautomationlab.com",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "0ce3bd92",
+   "c": "addins",
+   "title": "Clash Manager: حل الكلاشات جوه Revit",
+   "desc": "add-in مجاني من Revit 2019 لـ 2027 بيفلتر الكلاشات والمودلات ويسجل اللي اتحل ويدير اللنكات.",
+   "title_en": "Clash Manager: resolve clashes in Revit",
+   "desc_en": "Free add-in for Revit 2019-2027 that filters clashes and models, tracks fixes and manages links.",
+   "a": "Ahmed Kamal",
+   "date": "2026-11-16",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528104201017581568",
+   "added": "2026-11-17",
+   "tags": [
+    "Revit",
+    "Clash Detection",
+    "Coordination",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1ozsLRMz9h6A1LmqwCLNQh5KA3T-gCg7T/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "a204fd7a",
+   "c": "addins",
+   "title": "ESP Calculator: مفاقيد ضغط المراوح من Revit",
+   "desc": "add-in بيقرا أنظمة الداكت ويحسب الـ External Static Pressure بـ ASHRAE ويطلع تقرير و3D بالـ tags.",
+   "title_en": "ESP Calculator: fan pressure from Revit",
+   "desc_en": "Add-in reads duct systems, computes External Static Pressure per ASHRAE and outputs a report.",
+   "a": "Eslam Elkhodary",
+   "date": "2026-11-16",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528091158271377410",
+   "added": "2026-11-17",
+   "tags": [
+    "Revit",
+    "MEP",
+    "Automation"
+   ]
+  },
+  {
+   "id": "9cbe75cb",
+   "c": "ai",
+   "title": "Claude: من صورة منتج لـ Revit family",
+   "desc": "proof of concept بيحوّل صورة منتج لـ JSON بـ Claude وبعدين add-in يبني الـ family أوتوماتيك.",
+   "title_en": "Claude: product photo to Revit family",
+   "desc_en": "Proof of concept: Claude turns a product photo into JSON, then an add-in builds the family.",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/gUc6Kyjx",
+   "added": "2026-11-17",
+   "tags": [
+    "Revit",
+    "Claude",
+    "Families",
+    "Automation"
+   ]
+  },
+  {
+   "id": "3bbe92b8",
+   "c": "mcp",
+   "title": "Plug My Model: plugins لـ Revit بـ Claude",
+   "desc": "أداة مجانية بتوصل Claude بـ Revit عن طريق MCP وتحفظ الـ scripts كـ plugs تشغلها تاني من Revit.",
+   "title_en": "Plug My Model: Revit plugins via Claude",
+   "desc_en": "Free tool links Claude to Revit over MCP and saves scripts as reusable plugs inside Revit.",
+   "a": "Ruben Romero Vivancos",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/g4XKVeDv",
+   "added": "2026-11-17",
+   "tags": [
+    "Revit",
+    "Claude",
+    "MCP",
+    "Free"
+   ],
+   "link": "https://plugmymodel.com/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "71bd7036",
+   "c": "mcp",
+   "title": "AW Schedule Manager: Gemini جوه P6",
+   "desc": "plugin مجاني لـ Google Antigravity بيخلي Gemini يعدّل ويراجع ويطلع تقارير من قاعدة بيانات P6.",
+   "title_en": "AW Schedule Manager: Gemini in P6",
+   "desc_en": "Free Google Antigravity plugin lets Gemini edit, audit and report on your P6 database.",
+   "a": "Ahmed Wassel",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/gYT_B_kq",
+   "added": "2026-11-17",
+   "tags": [
+    "Primavera P6",
+    "AI Agents",
+    "Free"
+   ],
+   "link": "https://github.com/Ahmed-Wassel/AW-Schedule-Manager-Antigravity/releases/tag/v1.9.0",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "e4a76a67",
+   "c": "tools",
+   "title": "Power BI Visual: تقدم 461 فيلا في 3D",
+   "desc": "Custom Visual بيرسم الموقع فيلا فيلا ملونة بنسبة الإنجاز مع الانحراف بالأيام والكميات.",
+   "title_en": "Power BI Visual: 461 villas progress in 3D",
+   "desc_en": "Custom visual draws the site villa by villa, colored by progress, with delay days and quantities.",
+   "a": "Mohammed Radwan",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/g_S7fTGp",
+   "added": "2026-11-17",
+   "tags": [
+    "Power BI",
+    "Dashboard",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "fb728356",
+   "c": "courses",
+   "title": "كورس مجاني: مشروع كامل بالـ AI في 9 محاضرات",
+   "desc": "9 محاضرات من الفكرة والتصميم للحصر والجدول والـ 4D/5D والتقارير، كلها بالـ AI على نفس المشروع.",
+   "title_en": "Free course: a full project with AI in 9 lessons",
+   "desc_en": "9 lessons from idea and design to takeoff, schedule, 4D/5D and reports, all done with AI.",
+   "a": "Mostafa Abdelmonem",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/gfFFx3rV",
+   "added": "2026-11-17",
+   "tags": [
+    "Free",
+    "Video",
+    "4D",
+    "5D"
+   ],
+   "link": "https://www.youtube.com/@MostafaAbdelmon3em",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "eab62013",
+   "c": "tools",
+   "title": "BH Project Control: dashboard لـ P6 أوفلاين",
+   "desc": "أداة على جهازك بتقارن الـ baseline بالتحديث من XER وتطلع S-Curve وcritical path وسجل تأخير.",
+   "title_en": "BH Project Control: offline P6 dashboard",
+   "desc_en": "Local tool compares baseline vs update XER and gives S-curve, critical path and a delay register.",
+   "a": "Munawar Shah",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gvkbpW9N",
+   "added": "2026-11-17",
+   "tags": [
+    "Primavera P6",
+    "Dashboard",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "ff53163c",
+   "c": "tools",
+   "title": "ACC Path Tool: افتح لينك الزميل محليًا",
+   "desc": "utility بـ C# بيصلّح مسار ملفات ACC عبر Desktop Connector ويفتح نفس الفولدر على جهازك بضغطة.",
+   "title_en": "ACC Path Tool: open shared paths locally",
+   "desc_en": "C# utility fixes ACC Desktop Connector paths and opens the same folder on your machine in a click.",
+   "a": "Thai Thien Than Nguyen",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gmQRM4aG",
+   "added": "2026-11-17",
+   "tags": [
+    "ACC",
+    "Automation"
+   ]
+  },
+  {
+   "id": "71eec837",
+   "c": "ai",
+   "title": "Fable 5.2: 5000 محاكاة لجدول المشروع",
+   "desc": "الـ AI عمل Monte Carlo بالطقس والإنتاجية وكشف critical path غلط ورفع فرصة التسليم من 1% لـ 46%.",
+   "title_en": "Fable 5.2: 5,000 schedule simulations",
+   "desc_en": "AI ran Monte Carlo runs, found the wrong critical path and lifted on-time odds from 1% to 46%.",
+   "a": "Timothy Fairley",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gn97tYt9",
+   "added": "2026-11-17",
+   "tags": [
+    "Claude",
+    "Project Management",
+    "Data Analytics"
+   ]
+  },
+  {
+   "id": "38f47834",
+   "c": "tools",
+   "title": "Excel Sheet: الزمن الدوري للمبنى زلزاليًا",
+   "desc": "شيت Excel مجاني بيحسب الـ Fundamental Period للمبنى لتصميم الزلازل مع فيديو شرح.",
+   "title_en": "Excel Sheet: building fundamental period",
+   "desc_en": "Free Excel sheet that calculates a building fundamental period for seismic design, with a video.",
+   "a": "Mohamed Ismail",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gqsA-sM8",
+   "added": "2026-11-17",
+   "tags": [
+    "Excel",
+    "Structural",
+    "Free"
+   ],
+   "link": "https://docs.google.com/spreadsheets/d/1ALdb282xT5lSEuZFV5SR2ou8olRQfpjq/edit?usp=sharing",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "31874c24",
+   "c": "addins",
+   "title": "BIMVAQ Coordinate: على Autodesk Marketplace",
+   "desc": "أول add-in ليها لـ Revit 2023-2027 فيه Clash Detection وOpening Engine وتحويل IFC لـ Topography.",
+   "title_en": "BIMVAQ Coordinate: now on the Marketplace",
+   "desc_en": "Her first Revit 2023-2027 add-in: clash detection, an opening engine and IFC to topography.",
+   "a": "Ghufran Loay Khalil",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/gh76auMN",
+   "added": "2026-11-17",
+   "tags": [
+    "Revit",
+    "Clash Detection",
+    "Coordination",
+    "IFC"
+   ],
+   "link": "https://marketplace.autodesk.com/apps/26dc1274-52b8-4bbd-b0d8-c4cbd7a9341a",
+   "linkLabel": "App Store"
+  },
+  {
+   "id": "5e5bfa16",
+   "c": "tools",
+   "title": "نشرة أسعار مواد البناء: فلو n8n",
+   "desc": "صفحة بتتحدث أوتوماتيك بفلو n8n وبتعرض أسعار مواد البناء في مصر.",
+   "title_en": "Building materials prices: an n8n flow",
+   "desc_en": "A page auto-updated by an n8n flow that lists building material prices in Egypt.",
+   "a": "Masoud Ali El Nekiti",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/gYJjpanz",
+   "added": "2026-11-17",
+   "tags": [
+    "Automation",
+    "Cost Control",
+    "Web App"
+   ],
+   "link": "https://n8n.elnekiti.com/webhook/building-prices?k=LqDYiE0CVrN68dxeTkU",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "e3e7c951",
+   "c": "courses",
+   "title": "كورس مجاني: AI للمهندسين ومديري المشاريع",
+   "desc": "10 محاضرات على مشروع مستشفى: ChatGPT وprompts وتقارير وExcel وdashboards ونشر موقع.",
+   "title_en": "Free course: AI for engineers and PMs",
+   "desc_en": "10 lessons on a hospital project: ChatGPT, prompts, reports, Excel, dashboards and a website.",
+   "a": "Dr.Abdallh Mostafa",
+   "date": "2026-11-16",
+   "url": "https://lnkd.in/p/gZwTVc-Q",
+   "added": "2026-11-17",
+   "tags": [
+    "ChatGPT",
+    "Project Management",
+    "Free",
+    "Dashboard"
+   ],
+   "link": "https://www.youtube.com/playlist?list=PLCEZC5dYDYoU",
+   "linkLabel": "YouTube"
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
