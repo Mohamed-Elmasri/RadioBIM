@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "sections": [
   {
    "id": "ai",
@@ -7703,6 +7703,395 @@
    ],
    "link": "https://www.youtube.com/playlist?list=PLCEZC5dYDYoU",
    "linkLabel": "YouTube"
+  },
+  {
+   "id": "80045370",
+   "c": "opensource",
+   "title": "SolidCraft: CAD بارامتري مفتوح بـ MCP",
+   "desc": "أداة B-rep CAD بـ Rust شغالة في الـ browser وفيها MCP server يخلي الـ AI agent يعدّل القطع",
+   "title_en": "SolidCraft: open-source CAD with MCP",
+   "desc_en": "Rust B-rep parametric CAD in the browser with a built-in MCP server for AI agents",
+   "a": "Christian Heining",
+   "date": "2026-11-17",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528355029376950272",
+   "added": "2026-11-18",
+   "tags": [
+    "Open Source",
+    "MCP",
+    "AI Agents",
+    "Free"
+   ]
+  },
+  {
+   "id": "3d2497bc",
+   "c": "ai",
+   "title": "4D من الرسومات: Claude يبني الموديل",
+   "desc": "ترفع الرسومات لـ Claude/ChatGPT يطلع موديل 3D، ومع الجدول يبقى 4D في ملف HTML واحد",
+   "title_en": "4D from drawings: Claude builds model",
+   "desc_en": "Upload drawings to Claude/ChatGPT for a 3D model, add the schedule for 4D in one HTML",
+   "a": "Timothy Fairley",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eaCCuQxV",
+   "added": "2026-11-18",
+   "tags": [
+    "Claude",
+    "ChatGPT",
+    "4D",
+    "Visualization"
+   ]
+  },
+  {
+   "id": "a464a9f6",
+   "c": "addins",
+   "title": "Civil 3D API: ربط الـ Shop Drawing بالموديل",
+   "desc": "أداة بـ LINQ و Civil 3D API بتربط AutoCAD بالـ Civil 3D وتطلع الـ shop drawings أوتوماتيك",
+   "title_en": "Civil 3D API: shop drawings from model",
+   "desc_en": "A LINQ + Civil 3D API tool linking AutoCAD and Civil 3D to automate shop drawings",
+   "a": "AHMED SABER",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/emrRzduU",
+   "added": "2026-11-18",
+   "tags": [
+    "Civil 3D",
+    "AutoCAD",
+    "Coding",
+    "Automation"
+   ]
+  },
+  {
+   "id": "724b2b5e",
+   "c": "addins",
+   "title": "Jacobian Wall Rebar: تسليح الحوائط في Revit",
+   "desc": "plugin لـ Revit 2025 بيسلّح الحوائط بـ splices و U-bars ويعمل views المسقط والقطاع لوحده",
+   "title_en": "Jacobian Wall Rebar: Revit wall rebar",
+   "desc_en": "Revit 2025 plugin for wall rebar with splices, U-bars and auto plan/section views",
+   "a": "MJ Mthimunye",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/etiv7DFA",
+   "added": "2026-11-18",
+   "tags": [
+    "Revit",
+    "Structural",
+    "Revit API",
+    "Automation"
+   ],
+   "link": "https://mjmthimunye.github.io/JD-Wiki/docs/JDPlugins/wall-rebar/",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "521d4e8b",
+   "c": "opensource",
+   "title": "Open BIM Suite: 6 صيغ جديدة لـ IFC",
+   "desc": "بقى يفتح Rhino و SOLIDWORKS و Vectorworks و point clouds ويحفظهم IFC 4x3 من غير البرامج الأصلية",
+   "title_en": "Open BIM Suite: 6 more formats to IFC",
+   "desc_en": "Now opens Rhino, SOLIDWORKS, Vectorworks and point clouds and saves them as IFC 4x3",
+   "a": "OpenAEC Foundation",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eG4v-NET",
+   "added": "2026-11-18",
+   "tags": [
+    "Open Source",
+    "IFC",
+    "Free",
+    "Rhino",
+    "Point Cloud",
+    "Blender"
+   ],
+   "link": "https://github.com/OpenAEC-Foundation/open-bim-suite",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "026b668d",
+   "c": "ai",
+   "title": "استوديو AI Agents: تصميم معماري بفريق",
+   "desc": "agents (Urbanist, Architect, Critic…) بيتناقشوا ويراجعوا الـ massing مع scripts بـ Rhino و Python",
+   "title_en": "AI agent studio: a team designs",
+   "desc_en": "Specialised agents debate and revise massing options, checked by Rhino and Python scripts",
+   "a": "Bertrand Tan",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eZhuVPtn",
+   "added": "2026-11-18",
+   "tags": [
+    "AI Agents",
+    "Rhino",
+    "Computational Design"
+   ]
+  },
+  {
+   "id": "0c36252b",
+   "c": "ai",
+   "title": "AI Agents في Tekla: 130 لوحة في 13 دقيقة",
+   "desc": "AI agents بتطلع 130 لوحة Tekla Structures في 13 دقيقة بس",
+   "title_en": "AI agents in Tekla: 130 drawings",
+   "desc_en": "AI agents generate 130 Tekla Structures drawings in just 13 minutes",
+   "a": "Alexey Perezhogin",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eH4mygg5",
+   "added": "2026-11-18",
+   "tags": [
+    "AI Agents",
+    "Tekla",
+    "Shop Drawings",
+    "Automation"
+   ]
+  },
+  {
+   "id": "38619e75",
+   "c": "ai",
+   "title": "PlanLift: موديل 3D تفاعلي للمبيعات بالـ AI",
+   "desc": "موديل 3D تفاعلي لمشروع سكني اتعمل بالـ AI في أيام وبجزء من تكلفة الـ visualization",
+   "title_en": "PlanLift: AI 3D scheme for sales",
+   "desc_en": "AI-built interactive 3D scheme in days, with layers and clickable units, at a fraction of cost",
+   "a": "Luke Ferguson",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eQQuPd6S",
+   "added": "2026-11-18",
+   "tags": [
+    "Gen AI",
+    "Visualization",
+    "Web App"
+   ],
+   "link": "https://planliftai.com/schemes",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "e63b571f",
+   "c": "tools",
+   "title": "Points Converter: تحويل النقاط المساحية",
+   "desc": "تحديث بيحوّل بين SDR و CSV و DXF و TXT ويصدّر النقاط لـ AutoCAD مع preview",
+   "title_en": "Points Converter: survey point files",
+   "desc_en": "Update converts between SDR, CSV, DXF and TXT and exports points to AutoCAD with preview",
+   "a": "Ahmed Abdelkhalek",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eSV4dk5a",
+   "added": "2026-11-18",
+   "tags": [
+    "AutoCAD",
+    "Infrastructure",
+    "Free"
+   ]
+  },
+  {
+   "id": "3d4563a6",
+   "c": "addins",
+   "title": "SewerCAD → AutoCAD: بروفايلات الصرف",
+   "desc": "أداة AutoCAD بتقرا SQLite من SewerCAD وترسم البروفايلات الطولية وتشيّتها في PDF واحد",
+   "title_en": "SewerCAD to AutoCAD: sewer profiles",
+   "desc_en": "AutoCAD tool reads SewerCAD SQLite, draws long profiles and exports one PDF set",
+   "a": "Siamak Mehrani",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/ezgjgNEP",
+   "added": "2026-11-18",
+   "tags": [
+    "AutoCAD",
+    "Infrastructure",
+    "Automation",
+    "Batch Export"
+   ]
+  },
+  {
+   "id": "fbacbbd8",
+   "c": "tools",
+   "title": "BIM Viewer: فلاتر Power BI على الموديل",
+   "desc": "viewer للموديل فيه فلاتر متسلسلة زي Power BI، قياسات وقطاعات و clash detection لمتابعة الموقع",
+   "title_en": "BIM viewer: Power BI-style filters",
+   "desc_en": "Model viewer with chained Power BI-style filters, measuring, sections and clash checks",
+   "a": "Leo Lozano González",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e2k9S5pt",
+   "added": "2026-11-18",
+   "tags": [
+    "Power BI",
+    "IFC",
+    "Dashboard",
+    "Clash Detection"
+   ]
+  },
+  {
+   "id": "ea876a21",
+   "c": "tools",
+   "title": "EEC: نظام إنتاجية وتكاليف للمقاولات",
+   "desc": "منصة بـ dashboards للتكلفة والإيرادات وإنتاجية العمالة وتقارير أسبوعية وشهرية",
+   "title_en": "EEC: productivity and cost control",
+   "desc_en": "Platform with dashboards for cost, revenue, labour productivity and weekly/monthly reports",
+   "a": "yonas alagaw",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eZzPXy26",
+   "added": "2026-11-18",
+   "tags": [
+    "Cost Control",
+    "Dashboard",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "cf72a4b0",
+   "c": "ideas",
+   "title": "Grasshopper → Tekla: 64 فريم مختلف بسكريبت",
+   "desc": "سكريبت Grasshopper واحد بيبني 64 فريم حديد مختلف ورا ألواح GFRC في Tekla بدل أسابيع رسم",
+   "title_en": "Grasshopper to Tekla: 64 unique frames",
+   "desc_en": "One Grasshopper definition builds 64 unique steel frames behind GFRC panels in Tekla",
+   "a": "Andrey Volkov",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/e-Kvr9QB",
+   "added": "2026-11-18",
+   "tags": [
+    "Grasshopper",
+    "Tekla",
+    "Computational Design",
+    "Structural"
+   ]
+  },
+  {
+   "id": "a55a5f78",
+   "c": "mcp",
+   "title": "Revit MCP: من رسمة 2D لـ Family",
+   "desc": "Claude + Revit MCP بيحوّل رسمة تقنية 2D لـ Revit family بأوامر بسيطة",
+   "title_en": "Revit MCP: 2D drawing to family",
+   "desc_en": "Claude + Revit MCP turns a 2D technical drawing into a Revit family from simple prompts",
+   "a": "ARJUN SANKAR S S",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eQzysAHi",
+   "added": "2026-11-18",
+   "tags": [
+    "Revit",
+    "Claude",
+    "MCP",
+    "Families"
+   ]
+  },
+  {
+   "id": "3bd5de32",
+   "c": "tools",
+   "title": "IPS Dashboard: متابعة اعتماد اللوحات",
+   "desc": "dashboard بيقرا الـ CDE export ويعرض الـ shop و as-built المعتمدة والمرفوضة على الموديل 3D",
+   "title_en": "IPS Dashboard: drawing approvals",
+   "desc_en": "Reads the CDE export to show approved/rejected shop and as-built drawings on the 3D model",
+   "a": "Walid Elsibai",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/e6J7hGAm",
+   "added": "2026-11-18",
+   "tags": [
+    "Dashboard",
+    "ISO 19650",
+    "Shop Drawings",
+    "Visualization"
+   ]
+  },
+  {
+   "id": "68cf3f06",
+   "c": "tools",
+   "title": "4D Web: من شيتات Excel لموقع حي",
+   "desc": "شيتين Excel للتقدم والـ lookahead بقوا صفحة 4D تفاعلية لـ 43 فيلا تتفتح من لينك",
+   "title_en": "4D web page: Excel sheets to live site",
+   "desc_en": "Two Excel progress and lookahead sheets became an interactive 4D page for 43 villas",
+   "a": "Maisra Ali",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e45pxuvV",
+   "added": "2026-11-18",
+   "tags": [
+    "4D",
+    "Excel",
+    "Web App",
+    "Visualization"
+   ]
+  },
+  {
+   "id": "9e7a83d3",
+   "c": "addins",
+   "title": "TeamSync: الـ issues جوه Revit و Navisworks",
+   "desc": "الملاحظات تتفتح وتتسند جوه Revit و Navisworks ويتابعها المدير بـ dashboard، شهر مجانًا",
+   "title_en": "TeamSync: issues in Revit & Navisworks",
+   "desc_en": "Open, mark up and assign issues inside Revit and Navisworks, with a manager dashboard",
+   "a": "Ahmad Eltobshy",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e7gCHND5",
+   "added": "2026-11-18",
+   "tags": [
+    "Revit",
+    "Navisworks",
+    "Coordination",
+    "Dashboard"
+   ],
+   "link": "https://teamsync.top-matrix.com",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "22dcd867",
+   "c": "addins",
+   "title": "Civil 3D: أنواع الـ Kerb أوتوماتيك",
+   "desc": "أداة C# بتولّد أنواع الـ precast kerbs حسب مواصفات أبوظبي كموديل 3D في Civil 3D",
+   "title_en": "Civil 3D: automated kerb types",
+   "desc_en": "C# tool generates precast kerb types per Abu Dhabi standards as 3D in Civil 3D",
+   "a": "Ahmed Ali",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/ehdibxiC",
+   "added": "2026-11-18",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Coding",
+    "Automation"
+   ],
+   "link": "https://drive.google.com/drive/folders/1xfHxHgxJfAst0tp6iDywKBevk7y8T5i6",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "56645c8c",
+   "c": "tools",
+   "title": "بديلك: بدائل مجانية للبرامج الهندسية",
+   "desc": "دليل بيقترح بدائل مجانية لبرامج BIM و CAD حسب المهمة مع التوافق وخطط الانتقال",
+   "title_en": "Badeelak: free engineering alternatives",
+   "desc_en": "A guide to free alternatives for BIM/CAD software by task, with compatibility and migration plans",
+   "a": "Omar Selim",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eJ_BrnZ7",
+   "added": "2026-11-18",
+   "tags": [
+    "Free",
+    "Open Source",
+    "Web App"
+   ],
+   "link": "https://alternativeto-eta.vercel.app",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "4776f065",
+   "c": "ideas",
+   "title": "AI في الـ BIM: مين بيشوف بيانات موديلك؟",
+   "desc": "رفع الموديل لأداة AI معناه مشاركة بيانات المشروع؛ راجع الشروط والعقد والـ GDPR الأول",
+   "title_en": "AI in BIM: who sees your model data?",
+   "desc_en": "Uploading a model to an AI tool shares project data; check terms, contract and GDPR first",
+   "a": "Kholod Khaled Hassan",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eYMBqXuU",
+   "added": "2026-11-18",
+   "tags": [
+    "Data Security",
+    "Gen AI",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "dff2da26",
+   "c": "mcp",
+   "title": "AnalyseTool 2.0: MCP جوه Revit",
+   "desc": "add-in فيه MCP server: الـ agents تكتب buttons بـ C# وتعمل لها compile و test جوه Revit",
+   "title_en": "AnalyseTool 2.0: MCP inside Revit",
+   "desc_en": "Revit add-in with an MCP server: agents write, compile and test C# buttons with history",
+   "a": "Nikolai Davydov",
+   "date": "2026-11-17",
+   "url": "https://lnkd.in/p/eEg-5zH5",
+   "added": "2026-11-18",
+   "tags": [
+    "Revit",
+    "MCP",
+    "Claude",
+    "Codex",
+    "Revit API"
+   ],
+   "link": "https://github.com/Nikola1Davydov/AnalyzeTool",
+   "linkLabel": "GitHub"
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
