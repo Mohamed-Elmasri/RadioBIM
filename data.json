@@ -6801,26 +6801,6 @@
    "linkLabel": "GitHub"
   },
   {
-   "id": "b0fff914",
-   "c": "addins",
-   "title": "EasyBIM 11.0: 4 أدوات جديدة لـ Revit",
-   "desc": "Smart Search وMaterial Legend وLintel Beams وTie Beams، والمجموعة وصلت 74 أداة.",
-   "title_en": "EasyBIM 11.0: 4 new Revit tools",
-   "desc_en": "Smart Search, Material Legend, Lintel Beams and Tie Beams; the suite hits 74 tools.",
-   "a": "Hossam Khalaf",
-   "date": "2026-11-14",
-   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527464782338228225",
-   "added": "2026-11-15",
-   "tags": [
-    "Revit",
-    "Automation",
-    "Structural",
-    "Excel"
-   ],
-   "link": "https://drive.google.com/drive/folders/1T_7sQnQyMSs-IK2S6ob9f3M5a0dx8Wvo",
-   "linkLabel": "Drive"
-  },
-  {
    "id": "74c279a8",
    "c": "tools",
    "title": "NEXORA DWG Compare: مقارنة لوحات DWG",
@@ -8109,7 +8089,9 @@
     "MCP",
     "Claude",
     "Open Source"
-   ]
+   ],
+   "link": "https://t.me/alibabiker994/232",
+   "linkLabel": "الموقع"
   },
   {
    "id": "418f19ee",
@@ -8351,6 +8333,25 @@
     "Coding",
     "Excel"
    ]
+  },
+  {
+   "id": "349ba24d",
+   "c": "addins",
+   "title": "EasyBIM: Lintel تلقائي فوق الفتحات",
+   "desc": "أداة Lintel الجديدة في EasyBIM 11.0 (74 أداة) بتعمل أعتاب فوق الأبواب والشبابيك بضغطة، بتقرا سمك الحائط.",
+   "title_en": "EasyBIM: auto lintels over openings",
+   "desc_en": "New Lintel tool in EasyBIM 11.0 (74 tools) adds lintels over doors and windows in one click.",
+   "a": "Hossam Khalaf",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e9SY33xT",
+   "added": "2026-11-19",
+   "tags": [
+    "Revit",
+    "Automation",
+    "Structural"
+   ],
+   "link": "https://drive.google.com/drive/folders/1T_7sQnQyMSs-IK2S6ob9f3M5a0dx8Wvo",
+   "linkLabel": "Drive"
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
