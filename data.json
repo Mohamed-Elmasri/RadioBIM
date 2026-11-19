@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "sections": [
   {
    "id": "ai",
@@ -8092,6 +8092,265 @@
    ],
    "link": "https://github.com/Nikola1Davydov/AnalyzeTool",
    "linkLabel": "GitHub"
+  },
+  {
+   "id": "16c7cd78",
+   "c": "mcp",
+   "title": "Revit-MCP: ربط Revit بـ Claude",
+   "desc": "أداة open source بتربط Revit بالـ AI عن طريق MCP: أوامر نصية تتحكم في الموديل وتستخرج بيانات BIM.",
+   "title_en": "Revit-MCP: connect Revit to Claude",
+   "desc_en": "Open-source MCP bridge: text commands control the Revit model and pull BIM data.",
+   "a": "Eng / ALI BABIKER",
+   "date": "2026-11-18",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528821086650724352",
+   "added": "2026-11-19",
+   "tags": [
+    "Revit",
+    "MCP",
+    "Claude",
+    "Open Source"
+   ]
+  },
+  {
+   "id": "418f19ee",
+   "c": "addins",
+   "title": "Blocks Revit: مكتبة families جوه Revit",
+   "desc": "Plugin بيخليك تدوّر وتضيف families أثاث وإضاءة ومصنّعين من جوه Revit، فيه مجاني و Premium.",
+   "title_en": "Blocks Revit: family library inside Revit",
+   "desc_en": "Plugin to browse and drop furniture, lighting and manufacturer families inside Revit; free and premium.",
+   "a": "GHASEM ARIYANI",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eVPYGs_Z",
+   "added": "2026-11-19",
+   "tags": [
+    "Revit",
+    "Families"
+   ],
+   "link": "https://www.blocksrvt.com/en/home",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "66458ef9",
+   "c": "addins",
+   "title": "StGeAs: plugin لـ STAAD.Pro",
+   "desc": "بيقسّم الـ plates بالمقاس أو العدد، يظبط الـ nodes ويكشف الـ overlaps والـ duplicates في STAAD.Pro.",
+   "title_en": "StGeAs: geometry plugin for STAAD.Pro",
+   "desc_en": "Splits plates by size or count, aligns nodes and finds overlaps and duplicates in STAAD.Pro.",
+   "a": "Ahmed Hamed",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/eW7n-m2C",
+   "added": "2026-11-19",
+   "tags": [
+    "Structural",
+    "Automation",
+    "Bentley"
+   ],
+   "link": "https://drive.google.com/drive/folders/1-bPiH5Y4xT3ha0xQ6GhTAA20vlJe46Bd",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "51ef115f",
+   "c": "mcp",
+   "title": "Claude + ETABS: موديل إنشائي بالكلام",
+   "desc": "Claude متوصل بـ ETABS: يبني الموديل من المتطلبات، يشغّل الـ analysis ويطلع تقرير حسابات Word.",
+   "title_en": "Claude + ETABS: structural model by prompt",
+   "desc_en": "Claude linked to ETABS builds the model, runs analysis and writes a Word calc report.",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/ee-cT8pE",
+   "added": "2026-11-19",
+   "tags": [
+    "ETABS",
+    "Claude",
+    "Structural",
+    "AI Agents"
+   ],
+   "link": "https://aiconstructionnews.com/blog/applied-methods/claude-ai-for-structural-engineers-automating-etabs-sap2000",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "ffd821bf",
+   "c": "addins",
+   "title": "NEXORA ACC Extensions: تعديل Attributes",
+   "desc": "إضافة لـ ACC بتراجع الـ attributes وتصلّحها bulk على folders كاملة، مع import/export من Excel.",
+   "title_en": "NEXORA ACC Extensions: bulk attributes",
+   "desc_en": "ACC extension to check and bulk-fix attributes across folders, with Excel import/export.",
+   "a": "Khaled Saieed",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/ehxfPQx7",
+   "added": "2026-11-19",
+   "tags": [
+    "ACC",
+    "Excel",
+    "Automation",
+    "QA/QC"
+   ]
+  },
+  {
+   "id": "e5262fe1",
+   "c": "addins",
+   "title": "Grids من CAD: أول plugin بالـ AI",
+   "desc": "Plugin لـ Revit اتعمل بمساعدة الـ AI بيعمل grids من ملف CAD مربوط ويعيد ترقيمها في المشاريع الكبيرة.",
+   "title_en": "CAD Grids: first Revit plugin built with AI",
+   "desc_en": "Revit plugin built with AI creates grids from linked CAD and renumbers them on big projects.",
+   "a": "Nada Zakaria",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e8jZqiRQ",
+   "added": "2026-11-19",
+   "tags": [
+    "Revit",
+    "CAD to BIM",
+    "Automation",
+    "Coding"
+   ]
+  },
+  {
+   "id": "b1da2671",
+   "c": "tools",
+   "title": "Cost Dashboard: تقارير التكلفة في شاشة",
+   "desc": "داشبورد بيجمع تقارير التكلفة الشهرية من Excel/PDF: مؤشرات EVM و CPI والمشاريع الحرجة بالألوان.",
+   "title_en": "Cost Dashboard: all cost reports, one screen",
+   "desc_en": "Dashboard merging monthly Excel/PDF cost reports: EVM, CPI and critical projects flagged.",
+   "a": "Abdalla Adel",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/enAHRSRm",
+   "added": "2026-11-19",
+   "tags": [
+    "Dashboard",
+    "Cost Control",
+    "EVM",
+    "Excel"
+   ]
+  },
+  {
+   "id": "2f077442",
+   "c": "ai",
+   "title": "Form Optimizer: 4 أهداف بـ prompt",
+   "desc": "Algorithm تطوري اتبنى بـ prompt في الغدا: يوازن الشمس والرياح والـ GFA والارتفاع ويصدّر لـ Revit/Dynamo.",
+   "title_en": "Form Optimizer: 4 objectives from a prompt",
+   "desc_en": "Evolutionary algorithm built from one prompt balances sun, wind, GFA, height; exports to Revit.",
+   "a": "Igor Mitric Lavovski",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e2jsdEtj",
+   "added": "2026-11-19",
+   "tags": [
+    "Computational Design",
+    "Dynamo",
+    "Revit",
+    "Forma"
+   ]
+  },
+  {
+   "id": "38cb6203",
+   "c": "addins",
+   "title": "HUB BIM 4D/5D: add-in لـ Navisworks",
+   "desc": "بيجمع محاكاة 4D وحصر 5D (Gantt و S-Curve) ومتابعة الإنجاز 3D في شاشة واحدة جوه Navisworks.",
+   "title_en": "HUB BIM 4D/5D: Navisworks add-in",
+   "desc_en": "One Navisworks view for 4D simulation, 5D quantities (Gantt, S-curve) and 3D progress.",
+   "a": "Franklin David Cisneros Lozada",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eHmpcvhr",
+   "added": "2026-11-19",
+   "tags": [
+    "Navisworks",
+    "4D",
+    "5D",
+    "Civil 3D"
+   ]
+  },
+  {
+   "id": "b254a4a8",
+   "c": "ai",
+   "title": "IFC Viewer: محاكي 4D بـ Claude",
+   "desc": "أضاف بـ Claude Opus 5.5 محاكي 4D لـ IFC viewer: يقرا XER/CSV ويربط العناصر وتقدر تعمل sections.",
+   "title_en": "IFC Viewer: 4D simulator built with Claude",
+   "desc_en": "Claude Opus 5.5 added a 4D simulator to his IFC viewer: reads XER/CSV, maps elements live.",
+   "a": "Abdulaziz Al Shaikh",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/evzWANqk",
+   "added": "2026-11-19",
+   "tags": [
+    "IFC",
+    "4D",
+    "Claude",
+    "That Open",
+    "Primavera P6"
+   ]
+  },
+  {
+   "id": "d96f0b54",
+   "c": "tools",
+   "title": "MEP Electrical Calculator: حسابات أونلاين",
+   "desc": "أداة browser لحسابات الأحمال والكابلات والـ voltage drop والـ short circuit والقواطع حسب NEC و IEC.",
+   "title_en": "MEP Electrical Calculator: online suite",
+   "desc_en": "Browser tool for loads, cable sizing, voltage drop, fault current and breakers per NEC/IEC.",
+   "a": "SHARADH S",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/e9T_-DEb",
+   "added": "2026-11-19",
+   "tags": [
+    "Electrical",
+    "MEP",
+    "Web App",
+    "Free"
+   ],
+   "link": "https://sites.google.com/view/mep-electrical-design-calculat",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "3f730949",
+   "c": "mcp",
+   "title": "Rhino Agent: من Rhino لـ Archicad",
+   "desc": "Agent جوه Rhino بيوصف كل عنصر بلغة Archicad فيتبني native: حوائط وبلاطات وشبابيك، والخطوة الجاية Revit.",
+   "title_en": "Rhino Agent: Rhino to Archicad by chat",
+   "desc_en": "Agent in Rhino sends each object as native Archicad walls, slabs and windows; Revit next.",
+   "a": "Vincenzo Mormile",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e4KEa39T",
+   "added": "2026-11-19",
+   "tags": [
+    "Rhino",
+    "AI Agents",
+    "Automation"
+   ]
+  },
+  {
+   "id": "247043ba",
+   "c": "ai",
+   "title": "Autostruct: من DWG لموديل و BOQ",
+   "desc": "أداة beta مجانية: تديها رسومات 2D تطلعلك موديل 3D بالأحمال وفحص كود و BOQ في دقايق.",
+   "title_en": "Autostruct: DWG to model and BOQ",
+   "desc_en": "Free beta: 2D DWGs in, 3D model with loads, code checks and a BOQ out in minutes.",
+   "a": "Shyama Dorbala",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/erw6-a7J",
+   "added": "2026-11-19",
+   "tags": [
+    "Structural",
+    "CAD to BIM",
+    "Quantity Takeoff",
+    "Free"
+   ],
+   "link": "https://autostruct.scider.ai/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "14575ea1",
+   "c": "ai",
+   "title": "ProcessCanvas: رسم P&ID بالـ AI",
+   "desc": "أداة CAD على الـ browser اتعملت بالـ AI لرسم P&ID: تحسب pipe losses والـ pump head وتصدّر DXF و Excel.",
+   "title_en": "ProcessCanvas: P&ID CAD built with AI",
+   "desc_en": "Browser CAD for P&IDs built with AI: pipe losses, pump head, DXF and Excel exports.",
+   "a": "wesam khallaf",
+   "date": "2026-11-18",
+   "url": "https://lnkd.in/p/e2jAhKVi",
+   "added": "2026-11-19",
+   "tags": [
+    "Web App",
+    "MEP",
+    "Coding",
+    "Excel"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
