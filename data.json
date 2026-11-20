@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "sections": [
   {
    "id": "ai",
@@ -8352,6 +8352,418 @@
    ],
    "link": "https://drive.google.com/drive/folders/1T_7sQnQyMSs-IK2S6ob9f3M5a0dx8Wvo",
    "linkLabel": "Drive"
+  },
+  {
+   "id": "7de10cb3",
+   "c": "mcp",
+   "title": "MAG AI Connector: Tekla و Blender و Rhino",
+   "desc": "تحديث بيربط Claude و ChatGPT و Cursor و Gemini بـ Tekla و 3ds Max و Rhino و SolidWorks كمان",
+   "title_en": "MAG AI Connector: Tekla, Blender, Rhino",
+   "desc_en": "Update links Claude, ChatGPT, Cursor and Gemini to Tekla, 3ds Max, Rhino, SolidWorks too",
+   "a": "Mohammed Abdelatey",
+   "date": "2026-11-01",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522569967427309568",
+   "added": "2026-11-20",
+   "tags": [
+    "MCP",
+    "Claude",
+    "Tekla",
+    "Rhino",
+    "Blender",
+    "Open Source"
+   ],
+   "link": "https://github.com/MAGtelligent/MAGAIConnector",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "d59b21fd",
+   "c": "ai",
+   "title": "New.family: من صورة منتج لـ Revit family",
+   "desc": "موقع بتديله لينك المنتج أو صورته فيطلعلك Revit family جاهزة تراجعها وتستخدمها",
+   "title_en": "New.family: product photo to Revit family",
+   "desc_en": "Give it a product URL or photo and get a ready Revit family to review and use",
+   "a": "khaled Fayek",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eJmuWwjg",
+   "added": "2026-11-20",
+   "tags": [
+    "Revit",
+    "Families",
+    "Gen AI"
+   ],
+   "link": "https://new.family",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "484cdb57",
+   "c": "tools",
+   "title": "Project controls dashboard: مجاني",
+   "desc": "ملف HTML بيقرا P6 XER أو MS Project مع Excel ويعرض التكلفة والجدول والـ risks في شاشة",
+   "title_en": "Project controls dashboard: free",
+   "desc_en": "An HTML file reads P6 XER or MS Project plus Excel and shows cost, schedule, risks",
+   "a": "Yazdan Khan",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/epFSDthJ",
+   "added": "2026-11-20",
+   "tags": [
+    "Primavera P6",
+    "Dashboard",
+    "Cost Control",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1utiyVr6IMyPBLv5inmDy0p2OtF8Zik9y/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "c33369e4",
+   "c": "tools",
+   "title": "حفر وردم الطرق: الإصدار 2",
+   "desc": "الأداة بقت بتطلع شيتات تشغيل لكل قطاع وتصدّر القطاعات وتقارير كميات الحفر والردم",
+   "title_en": "Road cut and fill tool: version 2",
+   "desc_en": "Now issues per-section work sheets, exports sections and cut/fill quantity reports",
+   "a": "Ahmed Abdelkhalek",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eZuYyKzC",
+   "added": "2026-11-20",
+   "tags": [
+    "Infrastructure",
+    "Quantity Takeoff",
+    "Excel"
+   ]
+  },
+  {
+   "id": "85800495",
+   "c": "ai",
+   "title": "AI BIM Tool: من قطعة أرض لـ IFC",
+   "desc": "بيقرا اشتراطات الأرض ويبني موديل IFC جوه الـ setbacks ويطلع كميات وتكلفة و sun analysis",
+   "title_en": "AI BIM Tool: from empty lot to IFC",
+   "desc_en": "Reads zoning limits, builds an IFC model inside setbacks, gives quantities, cost, sun study",
+   "a": "Matúš Koleják",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eW6hC3f8",
+   "added": "2026-11-20",
+   "tags": [
+    "IFC",
+    "Gen AI",
+    "Code Compliance",
+    "Bonsai"
+   ]
+  },
+  {
+   "id": "69a76cfd",
+   "c": "addins",
+   "title": "M.E Tray Hangers: أول add-in بالـ AI",
+   "desc": "بيحط hangers للـ cable trays أوتوماتيك لحد 4 أدوار trays ومن السقف أو الـ beam، Revit 2022-2026",
+   "title_en": "M.E Tray Hangers: first add-in built with AI",
+   "desc_en": "Auto hangers for up to 4 stacked cable trays from slab or beam, Revit 2022-2026",
+   "a": "Mahmoud Eltabie",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eu86N-Rf",
+   "added": "2026-11-20",
+   "tags": [
+    "Revit",
+    "Electrical",
+    "MEP",
+    "Automation"
+   ]
+  },
+  {
+   "id": "d8e41c66",
+   "c": "mcp",
+   "title": "Rhino + Grasshopper MCP: نفق من لوحتين",
+   "desc": "Claude بنى Grasshopper definition بارامتري من لوحتين scan، ونفس الموديل راح لـ Revit و Tekla",
+   "title_en": "Rhino + Grasshopper MCP: tunnel from 2 drawings",
+   "desc_en": "Claude built a parametric Grasshopper model from two scans, then sent it to Revit and Tekla",
+   "a": "Marco Intelisano",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eyPXJkAn",
+   "added": "2026-11-20",
+   "tags": [
+    "MCP",
+    "Rhino",
+    "Grasshopper",
+    "Claude",
+    "Tekla",
+    "Structural"
+   ]
+  },
+  {
+   "id": "21408a5e",
+   "c": "ideas",
+   "title": "أوع تربط Claude بـ Revit قبل ما تسمع دي",
+   "desc": "تجربة شركة في ربط Claude بـ Revit ونصيحة للمديرين قبل ما يطلبوه من المهندسين",
+   "title_en": "Don't connect Claude to Revit before this",
+   "desc_en": "A firm's experience linking Claude to Revit, with advice for managers before asking engineers",
+   "a": "Salih Hassan PMP ®️",
+   "date": "2026-11-06",
+   "url": "https://lnkd.in/p/eMtExhbC",
+   "added": "2026-11-20",
+   "tags": [
+    "Claude",
+    "Revit",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "cdacfc7c",
+   "c": "tools",
+   "title": "Fire Flow Calculator: شيت SBC 801",
+   "desc": "شيت Excel بيحسب الـ fire flow المطلوب حسب SBC 801 Appendix B من نوع الإنشاء والمساحة بس",
+   "title_en": "Fire Flow Calculator: SBC 801 sheet",
+   "desc_en": "An Excel sheet computes required fire flow per SBC 801 Appendix B from type and area only",
+   "a": "Mahmoud Attia",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eG6NgM5U",
+   "added": "2026-11-20",
+   "tags": [
+    "Excel",
+    "MEP",
+    "Code Compliance",
+    "Free"
+   ],
+   "link": "https://docs.google.com/spreadsheets/d/1BD_SbaUd03eeRlk3lxrTvK3WKs--c_rP/edit",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "dfb1c9c0",
+   "c": "addins",
+   "title": "Lina BIM: تصدير الشيتات مجانًا",
+   "desc": "بديل مجاني لـ ProSheets: PDF و DWG و IFC و NWC بتسمية من الـ parameters، Revit 2019-2026",
+   "title_en": "Lina BIM: free sheet export",
+   "desc_en": "Free ProSheets alternative: PDF, DWG, IFC, NWC with parameter-based names, Revit 2019-2026",
+   "a": "Alaa shalpy",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/ecYjHA84",
+   "added": "2026-11-20",
+   "tags": [
+    "Revit",
+    "Batch Export",
+    "Free"
+   ],
+   "link": "https://drive.google.com/drive/folders/1jtbsPRmMLuxwhCVmwYzYbo5_aaRd7Jrl",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "c6859c7c",
+   "c": "addins",
+   "title": "Shared Parameter Installer للـ families",
+   "desc": "بيضيف shared parameters لـ families كتير مرة واحدة بـ Dynamo و Python من غير ما تفتحها",
+   "title_en": "Shared Parameter Installer for families",
+   "desc_en": "Adds shared parameters to many families at once with Dynamo and Python, no opening each",
+   "a": "Sher Ali Afridi",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eAgVHryy",
+   "added": "2026-11-20",
+   "tags": [
+    "Revit",
+    "Families",
+    "Dynamo",
+    "Free"
+   ],
+   "link": "https://sbimstudio.com/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "fc797c75",
+   "c": "ai",
+   "title": "Buildable: لوحات precast في 2.5 ساعة",
+   "desc": "AI agent بياخد IFC المعماري والحسابات ويطلع موديل precast مسلّح و shop drawings لمخزن 8,640 م²",
+   "title_en": "Buildable: precast drawings in 2.5 hours",
+   "desc_en": "An AI agent turns the IFC and calcs into a reinforced precast model and shop drawings",
+   "a": "Oto Donadze",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/e5QBWju2",
+   "added": "2026-11-20",
+   "tags": [
+    "AI Agents",
+    "IFC",
+    "Structural",
+    "Shop Drawings"
+   ],
+   "link": "https://buildable.to/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "6f78d4fc",
+   "c": "ai",
+   "title": "ChatGPT: مقارنة نسختين shop drawings",
+   "desc": "قارن لوحات حديد PDF وفرّق بين التعديلات الحقيقية وفروق الأدوار وعلّم عليها",
+   "title_en": "ChatGPT: comparing two shop drawing sets",
+   "desc_en": "Compared rebar PDF revisions, separated real changes from level differences, annotated them",
+   "a": "Florian Aalami",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/esEzZR-A",
+   "added": "2026-11-20",
+   "tags": [
+    "ChatGPT",
+    "Shop Drawings",
+    "QA/QC",
+    "Structural"
+   ]
+  },
+  {
+   "id": "a1421139",
+   "c": "mcp",
+   "title": "ما وراء الـ MCP: الـ AI Harness",
+   "desc": "فيديو بيشرح اللي المهندس لازم يعرفه بعد الـ MCP في شغل Claude مع Revit",
+   "title_en": "Beyond MCP: the AI harness",
+   "desc_en": "A video on what engineers need to know beyond MCP when using Claude with Revit",
+   "a": "Essam Kader",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eYr6YkHE",
+   "added": "2026-11-20",
+   "tags": [
+    "MCP",
+    "Claude",
+    "Revit",
+    "Video"
+   ]
+  },
+  {
+   "id": "b6f8db57",
+   "c": "tools",
+   "title": "4D dashboard: من P6 XER لصفحة ويب",
+   "desc": "Amr Ragab حوّل جدول P6 ومخرجات الـ 4D لـ dashboard HTML بـ planned vs actual و SPI و CPI",
+   "title_en": "4D dashboard: from P6 XER to a web page",
+   "desc_en": "Amr Ragab turned a P6 schedule and 4D output into an HTML dashboard with SPI and CPI",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eRAJDj93",
+   "added": "2026-11-20",
+   "tags": [
+    "4D",
+    "Primavera P6",
+    "Dashboard",
+    "EVM"
+   ]
+  },
+  {
+   "id": "37d1a090",
+   "c": "addins",
+   "title": "Dynamo: أرضيات من الغرف في الـ link",
+   "desc": "بيقرا Floor Finish لكل غرفة في الـ Revit link ويرسم الأرضية بنوعها ويعلّم الغرف اللي فشلت",
+   "title_en": "Dynamo: floors from linked rooms",
+   "desc_en": "Reads each linked room's Floor Finish, creates the matching floor, flags failed rooms",
+   "a": "Ahmed Yahia",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/ePPwMpjS",
+   "added": "2026-11-20",
+   "tags": [
+    "Dynamo",
+    "Revit",
+    "Automation"
+   ]
+  },
+  {
+   "id": "1fa3a563",
+   "c": "addins",
+   "title": "Steel Skid System: skids في 5 دقايق",
+   "desc": "family بارامترية بتولّد steel skids والـ decking للكبائن الجاهزة مع الطول والوزن في الـ schedules",
+   "title_en": "Steel Skid System: skids in 5 minutes",
+   "desc_en": "A parametric system generates steel skids and decking for prefab cabins with length and weight",
+   "a": "Jabl Fadeel",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e--PadBc",
+   "added": "2026-11-20",
+   "tags": [
+    "Revit",
+    "Families",
+    "Structural",
+    "Quantity Takeoff"
+   ]
+  },
+  {
+   "id": "6ac345be",
+   "c": "courses",
+   "title": "ورشة الـ AI: سكشن BIM 3D/4D/5D",
+   "desc": "سكشن جديد: من PDF لموديل 3D وclashes وحصر، ثم 4D بـ SPI و5D بالتكاليف في dashboard",
+   "title_en": "AI workshop: new BIM 3D/4D/5D section",
+   "desc_en": "New section: PDF to 3D model, clashes, takeoff, then 4D with SPI and 5D costs in a dashboard",
+   "a": "Dr.Mohamed Hatem",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e5CmrViP",
+   "added": "2026-11-20",
+   "tags": [
+    "4D",
+    "5D",
+    "Clash Detection",
+    "Dashboard"
+   ]
+  },
+  {
+   "id": "bfb1823d",
+   "c": "mcp",
+   "title": "QMR MCP: clash tests في Navisworks",
+   "desc": "بطلب واحد بيمسح الـ tests القديمة ويعمل tests لكل discipline ويجمّع الـ clashes ويطلع الـ report",
+   "title_en": "QMR MCP: clash tests in Navisworks",
+   "desc_en": "One request deletes old tests, creates per-discipline tests, groups clashes, exports reports",
+   "a": "Qamar Abdelnaby",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/e5aV2Unr",
+   "added": "2026-11-20",
+   "tags": [
+    "MCP",
+    "Navisworks",
+    "Clash Detection",
+    "Coordination"
+   ]
+  },
+  {
+   "id": "9cedb79d",
+   "c": "addins",
+   "title": "Civil 3D: Box Culverts أوتوماتيك",
+   "desc": "أداة بتعمل culverts من فتحة لـ 10 فتحات مع wing walls بارتفاع متغير كموديل 3D",
+   "title_en": "Civil 3D: automatic box culverts",
+   "desc_en": "Tool builds 1 to 10-cell culverts with variable-height wing walls as a 3D model",
+   "a": "Ahmed Ali",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eBRMxFei",
+   "added": "2026-11-20",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Automation"
+   ],
+   "link": "https://drive.google.com/drive/folders/1xfHxHgxJfAst0tp6iDywKBevk7y8T5i6",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "f92b307d",
+   "c": "opensource",
+   "title": "That Open: 100,000 rebar في المتصفح",
+   "desc": "حديد تسليح IFC بيفتح في 5 ثواني و 90 fps، وهينزل في المكتبات الـ open source",
+   "title_en": "That Open: 100,000 rebars in the browser",
+   "desc_en": "IFC rebar opens in 5 seconds at 90 fps, and will ship in the open-source libraries",
+   "a": "Antonio González Viegas",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eT4MaV4h",
+   "added": "2026-11-20",
+   "tags": [
+    "That Open",
+    "IFC",
+    "Open Source",
+    "Structural"
+   ]
+  },
+  {
+   "id": "72ee2681",
+   "c": "courses",
+   "title": "جلسة مجانية: AI agent للإنشائي",
+   "desc": "جلسة لايف: agent من موديل IFC لتقرير Eurocode 5 ولوحات DXF وفين بيقف للمهندس",
+   "title_en": "Free session: an AI agent for structural",
+   "desc_en": "Live session: an agent goes from IFC to a Eurocode 5 report and DXF drawings",
+   "a": "Mohamed Adil",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e-3-kWKv",
+   "added": "2026-11-20",
+   "tags": [
+    "AI Agents",
+    "Structural",
+    "IFC",
+    "Free"
+   ],
+   "link": "https://awatif.co/events/future",
+   "linkLabel": "التسجيل"
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
