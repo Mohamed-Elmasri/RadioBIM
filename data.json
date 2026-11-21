@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "sections": [
   {
    "id": "ai",
@@ -8764,6 +8764,268 @@
    ],
    "link": "https://awatif.co/events/future",
    "linkLabel": "التسجيل"
+  },
+  {
+   "id": "6cdf93ae",
+   "c": "addins",
+   "title": "Clash Navigator: فلترة clashes بالعنصر",
+   "desc": "تحديث للأداة: تختار element في Revit فتظهرلك الـ clashes بتاعته بس من نتايج Navisworks",
+   "title_en": "Clash Navigator: filter clashes by element",
+   "desc_en": "Update: pick an element in Revit and see only its clashes from Navisworks results",
+   "a": "Magdy Samuel",
+   "date": "2026-11-20",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529630558453243905",
+   "added": "2026-11-21",
+   "tags": [
+    "Revit",
+    "Navisworks",
+    "Clash Detection",
+    "Coordination"
+   ],
+   "link": "https://drive.google.com/drive/folders/1sqR4_BYRstbbvtcDXWh5e8nPA8jB5pgs",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "583ef4bd",
+   "c": "ideas",
+   "title": "Dynamo 4.3: راجع تعديل الـ AI للكود",
+   "desc": "الـ Assistant بيوريك diff قبل/بعد في Python node، ومثال إزاي سطر واحد غيّر إجمالي الحصر",
+   "title_en": "Dynamo 4.3: review AI code edits",
+   "desc_en": "Assistant shows a before/after diff in Python nodes; one changed line shifted a QTO total",
+   "a": "Reham Essam",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e7PeScG8",
+   "added": "2026-11-21",
+   "tags": [
+    "Dynamo",
+    "Quantity Takeoff",
+    "QA/QC",
+    "Gen AI"
+   ]
+  },
+  {
+   "id": "cce2a9c7",
+   "c": "addins",
+   "title": "AMRO: tags وbatch links وتصدير اللوحات",
+   "desc": "تحديث بيعمل tags أوتوماتيك، يرفع 100 link مرة واحدة، ويصدّر Electrical Panels لـ Excel",
+   "title_en": "AMRO: auto tags, batch links, panels",
+   "desc_en": "Update auto-tags, loads 100 links at once and exports electrical panels to Excel",
+   "a": "Amr Mahmoued",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eNwTHVk2",
+   "added": "2026-11-21",
+   "tags": [
+    "Revit",
+    "Annotation",
+    "Electrical",
+    "Excel",
+    "Sheets"
+   ]
+  },
+  {
+   "id": "cb5ba858",
+   "c": "addins",
+   "title": "Python: سطح Civil 3D لـ Toposolid",
+   "desc": "script من غير plugins بيحوّل نقط السطح من CSV لـ Toposolid بالـ shared coordinates",
+   "title_en": "Python: Civil 3D surface to Toposolid",
+   "desc_en": "Plugin-free script reads surface points from CSV and builds a Revit Toposolid in place",
+   "a": "Ahmed Khaled Mohamed",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/evusKe8e",
+   "added": "2026-11-21",
+   "tags": [
+    "Revit",
+    "Civil 3D",
+    "Revit API",
+    "Landscape"
+   ]
+  },
+  {
+   "id": "3891cb54",
+   "c": "ideas",
+   "title": "Claude بيصلّح IFC: اكتب IDS الأول",
+   "desc": "Claude بيصلّح موديل IFC في 5 دقايق، بس من غير IDS مش هتعرف هو غيّر إيه وغلط فين",
+   "title_en": "Claude fixes IFC: write the IDS first",
+   "desc_en": "Claude fixes an IFC model in 5 minutes, but without an IDS you cannot check its changes",
+   "a": "Petru Conduraru",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/eHSNXp6c",
+   "added": "2026-11-21",
+   "tags": [
+    "IFC",
+    "IDS",
+    "Claude",
+    "QA/QC"
+   ]
+  },
+  {
+   "id": "b3003f80",
+   "c": "opensource",
+   "title": "That Open: إضاءة واقعية في المتصفح",
+   "desc": "3MB JavaScript بتحسب GI لحظي وتغيّر الإضاءة والخامات، وهتنزل في الـ BIM API المفتوح",
+   "title_en": "That Open: real-time GI in the browser",
+   "desc_en": "3MB of JavaScript computes live global illumination; coming to the open-source BIM API",
+   "a": "Antonio González Viegas",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eajPAsQA",
+   "added": "2026-11-21",
+   "tags": [
+    "That Open",
+    "Open Source",
+    "Visualization",
+    "Web App"
+   ]
+  },
+  {
+   "id": "dc9edeef",
+   "c": "addins",
+   "title": "EXREBAR: حصر الحديد الإضافي بـ LISP",
+   "desc": "LISP اتعمل بـ Claude بيرقّم الأسياخ ويطلع جدول تسليح إضافي ويصدّره لـ Excel",
+   "title_en": "EXREBAR: extra rebar takeoff in LISP",
+   "desc_en": "A Claude-made LISP tags bars, builds an extra-rebar table and exports it to Excel",
+   "a": "سيف الإسلام رضا",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eDDsBy84",
+   "added": "2026-11-21",
+   "tags": [
+    "AutoCAD",
+    "AutoLISP",
+    "Claude",
+    "Quantity Takeoff",
+    "Free"
+   ],
+   "link": "https://www.mediafire.com/file/ya6700s0rjy33il/EXREBAR.lsp/file",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "f8561b6e",
+   "c": "addins",
+   "title": "Revit: Single Line Diagram في ثواني",
+   "desc": "add-in بيقرا الـ circuits والأحمال لأي لوحة ويرسم الـ SLD كامل أوتوماتيك",
+   "title_en": "Revit: single line diagrams in seconds",
+   "desc_en": "Add-in reads any panel's circuits and loads and draws the full SLD automatically",
+   "a": "Ahmed El Shahed",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/eqYk8ZG7",
+   "added": "2026-11-21",
+   "tags": [
+    "Revit",
+    "Electrical",
+    "MEP",
+    "Automation"
+   ],
+   "link": "https://drive.google.com/file/d/1lx46kMQ0VUBR2lJIrkc-sWtZD_S2226z/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "31b40ac0",
+   "c": "addins",
+   "title": "FTQ + STSEC: شوب دروينج حديد في AutoCAD",
+   "desc": "حصر حديد القواعد والميد والكمرات والبلاطات وشوب دروينج زي ASD، والـ BBS بيتحدّث مع الرسم",
+   "title_en": "FTQ + STSEC: rebar shop drawings in CAD",
+   "desc_en": "Rebar takeoff and ASD-style shop drawings in plain AutoCAD with a live-linked BBS",
+   "a": "Mahmoud Sonbol",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/eSc8S-qd",
+   "added": "2026-11-21",
+   "tags": [
+    "AutoCAD",
+    "Shop Drawings",
+    "Structural",
+    "Quantity Takeoff"
+   ]
+  },
+  {
+   "id": "619a6bb1",
+   "c": "ai",
+   "title": "designR: تصميم MEP كامل بالـ AI",
+   "desc": "بياخد DWG/PDF/IFC ويصمم التكييف والإنارة والقوى والحريق والصرف وينسّقهم 3D مع checker",
+   "title_en": "designR: full MEP design with AI",
+   "desc_en": "Takes DWG/PDF/IFC and designs HVAC, lighting, power, fire and drainage with a checker",
+   "a": "Andy Bird",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e4SURsKH",
+   "added": "2026-11-21",
+   "tags": [
+    "MEP",
+    "AI Agents",
+    "Coordination",
+    "IFC"
+   ]
+  },
+  {
+   "id": "aa0ad341",
+   "c": "opensource",
+   "title": "BIM2Bot Lab: من IFC لملاحة الروبوت",
+   "desc": "تطبيق متصفح مفتوح بيحوّل IFC لخرايط ملاحة ويخطط مسارات A* لأكتر من روبوت على كذا دور",
+   "title_en": "BIM2Bot Lab: IFC to robot navigation",
+   "desc_en": "Open-source web app turns IFC into navigation maps and plans multi-floor A* robot paths",
+   "a": "Saddiq Ur Rehman",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/eE7riKcT",
+   "added": "2026-11-21",
+   "tags": [
+    "IFC",
+    "Open Source",
+    "Web App",
+    "Construction"
+   ],
+   "link": "https://isaddiq.github.io/BIM2Bot-Lab/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "0b94f659",
+   "c": "addins",
+   "title": "MZ Auto Dim: أبعاد البولتات في Tekla",
+   "desc": "أداة بتعمل dimensions للبولتات في Drawing Editor بأكتر من style واتجاه",
+   "title_en": "MZ Auto Dim: bolt dimensions in Tekla",
+   "desc_en": "Tool dimensions bolt groups in Drawing Editor with styles, directions and repeat mode",
+   "a": "MD MOZAHID",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/eSMfJfx9",
+   "added": "2026-11-21",
+   "tags": [
+    "Tekla",
+    "Shop Drawings",
+    "Annotation",
+    "Automation"
+   ]
+  },
+  {
+   "id": "10a6065b",
+   "c": "tools",
+   "title": "ETABS Checker: 12 معيار TCVN",
+   "desc": "تطبيق بيراجع موديل ETABS على 12 معيار ويعرض النتايج، وتتحكم في الـ 3D بحركة الإيد",
+   "title_en": "ETABS Checker: 12 TCVN criteria",
+   "desc_en": "App checks an ETABS model against 12 criteria; navigate the 3D view with hand gestures",
+   "a": "Hoang Long Le",
+   "date": "2026-11-20",
+   "url": "https://lnkd.in/p/e2w7TTW9",
+   "added": "2026-11-21",
+   "tags": [
+    "ETABS",
+    "Structural",
+    "QA/QC",
+    "Visualization"
+   ]
+  },
+  {
+   "id": "45cb8d44",
+   "c": "addins",
+   "title": "Dynamo: تسمية الشيتات والـ families",
+   "desc": "workflow بيعدّل أسماء الـ Sheets والـ Views والـ families بالجملة حسب ستاندرد المشروع",
+   "title_en": "Dynamo: bulk rename sheets and families",
+   "desc_en": "Workflow bulk-renames sheets, views and families to the project naming standard",
+   "a": "SHAIK SUMAIR",
+   "date": "2026-11-19",
+   "url": "https://lnkd.in/p/ecV6Np9C",
+   "added": "2026-11-21",
+   "tags": [
+    "Dynamo",
+    "Revit",
+    "Sheets",
+    "QA/QC"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
