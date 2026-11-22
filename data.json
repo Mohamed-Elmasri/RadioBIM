@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "sections": [
   {
    "id": "ai",
@@ -9025,6 +9025,180 @@
     "Revit",
     "Sheets",
     "QA/QC"
+   ]
+  },
+  {
+   "id": "29966982",
+   "c": "mcp",
+   "title": "Revit MCP مجاني عبر pyRevit و Claude",
+   "desc": "Claude Code بيسطّب MCP فيه 51 أداة تقرا وتعدّل وتلوّن وتعمل sheets جوه Revit",
+   "title_en": "Free Revit MCP via pyRevit and Claude",
+   "desc_en": "Claude Code installs a 51-tool MCP that reads, edits, colours and builds sheets in Revit",
+   "a": "Hamza Abdul Jabbar",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/evhhcwZp",
+   "added": "2026-11-22",
+   "tags": [
+    "Revit",
+    "MCP",
+    "Claude",
+    "pyRevit",
+    "Open Source"
+   ]
+  },
+  {
+   "id": "23883aa4",
+   "c": "ai",
+   "title": "8 Claude skills للـ visualization مجانًا",
+   "desc": "حوّل الـ 8 workflows بتاعته لـ skills تنزل zip: Prompt to BIM عبر MCP وفيلم إنشاء وصورة لموديل",
+   "title_en": "8 free Claude skills for visualization",
+   "desc_en": "His 8 workflows as downloadable skills: prompt to BIM via MCP, build films, photo to model",
+   "a": "Chiang Ning (ARBV, PMP)",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/eXxjCYcT",
+   "added": "2026-11-22",
+   "tags": [
+    "Claude",
+    "Skills",
+    "Visualization",
+    "Revit",
+    "Blender",
+    "Free"
+   ],
+   "link": "https://chiangning.net",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "d22416e4",
+   "c": "addins",
+   "title": "ETABS Loading Plan: لوحات أحمال جاهزة",
+   "desc": "plug-in بيقرا موديل ETABS ويطلع loading plan وsections وcolumn schedules ويصدّر DXF وPDF وRevit",
+   "title_en": "ETABS Loading Plan: issue-ready load plans",
+   "desc_en": "Plug-in reads ETABS and outputs loading plans, sections, column schedules to DXF, PDF, Revit",
+   "a": "Mahmoud Yousief",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/emetiu23",
+   "added": "2026-11-22",
+   "tags": [
+    "ETABS",
+    "Structural",
+    "AutoCAD",
+    "Revit"
+   ],
+   "link": "https://github.com/yousiefmahmoud1993/mahmoud-tools-request/releases/latest/download/MahmoudTools.zip",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "068f0c91",
+   "c": "addins",
+   "title": "NEXORA Model Compare: مقارنة موديلات RVT",
+   "desc": "بيطابق العناصر بالـ geometry مش الـ ID: طابق 460 من 460 في 3 ثواني رغم إزاحة 100م ودوران 30°",
+   "title_en": "NEXORA Model Compare: RVT model diff",
+   "desc_en": "Geometry-based matching, not IDs: matched 460/460 elements in 3s despite 100 m shift and 30° turn",
+   "a": "NEXORA",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/eQkeDQBr",
+   "added": "2026-11-22",
+   "tags": [
+    "Revit",
+    "QA/QC",
+    "Coordination",
+    "ACC"
+   ]
+  },
+  {
+   "id": "404207fd",
+   "c": "addins",
+   "title": "OMS Quantities: حصر مع مراجعة من Revit",
+   "desc": "أداة حصر بتبيّن اتحسب إيه واتساب إيه: 4,314 عنصر اتفحص و128 اتعلم للمراجعة",
+   "title_en": "OMS Quantities: auditable Revit takeoff",
+   "desc_en": "Takeoff tool shows what was counted and why: 4,314 scanned, 128 flagged for review",
+   "a": "Li-shy Emek",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/ePzR_K7f",
+   "added": "2026-11-22",
+   "tags": [
+    "Revit",
+    "Quantity Takeoff",
+    "QA/QC",
+    "MEP"
+   ],
+   "link": "https://omsbim.com",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "5d47674e",
+   "c": "addins",
+   "title": "Dynamo: كمرات الكباري مع الـ superelevation",
+   "desc": "الجزء 4: Dynamo بيرصّ الـ girders أوتوماتيك ويخلّيها تتبع الـ superelevation على طول المحور",
+   "title_en": "Dynamo: bridge girders with superelevation",
+   "desc_en": "Part 4: Dynamo places girders automatically and follows superelevation along the alignment",
+   "a": "Hossam Samy",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/eyMrAK-d",
+   "added": "2026-11-22",
+   "tags": [
+    "Dynamo",
+    "Revit",
+    "Infrastructure",
+    "Structural",
+    "Automation"
+   ]
+  },
+  {
+   "id": "0348148b",
+   "c": "tools",
+   "title": "Plannex 9.0: مقارنة جداول P6",
+   "desc": "بيقرا من قاعدة بيانات P6 مباشرة ويطلع 221 نوع variance وActivity Risk Register",
+   "title_en": "Plannex 9.0: P6 schedule comparison",
+   "desc_en": "Reads straight from the P6 database, reports 221 variance types plus an activity risk register",
+   "a": "Mohamed Hisham Aboadma",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/epsX23rD",
+   "added": "2026-11-22",
+   "tags": [
+    "Primavera P6",
+    "Excel",
+    "Project Management",
+    "Cost Control"
+   ],
+   "link": "https://plannexcg.com/plannex-tool/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "94da2584",
+   "c": "ai",
+   "title": "Claude: تقرير يومي من جروب WhatsApp",
+   "desc": "Claude قرا رسايل جروب الموقع وملا DPR بالأنشطة والـ P6 IDs والـ Earned Value والعمالة",
+   "title_en": "Claude: daily report from WhatsApp group",
+   "desc_en": "Claude read site group messages and filled a DPR with P6 IDs, earned value and manpower",
+   "a": "Subin Roshan",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/e5i8NhBN",
+   "added": "2026-11-22",
+   "tags": [
+    "Claude",
+    "Primavera P6",
+    "Excel",
+    "EVM",
+    "Construction"
+   ]
+  },
+  {
+   "id": "d439f0f4",
+   "c": "ai",
+   "title": "MEP-AI: مشروع صحي بـ 6 sub-agents",
+   "desc": "MEP-AI و6 agents رسموا تغذية وصرف بيت ضيافة: مواسير ومحابس وriser diagrams وBOQ",
+   "title_en": "MEP-AI: plumbing design by 6 sub-agents",
+   "desc_en": "MEP-AI and 6 agents drafted a guest house plumbing set: pipes, risers, legend and BOQ",
+   "a": "Gürsel Günacar",
+   "date": "2026-11-21",
+   "url": "https://lnkd.in/p/e5fgz-YD",
+   "added": "2026-11-22",
+   "tags": [
+    "MEP",
+    "AI Agents",
+    "Quantity Takeoff"
    ]
   }
  ],
