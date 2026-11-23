@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "sections": [
   {
    "id": "ai",
@@ -9199,6 +9199,322 @@
     "MEP",
     "AI Agents",
     "Quantity Takeoff"
+   ]
+  },
+  {
+   "id": "f464f4d1",
+   "c": "courses",
+   "title": "Claude–Revit Connector: كورس مجاني بـ MCP",
+   "desc": "د. Ibrahim Fahdah بيحضّر كورس يبني AI Connector لـ Revit بـ MCP وC# من الصفر",
+   "title_en": "Claude–Revit Connector: free MCP course",
+   "desc_en": "Dr. Ibrahim Fahdah is preparing a course on building a Revit AI connector with MCP and C#",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dX2mUPAK",
+   "added": "2026-11-23",
+   "tags": [
+    "Revit",
+    "Claude",
+    "MCP",
+    "Free",
+    "Coding"
+   ]
+  },
+  {
+   "id": "56b98cc2",
+   "c": "courses",
+   "title": "دبلومة BIM: شابتر AI يبني أدوات Revit",
+   "desc": "شابتر جديد بيعلّمك تطلب من الـ AI أداة لـ Revit أو AutoCAD ويجهّزها ويثبّتها لك",
+   "title_en": "BIM diploma: AI chapter for Revit tools",
+   "desc_en": "New chapter: ask AI for a Revit or AutoCAD tool and get it built and installed",
+   "a": "Amr Elqemary",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/djE76G2S",
+   "added": "2026-11-23",
+   "tags": [
+    "Revit",
+    "AutoCAD",
+    "Automation",
+    "Coding"
+   ]
+  },
+  {
+   "id": "faf51331",
+   "c": "mcp",
+   "title": "MCP: تتبّع سبب Crash أدوات Revit",
+   "desc": "الـ AI بيقرا الـ Journals والـ Event Viewer والـ logs ويحلل العناصر ويصلّح كود التول",
+   "title_en": "MCP: debugging Revit tool crashes",
+   "desc_en": "AI reads journals, Event Viewer and logs, analyzes elements and fixes the tool code",
+   "a": "Ahmad Eltobshy",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dRdDRgVe",
+   "added": "2026-11-23",
+   "tags": [
+    "MCP",
+    "Revit",
+    "Navisworks",
+    "Revit API",
+    "Coding"
+   ]
+  },
+  {
+   "id": "6fde188e",
+   "c": "addins",
+   "title": "Dynamo: دعامات مواسير الحريق في دقيقة",
+   "desc": "سكريبت Python بيجمع المواسير المستقيمة ويحط الـ supports بالمسافات ويطلع تقرير مراجعة",
+   "title_en": "Dynamo: fire pipe supports in a minute",
+   "desc_en": "Python script groups straight runs, places supports by spacing rules and reports",
+   "a": "Mohamed Hasan Sheik Maideen",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/dgwDQtmF",
+   "added": "2026-11-23",
+   "tags": [
+    "Dynamo",
+    "Revit",
+    "MEP",
+    "Revit API",
+    "Automation"
+   ]
+  },
+  {
+   "id": "7a2ccb21",
+   "c": "addins",
+   "title": "SilferTools: Action Log للتعديلات",
+   "desc": "Addin بيسجّل كل تعديل في ملف Revit ومين عمله، من وقت تسطيبه على الجهاز",
+   "title_en": "SilferTools: Action Log of model changes",
+   "desc_en": "Add-in logs every change in the Revit file and who made it, from install onward",
+   "a": "Mohamed Nasr El-Din",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dASTEcXK",
+   "added": "2026-11-23",
+   "tags": [
+    "Revit",
+    "QA/QC",
+    "Coordination",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1l5eCFx8zlEGAHv9r-0vwUp0Fy0AlxJbX/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "265e62ff",
+   "c": "addins",
+   "title": "Civil 3D: Superelevation وAOR أوتوماتيك",
+   "desc": "أداة C# بتظبط الـ Lane Superelevation ومحور الدوران وميول الحارات من غير خطوات يدوية",
+   "title_en": "Civil 3D: automated superelevation & AOR",
+   "desc_en": "C# tool sets lane superelevation, axis of rotation and lane slopes without manual steps",
+   "a": "Ahmed Ali",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/dVrXEsqF",
+   "added": "2026-11-23",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Automation",
+    "Coding"
+   ]
+  },
+  {
+   "id": "b960cd19",
+   "c": "mcp",
+   "title": "First Option MCP: ETABS وSAFE وSAP2000",
+   "desc": "MCPs جديدة بتخلّي الـ AI Agents تشتغل جوه برامج التحليل الإنشائي مع باقي الـ MCPs",
+   "title_en": "First Option MCP: ETABS, SAFE, SAP2000",
+   "desc_en": "New MCPs let AI agents work inside structural analysis apps alongside his other MCPs",
+   "a": "Ahmed Sherif",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/ddD6Kae9",
+   "added": "2026-11-23",
+   "tags": [
+    "MCP",
+    "ETABS",
+    "SAFE",
+    "Structural",
+    "AI Agents"
+   ],
+   "link": "https://mcp-hub.firstoption-es.com/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "887b97a3",
+   "c": "mcp",
+   "title": "ArcGIS: MCP وAgentic Toolkit لـ GIS",
+   "desc": "الـ AI بيبني تطبيقات GIS وبيستخدم طبقاتها عبر MCP، زي تقييم أثر الفيضانات بالشات",
+   "title_en": "ArcGIS: MCP and agentic toolkit for GIS",
+   "desc_en": "AI builds GIS apps and uses GIS layers via MCP, e.g. a flood impact check by chat",
+   "a": "Arkadiusz Szadkowski",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/d5asACtg",
+   "added": "2026-11-23",
+   "tags": [
+    "GIS",
+    "MCP",
+    "AI Agents",
+    "Infrastructure"
+   ],
+   "link": "https://developers.arcgis.com/ai/arcgis-agentic-developer-toolkit/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "0ee8fee9",
+   "c": "ideas",
+   "title": "Agentic AI: مين شايل المخاطرة؟",
+   "desc": "لما الـ agents توصل للـ models والعقود والـ CDE الخطر بيبقى قانوني وتجاري مش تقني بس",
+   "title_en": "Agentic AI: who owns the risk?",
+   "desc_en": "Once agents reach models, contracts and the CDE, the risk turns legal and commercial",
+   "a": "Kholod Khaled Hassan",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dhvh3hVh",
+   "added": "2026-11-23",
+   "tags": [
+    "AI Agents",
+    "Data Security",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "09421c99",
+   "c": "tools",
+   "title": "ELNEKITI DATABASE: تقارير زي Power BI",
+   "desc": "برنامج ويندوز بيحوّل Excel وSQL وAccess لمرئيات بفلترة وتصدير PDF، تجربة 14 يوم",
+   "title_en": "ELNEKITI DATABASE: Power BI-style reports",
+   "desc_en": "Windows app turns Excel, SQL, Access into visuals with PDF export; 14-day trial",
+   "a": "Masoud Ali El Nekiti",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/dBJ6h5BR",
+   "added": "2026-11-23",
+   "tags": [
+    "Excel",
+    "Power BI",
+    "Dashboard",
+    "Data Analytics"
+   ],
+   "link": "https://elnekiti-engineering-store.com/product/43",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "630a3bec",
+   "c": "addins",
+   "title": "Shear Wall Designer: حوائط ETABS",
+   "desc": "متصل بـ ETABS: جداول بتتعدل وترجع للموديل وتصميم أوتوماتيك لحد الـ D/C ولوحات DXF",
+   "title_en": "Shear Wall Designer: ETABS wall design",
+   "desc_en": "Live ETABS link: editable schedules, auto design to target D/C, DXF/PDF marking plans",
+   "a": "Abdelrahman Eissa",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dcMQs8MN",
+   "added": "2026-11-23",
+   "tags": [
+    "ETABS",
+    "Structural",
+    "Automation",
+    "Excel"
+   ]
+  },
+  {
+   "id": "dde58991",
+   "c": "mcp",
+   "title": "Claude + Navisworks: ربط العناصر بالجدول",
+   "desc": "Claude عبر MCP ربط العناصر بمهام الجدول بـ search sets وشغّل clash tests ولخّصها",
+   "title_en": "Claude + Navisworks: schedule linking",
+   "desc_en": "Claude via MCP linked elements to schedule tasks with search sets and ran clash tests",
+   "a": "Edwin Prakoso",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dWXYHYCA",
+   "added": "2026-11-23",
+   "tags": [
+    "Claude",
+    "Navisworks",
+    "MCP",
+    "4D",
+    "Clash Detection"
+   ]
+  },
+  {
+   "id": "a2408214",
+   "c": "tools",
+   "title": "Sewer Takeoff: حصر شبكات الصرف لحظي",
+   "desc": "بتصنّف المطابق والمواسير حسب حدود كل مقايسة طبقًا للكود المصري وتصدّر شيتات حصر",
+   "title_en": "Sewer Takeoff: instant drainage quantities",
+   "desc_en": "Classifies manholes and pipes by BOQ limits per the Egyptian code and exports sheets",
+   "a": "Ahmed Abdelkhalek",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/da4QDaWA",
+   "added": "2026-11-23",
+   "tags": [
+    "Quantity Takeoff",
+    "Infrastructure",
+    "Excel"
+   ]
+  },
+  {
+   "id": "df45db95",
+   "c": "ai",
+   "title": "AI Render: pavilion ببرومبت واحد",
+   "desc": "template برومبت isometric وorthographic بيطلع render نضيف كأنه ماكيت استوديو",
+   "title_en": "AI Render: a pavilion from one prompt",
+   "desc_en": "An isometric, orthographic prompt template gives clean renders like a studio model",
+   "a": "Chiang Ning (ARBV, PMP)",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dtan8hgv",
+   "added": "2026-11-23",
+   "tags": [
+    "Visualization",
+    "Prompting",
+    "Gen AI"
+   ]
+  },
+  {
+   "id": "1d371a5e",
+   "c": "tools",
+   "title": "Redlines: تعديلات الموقع لموديل Revit",
+   "desc": "Web app بيسجّل تغييرات الموقع بنقط على اللوحة وصور متعلّم عليها عشان تحديث الموديل",
+   "title_en": "Redlines: site changes to the Revit model",
+   "desc_en": "Web app logs site changes as plan pins and marked-up photos to update the model",
+   "a": "Sofía Pieroni",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/dn3KV8HE",
+   "added": "2026-11-23",
+   "tags": [
+    "Revit",
+    "Web App",
+    "MEP",
+    "Construction"
+   ]
+  },
+  {
+   "id": "d763b215",
+   "c": "ai",
+   "title": "Claude Code: من مسقط لـ 8 لوحات GFC",
+   "desc": "مسقط 2D اتحوّل لموديل و8 لوحات GFC و4 منهم Rev B بعد تعديل، في أقل من 10 دقايق",
+   "title_en": "Claude Code: floor plan to 8 GFC sheets",
+   "desc_en": "A 2D plan became a model and 8 GFC sheets, 4 reissued as Rev B, in under 10 minutes",
+   "a": "Naman Mehta",
+   "date": "2026-11-22",
+   "url": "https://lnkd.in/p/dH9tRBR6",
+   "added": "2026-11-23",
+   "tags": [
+    "Claude",
+    "Automation",
+    "Sheets",
+    "Coding"
+   ]
+  },
+  {
+   "id": "a6752e7c",
+   "c": "ideas",
+   "title": "AI والشوب دروينج: محتاج عين مراجع",
+   "desc": "الـ AI بيطلع Cutting List شكلها مقنع، والخطر في الثقة الكاذبة لمهندس من غير خبرة مراجعة",
+   "title_en": "AI shop drawings: still need a reviewer",
+   "desc_en": "AI cutting lists look convincing; the risk is false confidence without an expert check",
+   "a": "Mohamed ,M.Sc",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dRi7DasM",
+   "added": "2026-11-23",
+   "tags": [
+    "Shop Drawings",
+    "Structural",
+    "Strategy",
+    "QA/QC"
    ]
   }
  ],
