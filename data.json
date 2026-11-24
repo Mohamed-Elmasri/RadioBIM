@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "sections": [
   {
    "id": "ai",
@@ -9516,6 +9516,303 @@
     "Strategy",
     "QA/QC"
    ]
+  },
+  {
+   "id": "ea35b92b",
+   "c": "addins",
+   "title": "Beaver Dam 1.0: ‏27 أداة Revit",
+   "desc": "مهندس معماري بنى بـ Claude toolkit فيه export و sheets و worksets لـ Revit 2022–2026",
+   "title_en": "Beaver Dam 1.0: 27 Revit tools",
+   "desc_en": "An architect built a Claude-coded toolkit: batch export, sheets, worksets, Revit 2022–2026",
+   "a": "Khaled Alassas",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dkvymSkV",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "Claude",
+    "Batch Export",
+    "Sheets"
+   ]
+  },
+  {
+   "id": "66d343f7",
+   "c": "opensource",
+   "title": "ConstructCraft: بديل Revit مفتوح المصدر",
+   "desc": "تجربة كاملة لـ ConstructCraft كبرنامج BIM مجاني ومفتوح المصدر بديل لـ Revit",
+   "title_en": "ConstructCraft: open-source Revit alternative",
+   "desc_en": "A full hands-on test of ConstructCraft, a free open-source BIM modeller",
+   "a": "Omar Selim",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/d6-9sCRN",
+   "added": "2026-11-24",
+   "tags": [
+    "Open Source",
+    "Free",
+    "Revit"
+   ]
+  },
+  {
+   "id": "0c646b27",
+   "c": "opensource",
+   "title": "OpenConstructionDesign: CAD-BIM بالـ AI",
+   "desc": "editor مفتوح المصدر بتوصف فيه المطلوب بالنص والـ AI يبني الموديل، ومربوط بـ ERP",
+   "title_en": "OpenConstructionDesign: AI CAD-BIM editor",
+   "desc_en": "Open-source CAD-BIM editor: describe it in text, AI builds the model; links to ERP",
+   "a": "Artem Boiko",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dmcUjnkY",
+   "added": "2026-11-24",
+   "tags": [
+    "Open Source",
+    "AI Agents",
+    "ERP",
+    "Free"
+   ],
+   "link": "https://github.com/datadrivenconstruction/OpenConstructionDesign",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "fd0b16d7",
+   "c": "ai",
+   "title": "grok bot + Claude: فريق bots للمقاولات",
+   "desc": "كل bot بدور (P6 Planner، Estimator…) بيشغّل Claude skills بـ routines شهرية لوحده",
+   "title_en": "grok bot + Claude: construction bot team",
+   "desc_en": "One bot per role (P6 planner, estimator…) running Claude skills on monthly routines",
+   "a": "Hamza Abdul Jabbar",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dx6EJzTX",
+   "added": "2026-11-24",
+   "tags": [
+    "Claude",
+    "AI Agents",
+    "Skills",
+    "P6"
+   ]
+  },
+  {
+   "id": "eeee5ee3",
+   "c": "ai",
+   "title": "New Family: Revit Family من لينك المنتج",
+   "desc": "أداة AI بتحوّل لينك أو صورة منتج من الكتالوج لـ Revit Family جاهزة للمراجعة",
+   "title_en": "New Family: Revit family from a product link",
+   "desc_en": "AI tool turns a catalog product link or photo into a ready-to-review Revit family",
+   "a": "Ibrahim A.I. Abdelhady, Ph.D., AIA, PE",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/de6TXCbW",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "Families",
+    "Gen AI"
+   ],
+   "link": "https://new.family",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "c92c482a",
+   "c": "addins",
+   "title": "DiRootsOne 2.10: فلترة اللينكات و Excel",
+   "desc": "SheetLink بيبدّل الـ families من Excel و OneFilter بيفلتر عناصر الـ linked models",
+   "title_en": "DiRootsOne 2.10: linked filters, Excel swaps",
+   "desc_en": "SheetLink swaps families from Excel; OneFilter finds elements in linked models",
+   "a": "DiRoots",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dVwG9Riv",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "DiRoots",
+    "Excel",
+    "Free"
+   ],
+   "link": "https://diroots.com/revit-plugins/dirootsone/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "0331b42e",
+   "c": "tools",
+   "title": "P6 XER: ‏4D و Power BI بضغطة",
+   "desc": "من تحديث XER الأسبوعي: محاكاة 4D لـ 4000 عنصر وتقرير Power BI بالـ EVM ولوحات للموقع",
+   "title_en": "P6 XER: 4D + Power BI in one click",
+   "desc_en": "Weekly XER builds a 4,000-element 4D sim, Power BI EVM report and site layouts",
+   "a": "Ebrahem Elhenawy",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dmWz-W55",
+   "added": "2026-11-24",
+   "tags": [
+    "Primavera P6",
+    "4D",
+    "Power BI",
+    "EVM"
+   ]
+  },
+  {
+   "id": "00243335",
+   "c": "opensource",
+   "title": "BIM Tools v0.75: أول إصدار على GitHub",
+   "desc": "add-in بـ 3 tabs (Model، Design، Docs & Data) لـ Revit 2023–2027 بيتسطب في دقيقتين",
+   "title_en": "BIM Tools v0.75: first GitHub release",
+   "desc_en": "Revit add-in with 3 tabs (Model, Design, Docs & Data) for Revit 2023–2027",
+   "a": "Moayad Habib",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/drBxenTY",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "Open Source",
+    "Free",
+    "Ribbon"
+   ],
+   "link": "https://github.com/mo2ayadrashad-afk/BIMTools-Releases",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "5f0eae13",
+   "c": "ai",
+   "title": "Claude: موديل 4D لفندق من XER و PDF",
+   "desc": "حوّل baseline P6 ولوحات PDF لموديل 4D تفاعلي في المتصفح من غير برامج BIM",
+   "title_en": "Claude: 4D hotel model from XER + PDF",
+   "desc_en": "Turned a P6 baseline and PDF drawings into a browser 4D model with no BIM software",
+   "a": "Maaz abdelmageed PMP",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dtwK3R-6",
+   "added": "2026-11-24",
+   "tags": [
+    "Claude",
+    "4D",
+    "Primavera P6",
+    "Web App"
+   ]
+  },
+  {
+   "id": "d595b3c6",
+   "c": "opensource",
+   "title": "CreaBIM 1.2: modeller مفتوح للمعماريين",
+   "desc": "BIM مجاني فيه general notes بالـ Markdown على الشيت واختصارات زي Revit و ArchiCAD",
+   "title_en": "CreaBIM 1.2: open BIM for architects",
+   "desc_en": "Free modeller with Markdown general notes on sheets and Revit/ArchiCAD-style keys",
+   "a": "Regis Benoit Brice N.",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dKdJ_Suw",
+   "added": "2026-11-24",
+   "tags": [
+    "Open Source",
+    "Free",
+    "Sheets"
+   ],
+   "link": "https://chopinregis.github.io/CreaBIM/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "2399346c",
+   "c": "mcp",
+   "title": "Antigravity: AI Agent بيعمل annotation",
+   "desc": "درّبت agent في يومين يعمل full annotation و documentation للوح Revit مع مراجعة QA/QC",
+   "title_en": "Antigravity: AI agent for Revit annotation",
+   "desc_en": "Trained an agent in two days to annotate and document Revit sheets, then QA/QC",
+   "a": "Norhan Yakoub",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dCX6aUzJ",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "AI Agents",
+    "Annotation",
+    "QA/QC"
+   ]
+  },
+  {
+   "id": "e7bdab61",
+   "c": "ai",
+   "title": "Aircad: data center ‏4.8 MW من script",
+   "desc": "موديل data center لـ 2304 GPU لحد المحابس والـ cable trays و 17 شيت من script واحد",
+   "title_en": "Aircad: 4.8 MW data center from a script",
+   "desc_en": "Data center for 2,304 GPUs down to valves and cable baskets, 17 sheets, one script",
+   "a": "Peter Boyer",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/d8NQZzug",
+   "added": "2026-11-24",
+   "tags": [
+    "Gen AI",
+    "MEP",
+    "Sheets",
+    "Automation"
+   ],
+   "link": "https://aircad.com",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "85ed5864",
+   "c": "addins",
+   "title": "pyRevit: shop drawings لوصلات الحديد",
+   "desc": "بتختار Steel Connection والأداة بتعمل الـ plates والمسامير والـ views في drafting view",
+   "title_en": "pyRevit: steel connection shop drawings",
+   "desc_en": "Pick a steel connection: plates, bolts and views land in one drafting view",
+   "a": "Silvia Pinto Bernabé",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/djubSHw6",
+   "added": "2026-11-24",
+   "tags": [
+    "pyRevit",
+    "Revit",
+    "Shop Drawings",
+    "Structural"
+   ]
+  },
+  {
+   "id": "c140f518",
+   "c": "mcp",
+   "title": "OpenSTAAD MCP: برج إيفل في STAAD.Pro",
+   "desc": "Claude Desktop بيقرأ PDF أو DXF أو sketch ويبني الموديل التحليلي لايف في STAAD.Pro",
+   "title_en": "OpenSTAAD MCP: Eiffel Tower in STAAD.Pro",
+   "desc_en": "Claude Desktop reads a PDF, DXF or sketch and builds the STAAD.Pro model live",
+   "a": "Dr. Sanjay Baidya",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dGnnufRX",
+   "added": "2026-11-24",
+   "tags": [
+    "MCP",
+    "Claude",
+    "Structural",
+    "Bentley"
+   ]
+  },
+  {
+   "id": "e7fda34c",
+   "c": "tools",
+   "title": "MEP Progress: template متابعة لكل دور",
+   "desc": "template بيتابع نسب إنجاز الكهربا والـ HVAC والحريق والـ BMS لكل دور ولكل system",
+   "title_en": "MEP Progress: floor-by-floor tracker",
+   "desc_en": "Template tracking electrical, HVAC, fire and BMS progress per floor and system",
+   "a": "Hooria Komal",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/d-anMVYz",
+   "added": "2026-11-24",
+   "tags": [
+    "MEP",
+    "Excel",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "272baa53",
+   "c": "mcp",
+   "title": "Splendit: AI جوه Revit و AutoCAD",
+   "desc": "بتوصف المهمة بالكلام والأداة تنفذها في المشروع مع مراجعة وتراجع عن التغييرات",
+   "title_en": "Splendit: AI inside Revit and AutoCAD",
+   "desc_en": "Describe a task and it runs in your project, with review and undo",
+   "a": "Balkan Architect",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/d_GT3SVC",
+   "added": "2026-11-24",
+   "tags": [
+    "Revit",
+    "AutoCAD",
+    "AI Agents"
+   ],
+   "link": "https://splendit.me/en",
+   "linkLabel": "الموقع"
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
