@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "sections": [
   {
    "id": "ai",
@@ -9813,6 +9813,340 @@
    ],
    "link": "https://splendit.me/en",
    "linkLabel": "الموقع"
+  },
+  {
+   "id": "3552336c",
+   "c": "ai",
+   "title": "AI Clash Triage: اختبار على Navisworks",
+   "desc": "اختبار حقيقي: الـ AI بيصنّف الكلاشات ويحدد المهم منها، بتدخل بشري ومن غيره",
+   "title_en": "AI Clash Triage: a Navisworks benchmark",
+   "desc_en": "Real test: AI sorts clashes and flags the real ones, with and without human input",
+   "a": "Essam Kader",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dzfZ4x7D",
+   "added": "2026-11-25",
+   "tags": [
+    "Navisworks",
+    "Clash Detection",
+    "AI Agents",
+    "Coordination"
+   ],
+   "link": "https://www.youtube.com/watch?v=FxlDu4JjLug",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "534d6bc1",
+   "c": "ai",
+   "title": "pyRevit: اعمل plugin بالـ AI بنفسك",
+   "desc": "خطوات تخلي أي AI يكتبلك script وتحطه tool في pyRevit، مع plugins جاهزة على Drive",
+   "title_en": "pyRevit: build your own plugin with AI",
+   "desc_en": "Steps to have any AI write a script and turn it into a pyRevit tool, plus ready plugins",
+   "a": "Saleh Mohamed",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dWcs5__a",
+   "added": "2026-11-25",
+   "tags": [
+    "pyRevit",
+    "Revit",
+    "Coding",
+    "Automation",
+    "Free"
+   ],
+   "link": "https://drive.google.com/file/d/1_Cf6QvLAu62zNn6-WbNVCzYmQ5-9XBdv/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "4906872c",
+   "c": "ideas",
+   "title": "AI: تصميم إنشائي أحسن مش بس أسرع",
+   "desc": "بحث 2026 راجع 323 دراسة: الـ AI بيجرب مئات البدائل للأمان والتكلفة، والمهندس هو اللي يقرر",
+   "title_en": "AI: better structures, not just faster",
+   "desc_en": "A 2026 review of 323 studies: AI tests hundreds of options; the engineer still decides",
+   "a": "Hazem Hamdy",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/duVvJkkW",
+   "added": "2026-11-25",
+   "tags": [
+    "Structural",
+    "Computational Design",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "d47b7bbe",
+   "c": "ai",
+   "title": "CoBot: محيط المبنى من Google Maps",
+   "desc": "أداة AI بتبني الـ site context الحقيقي حوالين مشروعك من Google Maps أوتوماتيك",
+   "title_en": "CoBot: site context from Google Maps",
+   "desc_en": "AI tool that rebuilds the real surroundings of your project from Google Maps automatically",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-25",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531270095600472064",
+   "added": "2026-11-25",
+   "tags": [
+    "Visualization",
+    "GIS",
+    "Gen AI"
+   ]
+  },
+  {
+   "id": "bc70b00f",
+   "c": "ai",
+   "title": "P6 Skill: قيمة الشغل المتبقي بـ 3 أسعار",
+   "desc": "AI skill بيقرأ XER والـ BOQ والمستخلصات ويسعّر المتبقي بسعر P6 والعقد ومقاول الباطن في Excel",
+   "title_en": "P6 Skill: remaining work at 3 rates",
+   "desc_en": "AI skill reads XER, BOQ and clearances, prices remaining work at P6, contract and sub rates",
+   "a": "Abdulrahman Ahmed",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dBXq42kk",
+   "added": "2026-11-25",
+   "tags": [
+    "Primavera P6",
+    "Claude",
+    "Skills",
+    "Cost Control",
+    "Excel"
+   ]
+  },
+  {
+   "id": "477c0155",
+   "c": "ai",
+   "title": "Claude: construction dashboard في 5 خطوات",
+   "desc": "ابدأ من ملف حقيقي، قارئ واحد، 3 أرقام، وخلّي الـ dashboard يراجع نفسه على المصدر",
+   "title_en": "Claude: a construction dashboard in 5 steps",
+   "desc_en": "Start from a real file, one reader, 3 numbers, and make the dashboard check its source",
+   "a": "Hamza Abdul Jabbar",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dy9PtJWT",
+   "added": "2026-11-25",
+   "tags": [
+    "Claude",
+    "Dashboard",
+    "Prompting",
+    "Skills"
+   ]
+  },
+  {
+   "id": "6146a478",
+   "c": "mcp",
+   "title": "Solvaix: 7 AI agents نسّقوا MEP فيلا",
+   "desc": "كل agent تخصص (HVAC، صحي، كهربا، غاز...) بيشتغلوا في نفس الموديل ويتكلموا في group chat",
+   "title_en": "Solvaix: 7 AI agents coordinate a villa MEP",
+   "desc_en": "One agent per trade (HVAC, water, power, gas...) in one model, talking in a group chat",
+   "a": "Daniel Rodríguez Miguel",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/drb5ggDt",
+   "added": "2026-11-25",
+   "tags": [
+    "AI Agents",
+    "MEP",
+    "Coordination"
+   ]
+  },
+  {
+   "id": "a2d51849",
+   "c": "addins",
+   "title": "iDraw: routing MEP بالـ 3D في Revit",
+   "desc": "أمر جديد في MEPConnect بتوجّه المسار بـ compass في أي اتجاه وتتنقل بين plan وsection و3D",
+   "title_en": "iDraw: 3D MEP routing in Revit",
+   "desc_en": "New MEPConnect command: steer runs with a compass and move across plan, section and 3D",
+   "a": "Charles PIRO",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dicgWA7A",
+   "added": "2026-11-25",
+   "tags": [
+    "Revit",
+    "MEP",
+    "Coordination"
+   ],
+   "link": "https://bimextend.piro-cie.fr/en/trial",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "5b32ac0e",
+   "c": "addins",
+   "title": "AA Batch Room Tagger لـ Revit",
+   "desc": "add-in اتعمل مع Gemini بيحط room tags على كل اللوحات مرة واحدة، حتى من اللينكات، لـ 2020-2026",
+   "title_en": "AA Batch Room Tagger for Revit",
+   "desc_en": "Add-in built with Gemini: tags rooms on all sheets at once, even from links, Revit 2020-2026",
+   "a": "Ahmed Atef",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dewEaSds",
+   "added": "2026-11-25",
+   "tags": [
+    "Revit",
+    "Annotation",
+    "Free",
+    "Automation"
+   ],
+   "link": "https://drive.google.com/file/d/14RP7JQvcpUBk6RiPtI6E-mQ1lS_hhQl1/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "36c995b2",
+   "c": "ai",
+   "title": "Opus 5.5: البرنامج الزمني لفيلم 30 ثانية",
+   "desc": "حوّل برنامج 35 أسبوع لفيلم بناء للعميل، وأي تعديل في التواريخ يتعاد في 35 ثانية",
+   "title_en": "Opus 5.5: a programme as a 30s film",
+   "desc_en": "Turned a 35-week programme into a build film for clients; date changes rebuild in 35s",
+   "a": "Chiang Ning (ARBV, PMP)",
+   "date": "2026-11-23",
+   "url": "https://lnkd.in/p/dMzuT--E",
+   "added": "2026-11-25",
+   "tags": [
+    "Claude",
+    "4D",
+    "Visualization",
+    "Prompting"
+   ]
+  },
+  {
+   "id": "374ee6a2",
+   "c": "ai",
+   "title": "AI Revit Drafter: ينفّذ markups الـ PDF",
+   "desc": "اتبنى بـ Claude في أسبوعين: يقرأ PDF متعلّم عليه، يعدّل في Revit، يعمل sync ويطبع تاني",
+   "title_en": "AI Revit Drafter: applies PDF markups",
+   "desc_en": "Built with Claude in 2 weeks: reads marked-up PDFs, edits Revit, syncs and reprints",
+   "a": "Matt Johnson",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dkvH9j5w",
+   "added": "2026-11-25",
+   "tags": [
+    "Revit",
+    "Claude",
+    "MEP",
+    "Automation"
+   ]
+  },
+  {
+   "id": "23b36eca",
+   "c": "addins",
+   "title": "Rebarkit: add-in لتفاصيل الحديد متاح",
+   "desc": "add-in لـ rebar detailing في Revit خرج للعامة بعد beta على مشاريع حقيقية",
+   "title_en": "Rebarkit: rebar detailing add-in is live",
+   "desc_en": "Revit rebar detailing add-in now public after a beta on real projects",
+   "a": "Gábor Schnierer",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dDP3wtni",
+   "added": "2026-11-25",
+   "tags": [
+    "Revit",
+    "Structural",
+    "Shop Drawings"
+   ],
+   "link": "https://grevitypoint.com/products/rebarkit/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "08fddaac",
+   "c": "addins",
+   "title": "GH_Bridge: كباري من Grasshopper لـ Revit",
+   "desc": "plugin مجاني: قطاع parametric والحديد بيمشي مع الـ superelevation لحد Revit",
+   "title_en": "GH_Bridge: Grasshopper bridges to Revit",
+   "desc_en": "Free plugin: parametric deck section, rebar follows superelevation all the way into Revit",
+   "a": "Andrei Damian Pacheco",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dveGJ-mG",
+   "added": "2026-11-25",
+   "tags": [
+    "Grasshopper",
+    "Revit",
+    "Infrastructure",
+    "Free"
+   ],
+   "link": "http://daapcloud.com/gh-bridge",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "7bb0f09f",
+   "c": "mcp",
+   "title": "Ant MCP: Claude جوه Rhino و Grasshopper",
+   "desc": "وصّل Claude أو ChatGPT أو Cursor بـ Rhino يبني geometry وdefinitions، مجاني",
+   "title_en": "Ant MCP: Claude inside Rhino and Grasshopper",
+   "desc_en": "Connect Claude, ChatGPT or Cursor to Rhino to build geometry and definitions, free",
+   "a": "Ant AI",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dZejy_a3",
+   "added": "2026-11-25",
+   "tags": [
+    "MCP",
+    "Rhino",
+    "Grasshopper",
+    "Claude",
+    "Free"
+   ],
+   "link": "https://rhino-ant.ai/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "1940882f",
+   "c": "ideas",
+   "title": "Axo: الـ agents تخطط والـ engine يحسب",
+   "desc": "بعد ConstructAI: الـ LLM يفهم النية، ومحرك geometry ثابت يحسب ويتحقق بدل ما الـ AI يرسم",
+   "title_en": "Axo: agents plan, an engine computes",
+   "desc_en": "After ConstructAI: LLMs read intent, a deterministic geometry engine computes and checks",
+   "a": "Fernando Maytorena EM",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dnr2cehc",
+   "added": "2026-11-25",
+   "tags": [
+    "AI Agents",
+    "Revit",
+    "Strategy"
+   ]
+  },
+  {
+   "id": "a5a7d6cf",
+   "c": "ai",
+   "title": "4D Simulation: ملف HTML واحد بالـ AI",
+   "desc": "الجدول والـ S-curve والـ cash flow بيتحركوا مع الموديل 3D، ويشتغل على الموبايل",
+   "title_en": "4D Simulation: one HTML file with AI",
+   "desc_en": "Gantt, S-curve and cash flow move with the 3D model; runs on desktop and mobile",
+   "a": "Mohamed Ragab",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dUWNhTDZ",
+   "added": "2026-11-25",
+   "tags": [
+    "4D",
+    "Primavera P6",
+    "Web App",
+    "Dashboard"
+   ]
+  },
+  {
+   "id": "ed680b2e",
+   "c": "ai",
+   "title": "Claude: متابعة تكلفة وجدول live",
+   "desc": "نظام Cost & Schedule monitoring لمطوّر في الموصل، Claude بيطلع forecasts وأنماط من داتا قليلة",
+   "title_en": "Claude: live cost and schedule tracking",
+   "desc_en": "Cost & schedule monitoring for a Mosul developer; Claude finds patterns and forecasts",
+   "a": "Rakan Ali, PMP®",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/dNy3PavJ",
+   "added": "2026-11-25",
+   "tags": [
+    "Claude",
+    "Cost Control",
+    "Dashboard",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "80fdd28c",
+   "c": "ai",
+   "title": "Claude: من PDF معماري لموديل 3D",
+   "desc": "حوّل لوحات PDF لـ visualisation 3D يوضّح الأركان والفتحات ويسهّل الحصر للـ QS",
+   "title_en": "Claude: architect PDFs to a 3D view",
+   "desc_en": "Turned PDF drawings into a 3D view of corners and openings to ease QS takeoffs",
+   "a": "Abisheke Poudel",
+   "date": "2026-11-24",
+   "url": "https://lnkd.in/p/d9AKaN2X",
+   "added": "2026-11-25",
+   "tags": [
+    "Claude",
+    "Quantity Takeoff",
+    "Visualization"
+   ]
   }
  ],
  "note": "المصدر: بوستات الـ 1st connections في بحث LinkedIn، وكل اللي بيظهر في الـ Feed (2nd degree والصفحات والـ reposts). التاريخ تقريبي حسب عمر البوست وقت المسح."
