@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-27",
  "sections": [
   {
    "id": "ai",
@@ -10146,6 +10146,572 @@
     "Claude",
     "Quantity Takeoff",
     "Visualization"
+   ]
+  },
+  {
+   "id": "e7c35d2f",
+   "c": "addins",
+   "title": "Revit: SLD وVoltage Drop لـ 109 دولة",
+   "desc": "إضافة بتعمل SLD ومحاكاة Short Circuit وSelectivity جوه الريفيت بكتالوجات مصنعين حقيقية",
+   "title_en": "Revit: SLD and voltage drop, 109 countries",
+   "desc_en": "Add-in for SLDs, short circuit and selectivity in Revit with real maker catalogs",
+   "a": "Amr Mahmoued",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dPFjqEw8",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "Electrical",
+    "MEP",
+    "Revit API"
+   ]
+  },
+  {
+   "id": "1ccf2fa8",
+   "c": "addins",
+   "title": "AB MEP Supports: دعامات MEP أوتوماتيك",
+   "desc": "دعامات مواسير ودكت وCable Tray أوتوماتيك مع تفادي الـ clash، على App Store",
+   "title_en": "AB MEP Supports: automatic MEP hangers",
+   "desc_en": "Places pipe, duct and tray supports with clash avoidance; now on the App Store",
+   "a": "Abdullah Lotfy",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/d6be54Jj",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "MEP",
+    "Automation",
+    "Coordination"
+   ],
+   "link": "https://marketplace.autodesk.com/apps/915bf475-4eca-4324-aaad-2c30ecbd6cea",
+   "linkLabel": "App Store"
+  },
+  {
+   "id": "a4ce4e1d",
+   "c": "addins",
+   "title": "Bitumen Insulation: العزل كعنصر 3D",
+   "desc": "إضافة بتلف العزل على الأوجه المدفونة وتطلع كمياته من الموديل: 3,156 م² بيتومين",
+   "title_en": "Bitumen Insulation: 3D waterproofing",
+   "desc_en": "Wraps buried faces with real insulation and takes off 3,156 m² of bitumen",
+   "a": "Qamar Abdelnaby",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dy3HPVPA",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "Revit API",
+    "Quantity Takeoff",
+    "Automation"
+   ]
+  },
+  {
+   "id": "a1a35c60",
+   "c": "mcp",
+   "title": "Revit MCP من Jed: Alpha وبيختبره",
+   "desc": "Revit MCP لسه Alpha، ناوي 100 تجربة لحد ما يكسره قبل الإطلاق، والموقع اشتغل",
+   "title_en": "Jed's Revit MCP: alpha stress test",
+   "desc_en": "Revit MCP still in alpha; 100 test runs planned to find where it breaks",
+   "a": "Jed Sanford",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dRFytfkv",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "MCP",
+    "Claude"
+   ],
+   "link": "https://drive-it.designs-os.com/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "b3fa52d6",
+   "c": "ideas",
+   "title": "BIM World Munich: من الشراء للبناء",
+   "desc": "الشركات بقت عايزة تبني برامجها بنفسها بالـ AI بدل شراء software أو plugins",
+   "title_en": "BIM World Munich: build, don't buy",
+   "desc_en": "Firms now want to build their own software with AI instead of buying tools",
+   "a": "Artem Boiko",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dhg6B2iV",
+   "added": "2026-11-26",
+   "tags": [
+    "AI Agents",
+    "Strategy",
+    "Open Source"
+   ]
+  },
+  {
+   "id": "b036db28",
+   "c": "addins",
+   "title": "Civil 3D: Pipe Culvert بارامتري",
+   "desc": "Subassembly لبرابخ دائرية من 1 لـ 10 فتحات مع طبقات حماية وأجنحة مائلة",
+   "title_en": "Civil 3D: parametric pipe culverts",
+   "desc_en": "Subassembly for 1–10 vent pipe culverts with protection layers and wing walls",
+   "a": "Ahmed Ali",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dQDw8R8Z",
+   "added": "2026-11-26",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Automation"
+   ]
+  },
+  {
+   "id": "18175b44",
+   "c": "ai",
+   "title": "NotebookLM: مساعد لمهندس الكهرباء",
+   "desc": "ارفع المواصفات والكود والـ SLDs وخليه يراجع التصميم ويطلع checklists للاستلام",
+   "title_en": "NotebookLM: an electrical eng. assistant",
+   "desc_en": "Upload specs, codes and SLDs to review designs and build handover checklists",
+   "a": "Ahmed Masoud",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dw7XjscY",
+   "added": "2026-11-26",
+   "tags": [
+    "Electrical",
+    "QA/QC",
+    "Gen AI"
+   ]
+  },
+  {
+   "id": "75e42506",
+   "c": "ai",
+   "title": "Claude: تقرير المكتب الفني في دقيقة",
+   "desc": "بيكتب whats news فـ Claude يلم الـ RFIs والـ transmittals الجديدة ويحدث الشيتات",
+   "title_en": "Claude: technical office report in 1 min",
+   "desc_en": "Typing \"whats news\" makes Claude sort new RFIs and transmittals and update trackers",
+   "a": "Abdelrahman Samra",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dWcThXZn",
+   "added": "2026-11-26",
+   "tags": [
+    "Claude",
+    "Skills",
+    "RFIs",
+    "Automation"
+   ]
+  },
+  {
+   "id": "e7030316",
+   "c": "tools",
+   "title": "Construction Alive: 4D/5D في Power BI",
+   "desc": "منصة بتجمع P6 وRevit وSynchro وCostX في مكان واحد وتطلع KPIs",
+   "title_en": "Construction Alive: 4D/5D in Power BI",
+   "desc_en": "Platform joining P6, Revit, Synchro and CostX data in one place with KPIs",
+   "a": "KAREEM AHMED",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/djkhYy9D",
+   "added": "2026-11-26",
+   "tags": [
+    "Power BI",
+    "4D",
+    "5D",
+    "Dashboard"
+   ]
+  },
+  {
+   "id": "dd28bec0",
+   "c": "tools",
+   "title": "BIMETRYC: موديلات Revit في Power BI",
+   "desc": "بيربط كذا موديل Revit بـ Power BI من غير Navisworks أو ACC لتحليل 4D و5D",
+   "title_en": "BIMETRYC: Revit models in Power BI",
+   "desc_en": "Connects several Revit models to Power BI for 4D/5D, no Navisworks or ACC",
+   "a": "Kristijan Vilibić",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/ddh4m7ng",
+   "added": "2026-11-26",
+   "tags": [
+    "Power BI",
+    "Revit",
+    "5D",
+    "Dashboard"
+   ]
+  },
+  {
+   "id": "8723ca73",
+   "c": "addins",
+   "title": "PMW Pro: Batch Plot لأوتوكاد",
+   "desc": "إضافة بتطبع لوحات كتير مرة واحدة وتدمجها في PDF واحد، من 2020 لـ 2026",
+   "title_en": "PMW Pro: batch plotting for AutoCAD",
+   "desc_en": "Plots many sheets at once and merges them into one PDF; AutoCAD 2020–2026",
+   "a": "Ahmed Abdelkhalek",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dRFKiewN",
+   "added": "2026-11-26",
+   "tags": [
+    "AutoCAD",
+    "Batch Export",
+    "Free"
+   ],
+   "link": "https://www.mediafire.com/file/dnzlr8xuihu03eb/PMW_Pro_2_4_All.zip/file",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "c53e03be",
+   "c": "addins",
+   "title": "QuickTag: تاج مواسير الصحي بـ pyRevit",
+   "desc": "بيختار المنسوب والسيستم ويعمل تاج للمواسير الأطول من طول معين بس",
+   "title_en": "QuickTag: plumbing pipe tags in pyRevit",
+   "desc_en": "Pick levels and system, then tag only pipes longer than a set length",
+   "a": "Hany R.",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dFKfHr_i",
+   "added": "2026-11-26",
+   "tags": [
+    "pyRevit",
+    "MEP",
+    "Annotation",
+    "Free"
+   ],
+   "link": "https://www.mediafire.com/file/ounqxkik9cz3y47/QuickTag.tab.rar/file",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "4034988e",
+   "c": "mcp",
+   "title": "AI Agent: وصلة حديد في Tekla وLIRA",
+   "desc": "الـ Agent بنى الوصلة وحللها وكتب التقرير في 20 دقيقة بـ 1.2 دولار",
+   "title_en": "AI agent: steel joint in Tekla + LIRA",
+   "desc_en": "Agent built, analysed and reported a steel joint in ~20 min for about $1.2",
+   "a": "Alexey Perezhogin",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dWNtmpxp",
+   "added": "2026-11-26",
+   "tags": [
+    "Tekla",
+    "AI Agents",
+    "Structural",
+    "Automation"
+   ]
+  },
+  {
+   "id": "867f0e76",
+   "c": "addins",
+   "title": "ApexBBS: جدول تكسيح الحديد من Revit",
+   "desc": "بيطلع الـ BBS من التسليح في الموديل لـ PDF وExcel بأشكال الأسياخ ومعايير BS وACI",
+   "title_en": "ApexBBS: bar bending schedules in Revit",
+   "desc_en": "Builds BBS from modeled rebar to PDF and Excel with bar shapes, BS/ACI codes",
+   "a": "Muhammad Ebad",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dReH7jvP",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "Structural",
+    "Excel",
+    "Quantity Takeoff"
+   ],
+   "link": "https://drive.google.com/file/d/1BNwbpN-qXBCKl4_1YY86Bdc5tBL5SHND/view",
+   "linkLabel": "Drive"
+  },
+  {
+   "id": "a3ebcbf6",
+   "c": "mcp",
+   "title": "SOFiSTiK + Claude: من اسكتش لـ CADINP",
+   "desc": "Claude بيقرا اسكتش قطاع خرساني بالإيد ويكتب كود CADINP بـ skill لـ AQUA",
+   "title_en": "SOFiSTiK + Claude: sketch to CADINP",
+   "desc_en": "Claude reads a hand-drawn RC section and writes CADINP code via an AQUA skill",
+   "a": "Frank Deinzer",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/diGRBhF8",
+   "added": "2026-11-26",
+   "tags": [
+    "Claude",
+    "Skills",
+    "Structural"
+   ]
+  },
+  {
+   "id": "d64d9a27",
+   "c": "mcp",
+   "title": "Astra 6: برج Merdeka 118 في Revit",
+   "desc": "Agent شغّل Dynamo وبنى 118 دور و15,920 موديول واجهة وسجل كل افتراضاته",
+   "title_en": "Astra 6: Merdeka 118 rebuilt in Revit",
+   "desc_en": "Agent drove Dynamo to build 118 levels and 15,920 facade modules, logging assumptions",
+   "a": "Jeames Hanley",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dqRt_QTn",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "Dynamo",
+    "AI Agents",
+    "Automation"
+   ]
+  },
+  {
+   "id": "11b6192b",
+   "c": "tools",
+   "title": "Tool Souq: سوق أدوات المهندسين",
+   "desc": "موقع لبيع وتحميل أدوات AutoCAD LISP وQGIS وكورسات المهندسين بأكتر من لغة",
+   "title_en": "Tool Souq: a marketplace for eng. tools",
+   "desc_en": "Site to share and sell AutoCAD LISP, QGIS tools and engineering courses",
+   "a": "ahmed sallam",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/dh_MsKW7",
+   "added": "2026-11-26",
+   "tags": [
+    "AutoLISP",
+    "QGIS",
+    "Web App"
+   ],
+   "link": "https://toolsouq.vercel.app",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "7471ce7b",
+   "c": "ai",
+   "title": "P6 + Claude: من الـ BOQ لـ WBS",
+   "desc": "5 طرق: WBS من الـ BOQ في دقايق، تقرير critical path أسبوعي، ومراجعة الـ man-hours",
+   "title_en": "P6 + Claude: BOQ to WBS in minutes",
+   "desc_en": "Five uses: WBS from BOQ, weekly critical-path reports and man-hour checks",
+   "a": "Waqas Ahmed",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/d77X5CKs",
+   "added": "2026-11-26",
+   "tags": [
+    "Primavera P6",
+    "Claude",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "871685e3",
+   "c": "addins",
+   "title": "Navisworks: Section Box حقيقي بالـ AI",
+   "desc": "إضافة اتعملت بالـ AI بتدي Section Box بمقابض ودوران للتنسيق، وجاية على App Store",
+   "title_en": "Navisworks: a real section box, AI-built",
+   "desc_en": "AI-built add-in with a handled, rotatable section box; App Store release coming",
+   "a": "Rafeek Saddak",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/d9zTBz8Y",
+   "added": "2026-11-26",
+   "tags": [
+    "Navisworks",
+    "Coordination",
+    "AI Agents"
+   ]
+  },
+  {
+   "id": "58967085",
+   "c": "mcp",
+   "title": "A-M-T: Revit MCP بـ installer واحد",
+   "desc": "installer واحد يركب الـ add-in والـ MCP ويوصل Claude وCodex وCursor، ببرنامج مجاني",
+   "title_en": "A-M-T: Revit MCP in one installer",
+   "desc_en": "One free installer sets up the add-in, MCP server and Claude, Codex or Cursor",
+   "a": "Abdallah Mostafa",
+   "date": "2026-11-25",
+   "url": "https://lnkd.in/p/da3C3qyk",
+   "added": "2026-11-26",
+   "tags": [
+    "Revit",
+    "MCP",
+    "Claude",
+    "Free"
+   ]
+  },
+  {
+   "id": "aa816c83",
+   "c": "addins",
+   "title": "PKT Section Studio: أداة Lane في Civil 3D",
+   "desc": "subassembly بارامتري للحارة بطبقات رصف وsuperelevation وتصدير PKT بضغطة",
+   "title_en": "PKT Section Studio: Civil 3D Lane tool",
+   "desc_en": "Parametric lane subassembly with pavement layers, superelevation and one-click PKT export",
+   "a": "Ahmed Ali",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dcBjiyfX",
+   "added": "2026-11-27",
+   "tags": [
+    "Civil 3D",
+    "Infrastructure",
+    "Automation"
+   ]
+  },
+  {
+   "id": "e77458dc",
+   "c": "ai",
+   "title": "Synaps AI: من وصف المبنى لمخططات",
+   "desc": "منصة AI بتحوّل وصفك لمخططات وموديل وتصدّر لـ Revit وAutoCAD وArchiCAD وSketchUp",
+   "title_en": "Synaps AI: from a description to plans",
+   "desc_en": "AI platform turns a text brief into plans and a model, exporting to Revit, AutoCAD and more",
+   "a": "Omar Selim",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/d5rjBaSW",
+   "added": "2026-11-27",
+   "tags": [
+    "Gen AI",
+    "Revit",
+    "AutoCAD"
+   ],
+   "link": "https://www.youtube.com/watch?v=M7RG_tZrNSw",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "5bc6a458",
+   "c": "opensource",
+   "title": "pyRevit: عدّى Dynamo في نجوم GitHub",
+   "desc": "بقى أشهر مشروع open source في عالم Revit، والاتجاه من الـ nodes للـ scripts بمساعدة AI",
+   "title_en": "pyRevit: passes Dynamo in GitHub stars",
+   "desc_en": "Now the most popular open-source Revit project as automation shifts from nodes to scripts",
+   "a": "Roman Golev",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/da7hYc9S",
+   "added": "2026-11-27",
+   "tags": [
+    "pyRevit",
+    "Dynamo",
+    "Open Source",
+    "Revit"
+   ],
+   "link": "https://github.com/pyrevitlabs/pyRevit",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "2435e19f",
+   "c": "addins",
+   "title": "AMS Cable Generator V1.2 على App Store",
+   "desc": "بيقرا حسابات الكابلات من أي Excel template ويعمل الكابلات و3D sections للـ cable trays",
+   "title_en": "AMS Cable Generator V1.2 on App Store",
+   "desc_en": "Reads cable calcs from any Excel template and builds cables and 3D sections per cable tray",
+   "a": "Abdelrhman Shaban",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/d2DR-kVF",
+   "added": "2026-11-27",
+   "tags": [
+    "Revit",
+    "Electrical",
+    "MEP",
+    "Excel"
+   ],
+   "link": "https://marketplace.autodesk.com/apps/a936ca34-d7b8-4b9d-8512-1694f22c2985",
+   "linkLabel": "App Store"
+  },
+  {
+   "id": "68d62973",
+   "c": "addins",
+   "title": "Dynamo: تحديث الباراميترز من Excel",
+   "desc": "workflow بيصدّر باراميترز الـ FCU لـ Excel وتعدلها bulk وترجع للموديل في ثواني",
+   "title_en": "Dynamo: parameter updates from Excel",
+   "desc_en": "Exports FCU parameters to Excel for bulk edits and pushes the values back in seconds",
+   "a": "SHAIK SUMAIR",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dKzUpnBb",
+   "added": "2026-11-27",
+   "tags": [
+    "Dynamo",
+    "Revit",
+    "Excel",
+    "MEP"
+   ],
+   "link": "https://github.com/sshaiksumair-spec07/bulk-parameter-update-dynamo",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "4c089bfd",
+   "c": "ai",
+   "title": "HTML Dashboard: تقدم المشروع في ثواني",
+   "desc": "داشبورد تفاعلي لتقدم المشروع اتعمل بالـ AI في ثواني، وسؤال: هل انتهى عصر Power BI؟",
+   "title_en": "HTML Dashboard: progress in seconds",
+   "desc_en": "An interactive progress dashboard built with AI in seconds, asking if Power BI is over",
+   "a": "Mostafa Abdelmonem",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dSgcgPMM",
+   "added": "2026-11-27",
+   "tags": [
+    "Dashboard",
+    "Project Management",
+    "Power BI"
+   ],
+   "link": "https://youtu.be/kaKJbvcOSjw",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "18b078d4",
+   "c": "ideas",
+   "title": "AI من 2D لـ 3D: دروس 6 تجارب",
+   "desc": "مباني وكوبري وكهربا وتسليح: السرعة والـ geometry نجحوا، والحكم الهندسي والـ IFC لسه ناقصين",
+   "title_en": "AI 2D to 3D: lessons from 6 tests",
+   "desc_en": "Buildings, a bridge, rebar: speed and geometry worked; judgement and IFC still fall short",
+   "a": "Chaitanya Bharech",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dP6iDFUP",
+   "added": "2026-11-27",
+   "tags": [
+    "AI Agents",
+    "Bonsai",
+    "IFC",
+    "Skills"
+   ]
+  },
+  {
+   "id": "fa86e5ce",
+   "c": "ai",
+   "title": "Fire Fighting: CAD to BIM بـ Claude",
+   "desc": "سكريبتات Python بمساعدة Claude بتحوّل خطوط الكاد لمواسير ورشاشات: 112 خط → 171 ماسورة",
+   "title_en": "Fire fighting: CAD to BIM with Claude",
+   "desc_en": "Claude-assisted Dynamo scripts turn CAD lines into pipes and sprinklers: 112 lines → 171 pipes",
+   "a": "NIKhIL ZIMBAL",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/d-S7VAgd",
+   "added": "2026-11-27",
+   "tags": [
+    "Dynamo",
+    "Claude",
+    "CAD to BIM",
+    "MEP"
+   ]
+  },
+  {
+   "id": "1446028c",
+   "c": "addins",
+   "title": "OY-Ductwork Segment Analyzer لـ Revit",
+   "desc": "بيرقّم مسار الدكت بالترتيب ويطلع المقاسات للـ Excel عشان حسابات الـ Pressure Drop، Read-Only",
+   "title_en": "OY-Ductwork Segment Analyzer for Revit",
+   "desc_en": "Numbers duct runs in order and exports sizes to Excel for pressure drop sheets, read-only",
+   "a": "Omar Yousry Saleh",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dgKqTmBH",
+   "added": "2026-11-27",
+   "tags": [
+    "Revit",
+    "MEP",
+    "Excel",
+    "Revit API"
+   ]
+  },
+  {
+   "id": "ff8bdf57",
+   "c": "tools",
+   "title": "P6: تقرير تقدم للإدارة من تحديثين",
+   "desc": "executive view من تحديثين متتاليين لـ P6: المخطط والفعلي لكل trade وإنتاج الاستدراك المطلوب",
+   "title_en": "P6: executive progress from two updates",
+   "desc_en": "An executive view from two P6 updates: planned vs actual by trade and the recovery rate",
+   "a": "Mohamed M. Ali",
+   "date": "2026-11-26",
+   "url": "https://lnkd.in/p/dSkVKn8p",
+   "added": "2026-11-27",
+   "tags": [
+    "Primavera P6",
+    "Dashboard",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "820c6097",
+   "c": "tools",
+   "title": "Facade Automation: فرد الـ flashing وCNC",
+   "desc": "من المقاس أو DXF أو Excel: فرد الألواح بالـ notches وتعشيقها على ألواح 1220×2440 وملف CNC",
+   "title_en": "Facade Automation: flashing to CNC",
+   "desc_en": "From sizes, DXF or Excel: unfolded notched blanks nested on 1220×2440 sheets with CNC files",
+   "a": "Shaban Mahmoud",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dsUFQ8bx",
+   "added": "2026-11-27",
+   "tags": [
+    "Construction",
+    "Automation",
+    "Excel"
    ]
   }
  ],
