@@ -58,5 +58,11 @@ foreach ($L as $k => $title): $m = top($T['x'][$k] ?? [], 12); if (!$m) continue
 <div><h2><?= $title ?></h2><table><?php foreach ($m as $v => $n): ?><tr><td><?= $h($NM[$k][$v] ?? $v) ?></td><td class="n"><?= $n ?></td></tr><?php endforeach; ?></table></div>
 <?php endforeach; ?>
 </div>
-<p class="sub" style="margin-top:24px">بيبدأ العد من يوم ما العداد اتركب، والأرقام القديمة في AWStats على cPanel.</p>
+<?php $AW = ['12'=>[11,21],'13'=>[192,372],'14'=>[289,918],'15'=>[156,1000],'16'=>[110,388],'17'=>[90,165],'18'=>[81,152],'19'=>[269,830],'20'=>[127,327],'21'=>[88,156],'22'=>[70,107],'23'=>[349,395],'24'=>[368,413],'25'=>[137,191],'26'=>[68,161],'27'=>[726,791]]; $awv = array_sum(array_column($AW, 0)); $awp = array_sum(array_column($AW, 1)); ?>
+<h2>قبل العداد: أرقام HostGator (AWStats) من 12 لـ 27 نوفمبر</h2>
+<p class="sub">دي أرقام الاستضافة زي ما هي، ومش محسوبة بنفس طريقة العداد: بتشمل بوتات وزحف آلي، ومفيهاش فتح بوست ولا ضغطات أدوات. الرقم الأدق للبشر الحقيقيين في الفترة دي حوالي <b>820</b> متصفح (اللي حمّلوا أيقونة الموقع، والبوتات عادة مبتحمّلهاش). عشان كده متفصولة هنا ومش مضافة لأرقام العداد فوق.</p>
+<div class="kpis"><div class="k"><b>~820</b><span>متصفح حقيقي (تقدير)</span></div><div class="k"><b><?= number_format($awv) ?></b><span>زيارات AWStats (فيها بوتات)</span></div><div class="k"><b><?= number_format($awp) ?></b><span>صفحات AWStats</span></div></div>
+<table style="margin-top:12px"><tr><th>اليوم</th><th>زيارات AWStats</th><th>صفحات</th></tr>
+<?php $mx = max(array_column($AW, 0)); foreach (array_reverse($AW, true) as $dd => $r): ?><tr><td>2026-11-<?= $dd ?></td><td class="n"><span class="bar" style="width:<?= round($r[0] / $mx * 60) ?>px;background:#9AA6C4"></span> <?= $r[0] ?></td><td class="n"><?= $r[1] ?></td></tr><?php endforeach; ?></table>
+<p class="sub" style="margin-top:24px">العداد الدقيق شغال من 28 نوفمبر. سجلات الزيارات الخام على HostGator بتتمسح كل يوم، فمكانش ينفع نعيد حساب الأيام اللي فاتت بنفس منطق العداد.</p>
 </main></body></html>
