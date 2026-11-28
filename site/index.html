@@ -320,6 +320,22 @@ let eqT=0; window.addEventListener('resize',()=>{clearTimeout(eqT); eqT=setTimeo
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>eqRows());
 if(document.fonts&&document.fonts.addEventListener) document.fonts.addEventListener('loadingdone',()=>eqRows());
 window.addEventListener('load',()=>eqRows());
+const RB_ON=/(^|\.)radiobim\.com$/.test(location.hostname);
+const RB_VID=(()=>{try{let v=localStorage.getItem('rbVid'); if(!v){v=Math.random().toString(36).slice(2,12)+Date.now().toString(36).slice(-6); localStorage.setItem('rbVid',v);} return v;}catch(e){return null;}})();
+function hit(e,id,x){if(!RB_ON) return; try{const b=JSON.stringify({e,id:id||undefined,x:x||undefined,v:RB_VID||undefined}); (navigator.sendBeacon&&navigator.sendBeacon('/hit.php',new Blob([b],{type:'text/plain'})))||fetch('/hit.php',{method:'POST',body:b,keepalive:true});}catch(_){}}
+(function(){const st=matchMedia('(display-mode: standalone)').matches||navigator.standalone; let r='-'; try{if(document.referrer){const h=new URL(document.referrer).hostname.replace(/^www\.|^m\./,''); if(!/radiobim\.com$/.test(h)) r=/linkedin|lnkd/.test(h)?'linkedin':/google\./.test(h)?'google':/bing|duckduckgo|yahoo/.test(h)?'search':/facebook|instagram|whatsapp|t\.co|twitter|x\.com/.test(h)?h.split('.').slice(-2,-1)[0]:h.slice(0,40);}}catch(e){} if(/source=app/.test(location.search)) r='app';
+ hit('view',null,{s:st?'1':'0',m:/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)?'1':'0',r,l:lang});})();
+document.addEventListener('click',e=>{const c=e.target.closest('[data-card]'), b=e.target.closest('a,button'), id=c&&c.dataset.card;
+ if(b&&b.matches('a.ab.tool')){const it=DATA&&DATA.items.find(i=>i.id===id); hit('tool',id,{t:it?dkey(it):'web'}); return;}
+ if(b&&c&&b.tagName==='A'&&/linkedin\.com|lnkd\.in/.test(b.href)){hit('li',id); return;}
+ if(b&&b.dataset.share){hit('share',b.dataset.share); return;}
+ if(b&&b.dataset.save){if(!saved.has(b.dataset.save)) hit('save',b.dataset.save); return;}
+ if(b&&b.dataset.info){if(!open.has(b.dataset.info)) hit('open',b.dataset.info); return;}
+ if(b){const f=b.id==='bNew'?'new':b.id==='bLink'?'links':b.id==='xReset'?'reset':b.id==='bSaved'?'saved':b.dataset.dk?'type':b.dataset.s?'section':b.dataset.tag?'tag':''; if(f) hit('filter',null,{f}); return;}
+ if(c&&!open.has(id)&&!String(window.getSelection&&getSelection())) hit('open',id);
+},true);
+let rbQT=null; document.addEventListener('input',e=>{if(e.target.id!=='q') return; clearTimeout(rbQT); const v=e.target.value.trim(); if(v.length<2) return; rbQT=setTimeout(()=>hit('search',null,{q:v.slice(0,40)}),1800);});
+window.addEventListener('appinstalled',()=>hit('install'));
 if('serviceWorker' in navigator && location.protocol==='https:') window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 (function(){
   const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;

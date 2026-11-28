@@ -139,7 +139,7 @@ html[lang="ar"] span[data-l="ar"],html[lang="en"] span[data-l="en"]{display:inli
 <li><span class="ki txt" aria-hidden="true">iPhone</span><span>من Safari دوس على زرار المشاركة، وبعدين اختار Add to Home Screen.</span></li>
 </ol></section>
 
-<p class="tip">الموقع بيتحدث لوحده كل يوم. كل بوست ليه صفحة لوحده تقدر تبعتها لحد، والبوستات اللي بتحفظها بتتسجل على جهازك ده بس.</p>
+<p class="tip">الموقع بيتحدث لوحده كل يوم. كل بوست ليه صفحة لوحده تقدر تبعتها لحد، والبوستات اللي بتحفظها بتتسجل على جهازك ده بس. والموقع بيعد عدد الزيارات والضغطات بس، من غير أي بيانات شخصية.</p>
 </main>
 
 <!-- ===================== ENGLISH ===================== -->
@@ -209,7 +209,7 @@ html[lang="ar"] span[data-l="ar"],html[lang="en"] span[data-l="en"]{display:inli
 <li><span class="ki txt" aria-hidden="true">iPhone</span><span>In Safari, tap the Share button, then choose Add to Home Screen.</span></li>
 </ol></section>
 
-<p class="tip">RadioBIM updates itself every day. Every post has its own page you can share, and posts you save are kept on this device only.</p>
+<p class="tip">RadioBIM updates itself every day. Every post has its own page you can share, and posts you save are kept on this device only. The site only counts visits and clicks, with no personal data.</p>
 </main>
 
 <footer>RadioBIM® · radiobim.com</footer>
@@ -222,5 +222,6 @@ apply(H.lang);
 document.getElementById('bLang').onclick=function(){var l=H.lang==='ar'?'en':'ar';try{localStorage.setItem('rbLang',l)}catch(e){};apply(l);history.replaceState(null,'','?lang='+l);};
 })();
 </script>
+<script>(function(){if(!/(^|\.)radiobim\.com$/.test(location.hostname))return;var v=null;try{v=localStorage.getItem('rbVid')}catch(e){}try{navigator.sendBeacon('/hit.php',new Blob([JSON.stringify({e:'guide',v:v||undefined})],{type:'text/plain'}))}catch(e){}})();</script>
 </body>
 </html>

@@ -177,6 +177,7 @@ document.getElementById('rbThemeBtn').onclick=function(){H.dataset.theme=H.datas
 document.getElementById('rbLangBtn').onclick=function(){var l=H.lang==='ar'?'en':'ar';H.lang=l;H.dir=l==='ar'?'rtl':'ltr';S('rbLang',l);if(window.rbSetDesc)rbSetDesc(l);};
 })();
 </script>
+<script>(function(){if(!/(^|\.)radiobim\.com$/.test(location.hostname))return;var m=location.pathname.match(/^\/p\/([a-f0-9]{8})/);var v=null;try{v=localStorage.getItem('rbVid')}catch(e){}var b={e:m?'pview':'pview',id:m?m[1]:undefined,v:v||undefined};try{navigator.sendBeacon('/hit.php',new Blob([JSON.stringify(b)],{type:'text/plain'}))}catch(e){}document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||!m)return;var t=/linkedin\.com|lnkd\.in/.test(a.href)?'li':(a.host!==location.host?'tool':'');if(t)try{navigator.sendBeacon('/hit.php',new Blob([JSON.stringify({e:t,id:m[1],v:v||undefined})],{type:'text/plain'}))}catch(_){}},true);})();</script>
 </body></html>
 <?php }
 function rb_card($i) {
