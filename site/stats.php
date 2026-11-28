@@ -52,7 +52,7 @@ foreach (['pview' => 1, 'open' => 1, 'tool' => 2, 'li' => 2, 'share' => 3, 'save
 <?php endforeach; ?></table>
 <h2>أكتر البوستات تفاعلاً</h2>
 <?php $tot = []; foreach (['pview','open','tool','li','share','save'] as $e) foreach ($T['id'][$e] ?? [] as $id => $n) $tot[$id] = ($tot[$id] ?? 0) + $n; ?>
-<ol class="pl"><?php foreach (top($tot, 20) as $id => $n): $it = $items[$id] ?? null; ?><li><?php if ($it): ?><a href="/p/<?= $h($id) ?>" target="_blank"><?= $h($it['title']) ?></a><?php else: ?><?= $h($id) ?><?php endif; ?><b><?= $n ?></b></li><?php endforeach; ?></ol>
+<table><tr><th style="width:36px">#</th><th>البوست</th><th style="width:110px">إجمالي الزيارات</th></tr><?php $i = 0; foreach (top($tot, 20) as $id => $n): $it = $items[$id] ?? null; ?><tr><td class="n"><?= ++$i ?></td><td><?php if ($it): ?><a href="/p/<?= $h($id) ?>" target="_blank"><?= $h($it['title']) ?></a><?php else: ?><?= $h($id) ?><?php endif; ?></td><td class="n"><?= $n ?></td></tr><?php endforeach; ?></table>
 <div class="grid">
 <?php
 $L = ['view.r' => 'جايين منين', 'view.m' => 'الجهاز', 'view.l' => 'اللغة', 'tool.t' => 'نوع لينك الأداة اللي اتضغط', 'filter.f' => 'الفلاتر المستخدمة', 'search.q' => 'أكتر كلمات البحث'];
