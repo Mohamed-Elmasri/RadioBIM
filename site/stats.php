@@ -46,9 +46,9 @@ foreach (['pview' => 1, 'open' => 1, 'tool' => 2, 'li' => 2, 'share' => 3, 'save
 <div class="k"><b><?= ($T['ev']['guide'] ?? 0) ?></b><span>فتح الدليل</span></div>
 </div>
 <h2>يوم بيوم</h2>
-<table><tr><th>اليوم</th><th>زوار</th><th>زيارات</th><th>من التطبيق</th><th>فتح بوست</th><th>أدوات</th><th>LinkedIn</th><th>صفحات /p/</th></tr>
-<?php $mx = 1; foreach ($rows as $d) $mx = max($mx, count($d['u']) + ($d['uc'] ?? 0)); foreach (array_reverse($rows, true) as $k => $d): $u = count($d['u']) + ($d['uc'] ?? 0); $es = !empty($d['est']); ?>
-<tr><td><?= $k ?><?= $es ? ' <span class="es" title="تقديري من HostGator">~</span>' : '' ?></td><td class="n"><span class="bar" style="width:<?= round($u / $mx * 60) ?>px"></span> <?= $u ?></td><td class="n"><?= $d['ev']['view'] ?? 0 ?></td><td class="n"><?= $d['x']['view.s']['1'] ?? 0 ?></td><td class="n"><?= $d['ev']['open'] ?? 0 ?></td><td class="n"><?= $d['ev']['tool'] ?? 0 ?></td><td class="n"><?= $d['ev']['li'] ?? 0 ?></td><td class="n"><?= $d['ev']['pview'] ?? 0 ?></td></tr>
+<table><tr><th>اليوم</th><th>زوار</th><th>صفحات</th></tr>
+<?php $dr = array_filter($rows, fn($k) => $k >= '2026-11-13', ARRAY_FILTER_USE_KEY); $mx = 1; foreach ($dr as $d) $mx = max($mx, count($d['u']) + ($d['uc'] ?? 0)); foreach ($dr as $k => $d): $u = count($d['u']) + ($d['uc'] ?? 0); $pg = ($d['ev']['view'] ?? 0) + ($d['ev']['pview'] ?? 0) + ($d['ev']['guide'] ?? 0); $es = !empty($d['est']); ?>
+<tr><td><?= $k ?><?= $es ? ' <span class="es" title="تقديري من HostGator">~</span>' : '' ?></td><td class="n"><span class="bar" style="width:<?= round($u / $mx * 60) ?>px"></span> <?= $u ?></td><td class="n"><?= $pg ?></td></tr>
 <?php endforeach; ?></table>
 <h2>أكتر البوستات تفاعلاً</h2>
 <?php $tot = []; foreach (['pview','open','tool','li','share','save'] as $e) foreach ($T['id'][$e] ?? [] as $id => $n) $tot[$id] = ($tot[$id] ?? 0) + $n; ?>
@@ -61,5 +61,5 @@ foreach ($L as $k => $title): $m = top($T['x'][$k] ?? [], 12); if (!$m) continue
 <div><h2><?= $title ?></h2><table><?php foreach ($m as $v => $n): ?><tr><td><?= $h($NM[$k][$v] ?? $v) ?></td><td class="n"><?= $n ?></td></tr><?php endforeach; ?></table></div>
 <?php endforeach; ?>
 </div>
-<p class="sub" style="margin-top:24px"><span class="es">~</span> الأيام من 12 لـ 28 نوفمبر (قبل تركيب العداد) أرقامها تقديرية من سجلات HostGator: الزوار من عدد المتصفحات الحقيقية (~820)، وصفحات البوستات بعد طرح زحف محركات البحث. فتح البوست والأدوات وLinkedIn بتتعد من يوم 28 بس.</p>
+<p class="sub" style="margin-top:24px"><span class="es">~</span> الأيام من 13 لـ 28 نوفمبر (قبل تركيب العداد) أرقامها تقديرية من سجلات HostGator: الزوار من عدد المتصفحات الحقيقية (~820)، وصفحات البوستات بعد طرح زحف محركات البحث. فتح البوست والأدوات وLinkedIn بتتعد من يوم 28 بس.</p>
 </main></body></html>
