@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "sections": [
   {
    "id": "ai",
@@ -10712,6 +10712,375 @@
     "Construction",
     "Automation",
     "Excel"
+   ]
+  },
+  {
+   "id": "bc04a2ff",
+   "c": "ai",
+   "title": "Autodesk Assistant: الـ AI في Revit 2027",
+   "desc": "فيديو بيطبّق Autodesk Assistant على الـ automation والـ checking مع prompt framework",
+   "title_en": "Autodesk Assistant: AI in Revit 2027",
+   "desc_en": "Video applying Autodesk Assistant to automation and model checking, plus a 7-part prompt framework",
+   "a": "GHASEM ARIYANI",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/d6yxEbzM",
+   "added": "2026-11-28",
+   "tags": [
+    "Revit",
+    "Autodesk",
+    "Prompting",
+    "Video"
+   ],
+   "link": "https://youtu.be/c70yEtfZyFc",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "276cd073",
+   "c": "ai",
+   "title": "GPT 6.1: Grasshopper definition من صورة",
+   "desc": "من صورة واحدة في 11 دقيقة: موديل parametric قابل للتعديل بيتصدّر GLB وIFC وUSD وRevit",
+   "title_en": "GPT 6.1: Grasshopper definition from image",
+   "desc_en": "One image, 11 minutes: an editable parametric model exporting GLB, IFC, USD and Revit",
+   "a": "Dr.-Ing. Ali Ismail",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dzfDbXPr",
+   "added": "2026-11-28",
+   "tags": [
+    "Grasshopper",
+    "Rhino",
+    "Computational Design",
+    "IFC"
+   ],
+   "link": "https://youtu.be/MFBrW8sSrJw",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "95d6bd74",
+   "c": "addins",
+   "title": "X-BIM Table Maker: من Excel لـ Revit",
+   "desc": "املا template الـ Excel وطلّعه Schedule أو Legend View جوه Revit، مجاني لـ 2020–2027 قريب",
+   "title_en": "X-BIM Table Maker: Excel to Revit",
+   "desc_en": "Fill the Excel template and get a Schedule or Legend View in Revit; free for 2020–2027 soon",
+   "a": "Ahmed Sobhy",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dj846i6N",
+   "added": "2026-11-28",
+   "tags": [
+    "Revit",
+    "Excel",
+    "Free"
+   ]
+  },
+  {
+   "id": "56014534",
+   "c": "ideas",
+   "title": "G.A.I.N.: 4 أسئلة قبل الـ AI في الـ BIM",
+   "desc": "داتا نضيفة، مسؤول عن كل نتيجة، تتبّع كل خطوة، وربط القواعد بالـ EIR والـ BEP",
+   "title_en": "G.A.I.N.: 4 questions before AI in BIM",
+   "desc_en": "Clean data, an owner for each result, every step logged, and rules written into EIR and BEP",
+   "a": "Kholod Khaled Hassan",
+   "date": "2026-11-28",
+   "url": "https://lnkd.in/p/dgRvXvx7",
+   "added": "2026-11-28",
+   "tags": [
+    "ISO 19650",
+    "Strategy",
+    "QA/QC"
+   ]
+  },
+  {
+   "id": "41a4db6a",
+   "c": "ideas",
+   "title": "AI في AEC: 5% بس بيستخدموه صح",
+   "desc": "رأي: نص القطاع بيستخدم الـ AI و5% بس صح، زي البيم من 2016 لما كان Revit بس",
+   "title_en": "AI in AEC: only 5% use it right",
+   "desc_en": "Opinion: half the industry uses AI but only 5% well, like BIM in 2016 when it meant just Revit",
+   "a": "Ayman Essam",
+   "date": "2026-11-28",
+   "url": "https://lnkd.in/p/dKnehRhY",
+   "added": "2026-11-28",
+   "tags": [
+    "Strategy",
+    "Careers"
+   ]
+  },
+  {
+   "id": "4e9fbedb",
+   "c": "ideas",
+   "title": "PIPE-FLO وTrimble: الـ AI بيقف فين؟",
+   "desc": "مقارنة: PIPE-FLO الـ AI بيجهّز المدخلات بس، وTrimble Scheduling بيحسب والقرار للفريق",
+   "title_en": "PIPE-FLO vs Trimble: where AI stops",
+   "desc_en": "Comparison: PIPE-FLO's AI only prepares inputs; Trimble Scheduling calculates, teams decide",
+   "a": "Pierpaolo Vergati",
+   "date": "2026-11-28",
+   "url": "https://lnkd.in/p/dZbux6XE",
+   "added": "2026-11-28",
+   "tags": [
+    "Strategy",
+    "Primavera P6",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "0174cb6d",
+   "c": "courses",
+   "title": "AI in Action: ابني أول AI Agent",
+   "desc": "تجربة تعليمية تفاعلية فيها 5 labs: architecture، محاكاة agent، مقارنة منصات، وبناء agent",
+   "title_en": "AI in Action: build your first AI agent",
+   "desc_en": "Interactive course with 5 labs, from agent simulation to building your own agent",
+   "a": "AHMED KARKARY",
+   "date": "2026-11-28",
+   "url": "https://lnkd.in/p/dncV6XK5",
+   "added": "2026-11-28",
+   "tags": [
+    "AI Agents",
+    "Claude",
+    "ChatGPT",
+    "Free"
+   ],
+   "link": "https://ai-in-action--bilingual-interactive.vercel.app/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "bea54007",
+   "c": "ai",
+   "title": "AI يستنسخ برنامجك القديم لويندوز 11",
+   "desc": "شرح فيديو إزاي تخلّي الـ AI يعمل نسخة جديدة من برنامج هندسي قديم بطّل يشتغل",
+   "title_en": "AI rebuilds your old app for Windows 11",
+   "desc_en": "Video on getting AI to rebuild an old engineering program that stopped working",
+   "a": "Omar Selim",
+   "date": "2026-11-28",
+   "url": "https://lnkd.in/p/d2mnXPnf",
+   "added": "2026-11-28",
+   "tags": [
+    "Coding",
+    "Video"
+   ],
+   "link": "https://www.youtube.com/watch?v=MUrb1OxZOXY",
+   "linkLabel": "YouTube"
+  },
+  {
+   "id": "8af79cb9",
+   "c": "ai",
+   "title": "Claude: small apps للمقاولات في 15 دقيقة",
+   "desc": "5 خطوات وأفكار 6 apps: drawing register، RFI clock، quote leveller، submittals وvariations",
+   "title_en": "Claude: small construction apps in 15 min",
+   "desc_en": "5 steps plus 6 app ideas: drawing register, RFI clock, quote leveller, submittals, variations",
+   "a": "Hamza Abdul Jabbar",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dQdSzj7V",
+   "added": "2026-11-28",
+   "tags": [
+    "Claude",
+    "Web App",
+    "RFIs",
+    "Project Management"
+   ]
+  },
+  {
+   "id": "e09d404d",
+   "c": "addins",
+   "title": "RCS 1.12: C# scripting أسرع جوه Revit",
+   "desc": "IntelliSense أسرع، multi-select بـ Ctrl+D وcode folding، وتشغيل بـ F5 من غير restart",
+   "title_en": "RCS 1.12: faster C# scripting in Revit",
+   "desc_en": "Faster fuzzy IntelliSense, Ctrl+D multi-select, code folding; run with F5, no restart",
+   "a": "Harilal MN",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dZRBMbtJ",
+   "added": "2026-11-28",
+   "tags": [
+    "Revit",
+    "Revit API",
+    "Coding"
+   ],
+   "link": "https://github.com/harilalmn/RCS-releases/releases/",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "f4a1babb",
+   "c": "addins",
+   "title": "AutoLISP: قطاعات الكمرات الطولية بأمر",
+   "desc": "من بلان الكمرات: قطاع طولي لكل كمرة بالأبعاد والمحاور والمناسيب، وتعليم الكمرات اللي متقريتش",
+   "title_en": "AutoLISP: beam long sections in one command",
+   "desc_en": "From the beam plan: a long section per beam with dims, grids and levels, unread beams flagged",
+   "a": "mona wageh",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/ddjV8rFY",
+   "added": "2026-11-28",
+   "tags": [
+    "AutoCAD",
+    "AutoLISP",
+    "Structural",
+    "Shop Drawings"
+   ]
+  },
+  {
+   "id": "19f4a134",
+   "c": "ai",
+   "title": "Gemini 4: cut-and-fill من Google Maps",
+   "desc": "موديل 3D للحفر والردم من طبوغرافيا Google Maps وفكرة digital twin بصور الموقع للـ QA",
+   "title_en": "Gemini 4: cut-and-fill from Google Maps",
+   "desc_en": "A 3D cut-and-fill model from Google Maps topography, plus a site-photo digital twin for QA",
+   "a": "Timothy Fairley",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dkRcgbYP",
+   "added": "2026-11-28",
+   "tags": [
+    "Gen AI",
+    "Infrastructure",
+    "GIS",
+    "Visualization"
+   ]
+  },
+  {
+   "id": "2a0bf388",
+   "c": "opensource",
+   "title": "Open Frame Studio: الشباك من الرسم للورشة",
+   "desc": "برنامج open source للشبابيك: أكتر من 60 profile وAI assistant بيرسم الإطار من وصف",
+   "title_en": "Open Frame Studio: sketch to workshop",
+   "desc_en": "Open-source window-frame software: editor, 60+ profiles, and an AI assistant that draws frames",
+   "a": "OpenAEC Foundation",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/d8sr2Y_9",
+   "added": "2026-11-28",
+   "tags": [
+    "Open Source",
+    "Free",
+    "Shop Drawings",
+    "Gen AI"
+   ],
+   "link": "https://github.com/OpenAEC-Foundation/open-frame-studio/releases/latest",
+   "linkLabel": "GitHub"
+  },
+  {
+   "id": "4cb4e8cb",
+   "c": "addins",
+   "title": "MEP FLOW: إعدادات الدكت قبل الرسم",
+   "desc": "الخامة والـ Pressure class ونوع الوصلة والسيستم والمنسوب بيتحددوا قبل رسم الدكت (حلقة 2 من 8)",
+   "title_en": "MEP FLOW: duct settings before drawing",
+   "desc_en": "Material, pressure class, joint, system and level are set before drawing ducts (part 2 of 8)",
+   "a": "Ibrahim El Gohary",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dy7KWKGj",
+   "added": "2026-11-28",
+   "tags": [
+    "MEP",
+    "Shop Drawings",
+    "AutoCAD"
+   ],
+   "link": "http://www.mepcoursesacademy.com/2026/11/mep-flow.html",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "7f01b3a9",
+   "c": "opensource",
+   "title": "TopologicPy: من IFC لـ EnergyPlus",
+   "desc": "إصدارات جديدة من TopologicPy وTopologicSpace بتحوّل IFC لـ OpenStudio وgbXML وHBJSON",
+   "title_en": "TopologicPy: IFC to EnergyPlus in 30s",
+   "desc_en": "New TopologicPy and TopologicSpace releases turn IFC into OpenStudio, gbXML and HBJSON",
+   "a": "Wassim Jabi",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dCDBaXzg",
+   "added": "2026-11-28",
+   "tags": [
+    "IFC",
+    "Energy",
+    "Open Source",
+    "Computational Design"
+   ],
+   "link": "https://syntopy.io",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "98f14d70",
+   "c": "addins",
+   "title": "CABLETRAY: الـ cable tray بأمر واحد",
+   "desc": "AutoLISP بيرسم tray وladder وtrunking وbusbar بالـ bends والـ tees والـ tags وحصر الأطوال",
+   "title_en": "CABLETRAY: cable trays in one command",
+   "desc_en": "AutoLISP drawing tray, ladder, trunking and busbar with bends, tees, tags and a takeoff",
+   "a": "Salman Faris",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dJcCsagJ",
+   "added": "2026-11-28",
+   "tags": [
+    "AutoCAD",
+    "AutoLISP",
+    "Electrical",
+    "MEP"
+   ]
+  },
+  {
+   "id": "4da6610b",
+   "c": "tools",
+   "title": "Haleem 4D Studio: 4D مجاني من IFC وP6",
+   "desc": "بيربط IFC بجدول P6 أو Excel: محاكاة 4D، planned vs actual، مقارنة revisions وS-curve",
+   "title_en": "Haleem 4D Studio: free 4D from IFC and P6",
+   "desc_en": "Links IFC to a P6 or Excel schedule: 4D, planned vs actual, revision compare, S-curve",
+   "a": "ABDELHALEEM ADEL",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/d2r_j3Aa",
+   "added": "2026-11-28",
+   "tags": [
+    "4D",
+    "Primavera P6",
+    "IFC",
+    "Free"
+   ],
+   "link": "https://www.mediafire.com/folder/91qv9yo04qy46/Haleem+4D+Studio",
+   "linkLabel": "اللينك"
+  },
+  {
+   "id": "69903246",
+   "c": "opensource",
+   "title": "FreeField: منصة BIM للموقع open source",
+   "desc": "IFC وPDF متعايرين في الـ browser، LinkView بين اللوحة والـ 3D، ومقارنة revisions",
+   "title_en": "FreeField: open-source site BIM platform",
+   "desc_en": "IFC and calibrated PDFs in the browser, LinkView between sheet and 3D, revision compare",
+   "a": "Ricardo Zepeda Lazo",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/de2y8-tk",
+   "added": "2026-11-28",
+   "tags": [
+    "Open Source",
+    "IFC",
+    "Web App",
+    "Construction"
+   ],
+   "link": "https://theagentmarvin.github.io/free-field-app/",
+   "linkLabel": "الموقع"
+  },
+  {
+   "id": "52277540",
+   "c": "tools",
+   "title": "Dashboard كميات بمذكرة حساب",
+   "desc": "كل كمية بقاعدة القياس وتفاصيلها لكل عنصر ومكانه، وتتحدث مع الموديل وتتصدّر Excel وPDF",
+   "title_en": "Quantities dashboard with calc notes",
+   "desc_en": "Each quantity shows its rule, per-element detail and location; updates with the model",
+   "a": "René Rada",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dg37GXKW",
+   "added": "2026-11-28",
+   "tags": [
+    "Quantity Takeoff",
+    "Dashboard",
+    "Excel"
+   ]
+  },
+  {
+   "id": "0b8f9b67",
+   "c": "ideas",
+   "title": "افهم الـ AI مش تطارد الأدوات",
+   "desc": "LLM والـ context والـ RAG والـ agents هي الأساس، والأدوات بتتغير كل شهر",
+   "title_en": "Learn AI fundamentals, not tools",
+   "desc_en": "LLMs, context, RAG and agents are the base; the tools change every month",
+   "a": "Alhassan Mahmoud",
+   "date": "2026-11-27",
+   "url": "https://lnkd.in/p/dHBBRWsi",
+   "added": "2026-11-28",
+   "tags": [
+    "AI Agents",
+    "Prompting",
+    "Strategy"
    ]
   }
  ],
